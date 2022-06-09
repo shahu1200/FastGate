@@ -1,0 +1,906 @@
+2022-06-08 11:58:29,470::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:29,472::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:29,472::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:29,472::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:29,472::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:29,473::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:29,473::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 11:58:34,489::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:34,490::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:34,490::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:34,490::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:34,491::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:34,491::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 11:58:50,677::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 11:58:50,683::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 11:58:50,683::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 11:58:50,752::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 11:58:50,804::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 11:58:51,180::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 11:58:51,622::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 11:58:52,161::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 11:58:52,623::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 11:58:53,086::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 11:58:53,523::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 11:58:54,761::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 11:58:54,766::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 11:58:54,772::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 11:58:58,281::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 12:04:30,232::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 12:18:42,995::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:42,996::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:42,996::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:42,996::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:42,996::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:42,996::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:42,997::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 12:18:48,014::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:48,014::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:48,015::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:48,015::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:48,015::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:48,016::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:18:59,667::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 12:18:59,672::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 12:18:59,672::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 12:18:59,678::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 12:18:59,917::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 12:19:00,121::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 12:19:00,721::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 12:19:01,128::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 12:19:01,534::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 12:19:05,268::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 12:19:05,273::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 12:19:05,278::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 12:19:06,896::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 12:28:33,262::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:33,262::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:33,263::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:33,263::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:33,263::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:33,263::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:33,263::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 12:28:38,279::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:38,279::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:38,279::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:38,280::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:38,280::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:38,281::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:28:51,614::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 12:28:51,614::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 12:28:51,620::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 12:28:51,625::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 12:28:51,630::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 12:28:52,037::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 12:28:52,597::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 12:28:53,152::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 12:28:53,559::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 12:28:54,082::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 12:28:54,488::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 12:28:56,116::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 12:28:56,126::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 12:28:56,132::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 12:28:59,380::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 12:29:00,551::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 12:54:10,136::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:10,136::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:10,137::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:10,137::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:10,137::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:10,137::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:10,137::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 12:54:15,151::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:15,152::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:15,152::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:15,153::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:15,153::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:15,154::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 12:54:26,356::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 12:54:26,362::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 12:54:26,367::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 12:54:26,373::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 12:54:26,378::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 12:54:26,868::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 12:54:27,413::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 12:54:28,084::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 12:54:28,433::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 12:54:28,438::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 12:54:28,443::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 12:54:28,509::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 12:54:31,696::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 12:54:43,961::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 14:02:12,702::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:12,703::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:12,703::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:12,703::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:12,703::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:12,703::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:12,703::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 14:02:17,718::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:17,718::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:17,719::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:17,719::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:17,720::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:17,720::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 14:02:33,801::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 14:02:33,802::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 14:02:33,807::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 14:02:34,017::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 14:02:34,022::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 14:02:34,581::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 14:02:35,202::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 14:02:35,751::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 14:02:36,157::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 14:02:38,635::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:38,645::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:38,650::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:38,976::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:38,977::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:38,982::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:39,288::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:39,289::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:39,294::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:41,671::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:42,128::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:42,505::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:44,173::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:44,178::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:44,184::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:46,780::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:46,785::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:46,791::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:47,138::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:47,143::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:47,148::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:47,199::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:49,805::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:49,998::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:50,003::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:50,009::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:50,222::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:52,468::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:52,473::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:52,479::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:53,282::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:55,491::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:55,618::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:55,619::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:55,624::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:02:59,073::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:02:59,342::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:02:59,348::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:02:59,353::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:01,348::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:01,353::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:01,364::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:02,650::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:03,846::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:03,847::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:03,852::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:05,038::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:06,906::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:06,938::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:06,944::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:06,949::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:08,940::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:08,950::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:08,956::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:09,264::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:09,270::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:09,275::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:09,881::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:09,887::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:09,902::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:10,095::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:12,097::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:12,296::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:12,464::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:12,475::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:12,480::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:12,927::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:15,339::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:15,340::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:15,345::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:15,668::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:18,460::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:22,306::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:22,311::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:22,327::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:22,764::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:22,769::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:22,775::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:23,108::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:23,118::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:23,124::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:25,369::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:25,807::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:26,270::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:27,686::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:27,691::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:27,696::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:30,940::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:32,962::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:32,962::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:32,963::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:33,276::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:33,281::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:33,286::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:36,114::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:36,535::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:36,540::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:36,545::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:36,579::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:36,892::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:36,897::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:36,902::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:38,843::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:38,848::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:38,866::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:39,190::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:39,190::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:39,201::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:39,638::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:39,979::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:42,654::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:42,674::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:44,774::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:44,779::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:44,789::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:45,081::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:45,087::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:45,092::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:47,958::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:48,330::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:51,271::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:51,276::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:51,282::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:54,507::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:03:56,495::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:03:56,496::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:03:56,501::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:03:59,665::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:00,456::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:00,461::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:00,467::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:02,833::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:02,838::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:02,844::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:03,540::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:05,938::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:10,969::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:10,974::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:10,980::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:14,020::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:15,426::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:15,432::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:15,433::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:15,856::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:15,861::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:15,866::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:18,545::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:19,033::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:20,561::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:20,567::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:20,569::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:23,785::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:24,739::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:24,744::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:24,749::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:26,013::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:26,019::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:26,024::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:27,802::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:29,067::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:32,758::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:32,758::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:32,764::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:35,847::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:38,688::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:38,693::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:38,699::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:38,973::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:38,983::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:38,989::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:41,820::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:42,039::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:44,621::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:44,631::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:44,637::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:44,953::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:44,958::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:44,964::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:47,787::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:48,128::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:50,348::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:50,353::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:50,359::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:50,673::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:50,684::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:50,689::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:53,403::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:53,780::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:04:56,794::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:56,799::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:56,810::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:57,098::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:57,103::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:57,109::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:58,463::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:04:58,469::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:04:58,489::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:04:59,922::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:00,138::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:01,651::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:02,121::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:02,126::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:02,142::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:02,744::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:02,749::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:02,755::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:05,271::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:05,790::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:07,909::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:07,909::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:07,915::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:08,755::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:08,760::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:08,766::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:10,726::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:10,731::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:10,747::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:11,051::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:11,967::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:13,764::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:13,802::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:13,807::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:13,813::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:17,000::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:19,580::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:19,585::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:19,596::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:22,672::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:23,662::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:23,673::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:23,678::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:23,983::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:23,993::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:23,999::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:25,359::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:25,364::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:25,369::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:26,691::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:27,287::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:28,406::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:34,320::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:34,325::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:34,336::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:36,513::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:36,518::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:36,524::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:37,465::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:37,713::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:37,718::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:37,724::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:38,043::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:38,049::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:38,064::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:39,558::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:40,800::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:41,085::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:42,615::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:42,615::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:42,621::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:44,388::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:44,393::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:44,399::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:45,631::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:45,747::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:45,752::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:45,757::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:47,742::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:48,371::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:48,371::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:48,377::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:48,877::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:49,948::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:49,948::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:49,954::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:50,278::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:50,283::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:50,299::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:51,439::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:51,762::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:51,768::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:51,773::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:52,969::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:53,316::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:54,872::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:56,442::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:56,448::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:56,453::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:56,773::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:56,778::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:56,784::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:57,037::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:57,047::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:57,053::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:59,464::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:05:59,789::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:05:59,794::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:05:59,810::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:05:59,932::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:00,079::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:01,810::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:01,815::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:01,821::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:02,550::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:02,561::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:02,566::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:02,988::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:05,078::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:05,886::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:07,967::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:07,972::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:07,978::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:11,115::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:13,200::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:13,205::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:13,216::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:13,618::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:13,623::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:13,629::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:13,939::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:13,944::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:13,950::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:14,286::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:14,291::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:14,297::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:16,349::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:16,674::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:17,061::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:17,427::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:21,695::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:21,701::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:21,706::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:25,002::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:26,654::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:26,660::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:26,665::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:27,462::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:27,463::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:27,468::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:29,740::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:30,529::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:32,701::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:32,707::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:32,712::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:34,879::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:34,879::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:34,885::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:35,850::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:36,799::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:36,809::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:36,815::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:37,918::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:38,263::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:38,274::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:38,279::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:39,826::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:39,836::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:39,841::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:39,847::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:41,323::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:43,047::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:44,053::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:44,059::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:44,064::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:44,413::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:44,419::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:44,424::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:46,645::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:46,646::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:46,651::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:47,201::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:47,648::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:50,085::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:50,548::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:50,548::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:50,553::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:50,899::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:50,899::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:50,905::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:53,849::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:54,262::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:55,947::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:55,948::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:55,948::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:56,002::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:56,002::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:56,003::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:06:58,961::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:59,041::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:06:59,241::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:06:59,241::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:06:59,241::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:02,231::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:02,236::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:02,252::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:02,267::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:02,576::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:02,582::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:02,587::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:05,318::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:05,609::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:08,151::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:08,162::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:08,167::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:08,465::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:08,466::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:08,471::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:11,413::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:11,611::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:13,510::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:13,520::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:13,525::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:13,857::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:13,857::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:13,862::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:16,592::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:16,929::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:20,038::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:20,043::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:20,053::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:21,542::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:21,548::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:21,558::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:23,296::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:24,736::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:24,810::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:24,815::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:24,826::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:27,901::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:28,896::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:28,901::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:28,906::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:31,925::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:32,051::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:32,056::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:32,061::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:35,142::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:35,148::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:35,153::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:35,159::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:37,776::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:37,781::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:37,787::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:38,340::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:40,830::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:44,253::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:44,264::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:44,269::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:47,358::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:49,146::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:49,152::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:49,157::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:49,932::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:49,943::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:49,948::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:52,419::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:52,967::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:55,008::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:55,018::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:55,024::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:07:58,086::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:07:58,333::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:07:58,339::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:07:58,344::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:00,476::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:00,481::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:00,486::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:01,362::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:03,541::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:07,988::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:07,993::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:07,999::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:11,317::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:13,810::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:13,815::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:13,821::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:14,199::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:14,205::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:14,210::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:16,927::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:17,227::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:19,230::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:19,235::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:19,241::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:19,706::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:19,712::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:19,717::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:22,258::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:22,817::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:24,969::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:24,970::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:24,975::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:25,439::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:25,439::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:25,445::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:28,067::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:28,642::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:30,433::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:30,434::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:30,439::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:31,613::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:31,614::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:31,614::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:33,630::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:34,647::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:36,264::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:36,270::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:36,275::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:37,565::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:37,565::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:37,571::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:39,477::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:40,767::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:41,815::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:41,821::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:41,826::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:43,648::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:43,649::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:43,654::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:44,864::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:47,067::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:47,616::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:47,626::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:47,632::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:49,537::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:49,542::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:49,547::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:50,859::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:52,660::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:53,577::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:53,588::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:53,593::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:55,559::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:55,559::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:55,570::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:08:56,759::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:58,637::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:08:58,771::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:08:58,781::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:08:58,787::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:01,966::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:01,972::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:01,988::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:02,148::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:02,316::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:02,320::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:02,321::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:02,353::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:02,354::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:02,354::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:05,216::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:05,216::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:05,221::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:05,247::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:05,395::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:05,742::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:08,281::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:14,111::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:14,116::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:14,122::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:14,422::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:14,428::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:14,433::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:14,734::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:14,734::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:14,740::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:15,455::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:15,466::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:15,471::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:15,752::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:15,757::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:15,763::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:16,126::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:16,137::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:16,142::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:16,442::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:16,447::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:16,463::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:17,039::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:17,044::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:17,054::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:17,139::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:17,368::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:17,373::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:17,379::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:17,448::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:17,751::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:17,826::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:17,836::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:17,842::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:18,305::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:18,316::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:18,321::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:18,490::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:18,546::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:18,546::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:18,547::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:18,782::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:18,903::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:18,913::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:18,919::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:19,157::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:19,257::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:19,263::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:19,268::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:19,482::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:19,542::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:19,547::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:19,558::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:19,862::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:19,868::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:19,873::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:20,078::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:20,178::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:20,183::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:20,199::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:20,392::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:20,482::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:20,487::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:20,498::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:20,776::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:20,781::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:20,786::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:20,853::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:21,063::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:21,068::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:21,089::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:21,331::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:21,575::DEBUG::gpio_process.py::359 red led on pin 24 open boom 1
+2022-06-08 14:09:21,575::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:21,586::DEBUG::HandleGpio.py::429 IO ON thread
+2022-06-08 14:09:21,616::DEBUG::HandleGpio.py::438 IO ON thread running pin 24
+2022-06-08 14:09:21,993::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:22,415::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:22,767::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:23,057::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:23,357::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:23,612::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:24,008::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:24,375::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 14:09:24,659::DEBUG::HandleGpio.py::448 IO ON thread over for pin 24
+2022-06-08 15:10:16,674::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 18:32:46,903::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:46,908::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:46,908::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:46,908::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:46,908::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:46,909::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:46,909::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 18:32:51,931::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:51,931::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:51,932::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:51,932::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:51,933::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:32:51,933::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:07,924::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 18:33:07,930::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 18:33:07,930::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 18:33:07,946::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 18:33:08,210::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 18:33:08,356::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:33:08,763::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:33:09,169::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:33:09,779::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:33:10,318::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:33:10,735::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:33:45,357::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 18:33:49,417::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:49,418::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:49,418::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:49,418::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:49,418::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:49,419::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:49,419::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 18:33:49,420::DEBUG::gpio_process.py::223 blink error mode thread!
+2022-06-08 18:33:49,420::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:33:52,424::DEBUG::gpio_process.py::233 stopping error mode thread
+2022-06-08 18:34:24,544::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:24,545::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:24,545::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:24,545::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:24,545::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:24,546::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:24,546::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 18:34:29,560::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:29,560::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:29,561::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:29,561::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:29,562::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:29,562::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:34:45,713::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 18:34:45,719::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 18:34:45,720::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 18:34:45,731::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 18:34:45,736::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 18:34:46,144::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:34:46,551::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:34:47,004::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:34:47,441::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:34:47,859::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:34:48,291::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:36:59,269::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 18:37:13,504::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:13,505::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:13,505::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:13,505::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:13,505::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:13,506::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:13,506::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 18:37:13,507::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 18:37:13,507::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 18:37:13,507::DEBUG::gpio_process.py::223 blink error mode thread!
+2022-06-08 18:37:13,507::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:16,511::DEBUG::gpio_process.py::233 stopping error mode thread
+2022-06-08 18:37:20,495::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:20,495::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:20,496::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:20,496::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:20,496::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:20,496::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:20,496::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 18:37:20,497::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 18:37:20,498::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 18:37:20,498::DEBUG::gpio_process.py::223 blink error mode thread!
+2022-06-08 18:37:20,498::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:23,502::DEBUG::gpio_process.py::233 stopping error mode thread
+2022-06-08 18:37:37,229::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:37,230::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:37,230::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:37,230::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:37,231::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:37,231::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:37,231::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 18:37:42,245::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:42,245::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:42,246::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:42,246::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:42,247::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:42,247::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:37:53,454::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 18:37:53,459::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 18:37:53,459::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 18:37:53,465::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 18:37:53,766::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 18:37:53,878::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:37:54,352::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:37:54,784::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:37:55,185::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:37:55,633::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:37:56,152::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:38:25,676::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-06-08 18:38:28,558::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:28,559::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:28,564::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:28,564::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:28,564::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:28,565::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:28,565::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-06-08 18:38:33,579::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:33,580::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:33,580::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:33,580::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:33,581::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:33,581::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-06-08 18:38:45,132::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-06-08 18:38:45,148::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-06-08 18:38:45,148::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-06-08 18:38:45,372::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-06-08 18:38:45,378::DEBUG::gpio_process.py::96 blink program running thread!
+2022-06-08 18:38:45,850::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:38:46,395::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 18:38:46,832::INFO::HandleGpio.py::403 on out : 23
+2022-06-08 18:38:47,254::INFO::HandleGpio.py::408 off out : 23
+2022-06-08 19:09:04,617::DEBUG::gpio_process.py::106 stopping program running blink thread

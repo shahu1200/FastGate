@@ -1,0 +1,727 @@
+2022-06-08 11:58:35,570::DEBUG::database.py::285 get count rows!
+2022-06-08 11:58:35,618::DEBUG::database.py::285 get count rows!
+2022-06-08 11:58:38,193::DEBUG::database.py::467 inserting user vehicle !
+2022-06-08 11:58:38,210::DEBUG::database.py::285 get count rows!
+2022-06-08 11:58:54,452::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:58:54,478::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:58:54,563::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 11:59:00,136::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:00,157::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:01,114::INFO::database.py::842 check user authorization!
+2022-06-08 11:59:01,166::DEBUG::database.py::195 fetch one data!
+2022-06-08 11:59:01,223::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:01,295::DEBUG::database.py::695 getting dashboard data!
+2022-06-08 11:59:01,306::DEBUG::database.py::285 get count rows!
+2022-06-08 11:59:01,475::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:01,485::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 11:59:01,501::DEBUG::database.py::195 fetch one data!
+2022-06-08 11:59:01,547::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:01,557::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 11:59:01,604::DEBUG::database.py::195 fetch one data!
+2022-06-08 11:59:05,671::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:05,672::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:10,918::DEBUG::database.py::677 get data from trans vehicle logs!
+2022-06-08 11:59:10,924::DEBUG::database.py::656 get data from table where datetime!
+2022-06-08 11:59:10,960::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:12,007::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:12,028::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:15,563::WARNING::database.py::673 while getting userlist!
+2022-06-08 11:59:17,701::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:17,727::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:23,345::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:23,371::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:29,791::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:29,817::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:33,883::DEBUG::database.py::695 getting dashboard data!
+2022-06-08 11:59:33,898::DEBUG::database.py::285 get count rows!
+2022-06-08 11:59:34,006::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:34,021::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 11:59:34,093::DEBUG::database.py::195 fetch one data!
+2022-06-08 11:59:34,169::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:34,180::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 11:59:34,363::DEBUG::database.py::195 fetch one data!
+2022-06-08 11:59:34,924::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:34,956::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:41,527::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:41,549::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:46,254::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:46,276::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:52,041::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:52,062::DEBUG::database.py::184 fetch all data!
+2022-06-08 11:59:58,049::DEBUG::database.py::411 select all data from column!
+2022-06-08 11:59:58,075::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:03,674::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:03,695::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:09,499::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:09,525::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:15,455::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:15,481::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:20,738::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:20,764::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:26,842::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:26,863::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:32,031::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:32,067::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:38,303::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:38,304::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:43,700::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:43,721::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:50,185::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:50,206::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:00:55,368::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:00:55,395::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:00,502::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:00,524::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:06,091::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:06,112::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:11,911::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:11,932::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:18,024::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:18,056::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:23,305::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:23,327::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:29,418::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:29,445::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:35,635::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:35,657::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:41,245::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:41,271::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:47,021::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:47,047::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:52,607::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:52,633::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:01:58,253::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:01:58,275::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:03,951::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:03,972::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:11,481::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:11,493::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:17,146::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:17,173::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:24,056::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:24,077::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:28,501::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:28,523::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:34,088::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:34,109::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:39,989::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:40,016::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:46,157::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:46,178::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:51,527::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:51,553::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:02:58,166::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:02:58,192::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:03,086::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:03,112::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:09,564::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:09,585::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:15,011::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:15,038::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:20,684::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:20,710::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:26,511::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:26,533::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:32,189::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:32,220::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:37,846::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:37,867::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:43,089::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:43,091::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:48,644::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:48,666::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:54,692::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:54,714::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:03:59,906::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:03:59,932::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:04:05,690::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:04:05,716::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:04:11,261::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:04:11,287::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:04:11,903::DEBUG::database.py::695 getting dashboard data!
+2022-06-08 12:04:11,914::DEBUG::database.py::285 get count rows!
+2022-06-08 12:04:11,956::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:04:11,976::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 12:04:12,007::DEBUG::database.py::195 fetch one data!
+2022-06-08 12:04:12,079::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:04:12,089::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 12:04:12,135::DEBUG::database.py::195 fetch one data!
+2022-06-08 12:04:17,138::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:04:17,159::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:04:18,943::DEBUG::database.py::633 get data from userlist!
+2022-06-08 12:04:18,953::DEBUG::database.py::205 select all data!
+2022-06-08 12:04:23,049::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:04:23,076::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:04:28,948::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:04:28,980::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:18:48,700::DEBUG::database.py::285 get count rows!
+2022-06-08 12:18:48,727::DEBUG::database.py::285 get count rows!
+2022-06-08 12:18:51,656::DEBUG::database.py::467 inserting user vehicle !
+2022-06-08 12:18:51,688::DEBUG::database.py::285 get count rows!
+2022-06-08 12:19:05,013::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:19:05,034::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:19:05,145::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 12:28:38,951::DEBUG::database.py::285 get count rows!
+2022-06-08 12:28:38,988::DEBUG::database.py::285 get count rows!
+2022-06-08 12:28:41,853::DEBUG::database.py::467 inserting user vehicle !
+2022-06-08 12:28:41,885::DEBUG::database.py::285 get count rows!
+2022-06-08 12:28:55,862::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:28:55,884::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:28:55,969::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 12:54:15,913::DEBUG::database.py::285 get count rows!
+2022-06-08 12:54:15,940::DEBUG::database.py::285 get count rows!
+2022-06-08 12:54:18,917::DEBUG::database.py::467 inserting user vehicle !
+2022-06-08 12:54:18,928::DEBUG::database.py::285 get count rows!
+2022-06-08 12:54:28,195::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:54:28,217::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:54:28,317::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 12:54:33,746::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:54:33,767::DEBUG::database.py::184 fetch all data!
+2022-06-08 12:54:39,532::DEBUG::database.py::411 select all data from column!
+2022-06-08 12:54:39,554::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:18,417::DEBUG::database.py::285 get count rows!
+2022-06-08 14:02:18,458::DEBUG::database.py::285 get count rows!
+2022-06-08 14:02:21,334::DEBUG::database.py::467 inserting user vehicle !
+2022-06-08 14:02:21,345::DEBUG::database.py::285 get count rows!
+2022-06-08 14:02:38,394::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:38,396::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:38,511::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:02:38,722::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:38,748::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:38,863::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:02:39,043::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:39,070::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:39,170::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:02:42,117::INFO::database.py::842 check user authorization!
+2022-06-08 14:02:42,282::DEBUG::database.py::195 fetch one data!
+2022-06-08 14:02:42,297::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:42,319::DEBUG::database.py::695 getting dashboard data!
+2022-06-08 14:02:42,324::DEBUG::database.py::285 get count rows!
+2022-06-08 14:02:42,350::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:42,356::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 14:02:42,367::DEBUG::database.py::195 fetch one data!
+2022-06-08 14:02:42,387::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:42,393::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 14:02:42,516::DEBUG::database.py::195 fetch one data!
+2022-06-08 14:02:43,899::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:43,931::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:44,047::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:02:46,391::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:46,469::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:46,648::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:02:46,837::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:46,869::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:46,994::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:02:49,719::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:49,751::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:49,856::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:02:52,193::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:52,219::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:52,325::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:02:55,396::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:55,422::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:55,492::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:02:59,120::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:02:59,146::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:02:59,211::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:01,068::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:01,090::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:01,205::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:03,613::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:03,640::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:03,720::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:06,696::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:06,717::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:06,805::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:08,671::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:08,698::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:08,809::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:03:08,997::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:09,024::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:09,134::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:03:09,609::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:09,630::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:09,735::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:12,164::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:12,186::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:12,297::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:15,102::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:15,131::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:15,223::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:21,896::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:21,927::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:22,047::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:22,398::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:22,470::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:22,625::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:03:22,884::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:22,906::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:22,996::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:27,427::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:27,448::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:27,554::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:32,661::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:32,687::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:32,798::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:33,011::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:33,033::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:33,138::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:36,290::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:36,311::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:36,396::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:03:36,618::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:36,644::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:36,745::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:03:38,595::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:38,616::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:38,701::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:38,917::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:38,943::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:39,063::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:44,579::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:44,580::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:44,630::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:44,851::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:44,878::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:44,965::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:03:50,350::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:50,351::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:51,017::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:51,044::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:51,123::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:03:56,262::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:03:56,284::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:03:56,384::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:00,233::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:00,260::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:00,340::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:02,565::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:02,587::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:02,697::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:08,424::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:08,451::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:10,725::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:10,751::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:10,831::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:15,226::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:15,227::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:15,297::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:15,573::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:15,594::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:15,724::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:20,368::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:20,368::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:20,418::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:24,480::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:24,501::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:24,586::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:25,773::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:25,800::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:25,895::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:32,384::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:32,405::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:32,506::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:32,528::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:32,642::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:38,439::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:38,465::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:38,566::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:38,750::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:38,772::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:38,872::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:44,339::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:44,370::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:44,490::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:44,703::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:44,730::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:44,825::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:50,075::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:50,096::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:50,222::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:50,431::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:50,452::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:50,562::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:56,556::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:56,577::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:56,673::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:04:56,885::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:56,906::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:56,991::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:04:58,204::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:04:58,231::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:04:58,331::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:05:01,852::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:01,874::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:01,979::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:02,476::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:02,503::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:02,607::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:05:07,667::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:07,693::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:07,793::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:08,478::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:08,499::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:08,609::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:05:10,487::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:10,513::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:10,588::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:05:13,520::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:13,541::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:13,665::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:19,195::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:19,216::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:19,317::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:19,343::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:19,458::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:05:23,395::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:23,416::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:23,521::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:05:23,719::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:23,746::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:23,836::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:05:25,108::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:25,145::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:25,254::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:31,153::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:31,154::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:34,055::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:34,076::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:34,186::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:05:36,235::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:36,261::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:36,381::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:05:37,407::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:37,471::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:37,596::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:37,800::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:37,827::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:37,902::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:05:42,372::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:42,393::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:42,484::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:44,118::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:44,145::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:44,265::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:05:45,493::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:45,520::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:45,620::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:05:48,143::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:48,170::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:48,250::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:49,710::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:49,737::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:49,822::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:05:50,021::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:50,052::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:50,127::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:05:51,529::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:51,550::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:51,636::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:05:56,199::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:56,220::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:56,315::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:05:56,510::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:56,536::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:56,616::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:05:56,840::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:56,861::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:56,936::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:05:59,521::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:05:59,547::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:05:59,647::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:01,566::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:01,588::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:01,678::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:02,276::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:02,307::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:02,413::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:06:07,730::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:07,752::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:07,837::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:12,925::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:12,951::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:13,057::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:06:13,277::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:13,314::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:13,497::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:13,665::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:13,686::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:13,787::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:06:14,006::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:14,038::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:14,138::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:20,914::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:20,936::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:21,436::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:21,463::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:21,554::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:26,422::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:26,444::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:26,514::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:27,227::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:27,253::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:27,340::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:32,402::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:32,429::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:32,554::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:34,632::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:34,658::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:34,768::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:36,509::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:36,531::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:36,620::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:06:37,977::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:38,003::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:38,096::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:39,534::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:39,555::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:39,669::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:06:43,747::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:43,774::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:43,875::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:44,121::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:44,147::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:44,227::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:46,343::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:46,370::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:46,465::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:06:50,269::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:50,296::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:50,381::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:50,620::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:50,642::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:50,738::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:55,887::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:55,888::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:55,898::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:06:55,954::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:55,955::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:55,964::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:06:59,216::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:06:59,217::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:06:59,226::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B326A0D
+2022-06-08 14:07:01,973::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:01,999::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:02,100::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:02,333::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:02,354::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:02,445::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:07,896::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:07,918::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:08,004::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:08,213::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:08,235::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:08,334::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:13,223::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:13,249::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:13,364::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:13,592::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:13,613::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:13,718::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:19,805::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:19,832::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:19,912::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:21,329::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:21,351::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:21,436::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:24,592::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:24,614::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:24,699::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:28,662::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:28,694::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:28,779::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:31,777::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:31,803::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:31,904::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:34,895::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:34,921::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:35,021::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:37,538::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:37,559::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:37,654::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:43,326::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:43,353::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:44,041::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:44,063::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:44,143::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:48,907::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:48,933::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:49,029::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:49,721::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:49,742::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:49,822::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:07:54,775::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:54,802::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:54,882::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:07:58,091::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:07:58,112::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:07:58,207::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:00,243::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:00,264::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:00,349::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:07,585::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:07,633::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:07,754::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:07,786::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:07,866::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:13,483::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:13,510::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:13,595::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:13,887::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:13,908::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:14,009::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:18,902::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:18,929::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:19,019::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:19,431::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:19,458::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:19,548::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:24,704::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:24,730::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:24,815::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:25,176::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:25,203::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:25,288::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:30,204::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:30,225::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:30,305::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:31,587::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:31,588::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:31,598::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:36,021::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:36,042::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:36,133::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:37,305::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:37,332::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:37,447::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:41,547::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:41,574::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:41,673::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:43,396::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:43,418::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:43,518::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:47,387::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:47,414::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:47,505::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:49,262::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:49,289::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:49,410::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:53,320::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:53,356::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:53,462::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:08:55,341::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:55,363::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:55,437::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327335
+2022-06-08 14:08:58,549::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:08:58,575::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:08:58,655::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:09:01,589::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:01,620::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:01,726::DEBUG::database.py::357 save transaction with limit tag id E28011700000020916AF43AF
+2022-06-08 14:09:02,057::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:02,089::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:02,194::DEBUG::database.py::357 save transaction with limit tag id E28011700000020916AEF5A3
+2022-06-08 14:09:02,327::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:02,328::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:02,338::DEBUG::database.py::357 save transaction with limit tag id E280116060000209F7DFA05E
+2022-06-08 14:09:04,972::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:04,994::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:05,079::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:09:11,526::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:11,547::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:13,839::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:13,871::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:13,978::DEBUG::database.py::357 save transaction with limit tag id E28011700000020916AF43AF
+2022-06-08 14:09:14,190::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:14,217::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:14,295::DEBUG::database.py::357 save transaction with limit tag id E280116060000209F7DFA05E
+2022-06-08 14:09:14,500::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:14,521::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:14,607::DEBUG::database.py::357 save transaction with limit tag id E28011700000020916AEF5A3
+2022-06-08 14:09:15,109::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:15,187::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:15,329::DEBUG::database.py::357 save transaction with limit tag id E280116060000209F7DFA04E
+2022-06-08 14:09:15,538::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:15,559::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:15,635::DEBUG::database.py::357 save transaction with limit tag id 30361FB05052F8974876E802
+2022-06-08 14:09:15,819::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:15,845::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:15,921::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327302
+2022-06-08 14:09:16,199::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:16,225::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:16,325::DEBUG::database.py::357 save transaction with limit tag id 000010121800000000000016
+2022-06-08 14:09:16,555::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:16,581::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:16,752::DEBUG::database.py::357 save transaction with limit tag id 370032019120300000000002
+2022-06-08 14:09:17,102::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:17,123::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:17,214::DEBUG::database.py::357 save transaction with limit tag id 00361FB150084C174876E810
+2022-06-08 14:09:17,448::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:17,469::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:17,616::DEBUG::database.py::357 save transaction with limit tag id 00361FB1500849174876E916
+2022-06-08 14:09:18,007::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:18,060::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:18,174::DEBUG::database.py::357 save transaction with limit tag id 370032019120300000000022
+2022-06-08 14:09:18,373::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:18,394::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:18,449::DEBUG::database.py::357 save transaction with limit tag id 370032019120300000000004
+2022-06-08 14:09:18,613::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:18,635::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:18,750::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B327343
+2022-06-08 14:09:18,985::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:19,012::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:19,120::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B3251E1
+2022-06-08 14:09:19,325::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:19,351::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:19,427::DEBUG::database.py::357 save transaction with limit tag id E28011700000020989346554
+2022-06-08 14:09:19,625::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:19,651::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:19,746::DEBUG::database.py::357 save transaction with limit tag id E2801170000002091B32731C
+2022-06-08 14:09:19,940::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:19,961::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:20,057::DEBUG::database.py::357 save transaction with limit tag id 00361FA504442D174876E8EC
+2022-06-08 14:09:20,260::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:20,281::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:20,355::DEBUG::database.py::357 save transaction with limit tag id E28011700000020989344B54
+2022-06-08 14:09:20,564::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:20,591::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:20,659::DEBUG::database.py::357 save transaction with limit tag id 30361FA67C04E2174876EDB0
+2022-06-08 14:09:20,853::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:20,875::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:20,950::DEBUG::database.py::357 save transaction with limit tag id E280116060000209F7DFA05E
+2022-06-08 14:09:21,316::DEBUG::database.py::411 select all data from column!
+2022-06-08 14:09:21,353::DEBUG::database.py::184 fetch all data!
+2022-06-08 14:09:21,459::DEBUG::database.py::357 save transaction with limit tag id 30361FB05052F8974876E802
+2022-06-08 15:07:00,962::INFO::database.py::842 check user authorization!
+2022-06-08 15:07:00,984::DEBUG::database.py::195 fetch one data!
+2022-06-08 15:07:01,015::WARNING::database.py::860 while authorization!
+2022-06-08 15:07:11,721::INFO::database.py::842 check user authorization!
+2022-06-08 15:07:11,753::DEBUG::database.py::195 fetch one data!
+2022-06-08 15:07:11,779::DEBUG::database.py::184 fetch all data!
+2022-06-08 15:07:25,827::INFO::database.py::842 check user authorization!
+2022-06-08 15:07:25,859::DEBUG::database.py::195 fetch one data!
+2022-06-08 15:07:25,910::DEBUG::database.py::184 fetch all data!
+2022-06-08 15:07:51,615::DEBUG::database.py::695 getting dashboard data!
+2022-06-08 15:07:51,620::DEBUG::database.py::285 get count rows!
+2022-06-08 15:07:51,647::DEBUG::database.py::184 fetch all data!
+2022-06-08 15:07:51,652::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 15:07:51,663::DEBUG::database.py::195 fetch one data!
+2022-06-08 15:07:51,679::DEBUG::database.py::184 fetch all data!
+2022-06-08 15:07:51,684::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 15:07:51,695::DEBUG::database.py::195 fetch one data!
+2022-06-08 18:32:54,374::DEBUG::database.py::285 get count rows!
+2022-06-08 18:32:54,406::DEBUG::database.py::285 get count rows!
+2022-06-08 18:34:30,241::DEBUG::database.py::285 get count rows!
+2022-06-08 18:34:30,273::DEBUG::database.py::285 get count rows!
+2022-06-08 18:37:42,936::DEBUG::database.py::285 get count rows!
+2022-06-08 18:37:42,978::DEBUG::database.py::285 get count rows!
+2022-06-08 18:38:34,271::DEBUG::database.py::285 get count rows!
+2022-06-08 18:38:34,302::DEBUG::database.py::285 get count rows!
+2022-06-08 18:39:38,728::DEBUG::database.py::695 getting dashboard data!
+2022-06-08 18:39:38,734::DEBUG::database.py::285 get count rows!
+2022-06-08 18:39:38,919::DEBUG::database.py::184 fetch all data!
+2022-06-08 18:39:38,924::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 18:39:38,945::DEBUG::database.py::195 fetch one data!
+2022-06-08 18:39:38,966::DEBUG::database.py::184 fetch all data!
+2022-06-08 18:39:38,972::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-08 18:39:38,982::DEBUG::database.py::195 fetch one data!

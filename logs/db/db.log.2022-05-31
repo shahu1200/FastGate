@@ -1,0 +1,82 @@
+2022-05-31 09:52:07,978::DEBUG::database.py::285 get count rows!
+2022-05-31 09:52:08,046::DEBUG::database.py::285 get count rows!
+2022-05-31 09:52:11,320::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 09:52:11,340::DEBUG::database.py::285 get count rows!
+2022-05-31 09:53:39,663::DEBUG::database.py::285 get count rows!
+2022-05-31 09:53:39,694::DEBUG::database.py::285 get count rows!
+2022-05-31 09:53:41,901::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 09:53:41,924::DEBUG::database.py::285 get count rows!
+2022-05-31 10:04:48,579::DEBUG::database.py::285 get count rows!
+2022-05-31 10:04:48,616::DEBUG::database.py::285 get count rows!
+2022-05-31 10:04:50,886::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 10:04:50,933::DEBUG::database.py::285 get count rows!
+2022-05-31 10:06:48,659::DEBUG::database.py::285 get count rows!
+2022-05-31 10:06:48,685::DEBUG::database.py::285 get count rows!
+2022-05-31 10:06:51,536::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 10:06:51,557::DEBUG::database.py::285 get count rows!
+2022-05-31 10:15:05,381::DEBUG::database.py::285 get count rows!
+2022-05-31 10:15:05,423::DEBUG::database.py::285 get count rows!
+2022-05-31 10:15:07,682::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 10:15:07,694::DEBUG::database.py::285 get count rows!
+2022-05-31 10:24:33,815::DEBUG::database.py::285 get count rows!
+2022-05-31 10:24:33,852::DEBUG::database.py::285 get count rows!
+2022-05-31 10:24:36,549::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 10:24:36,606::DEBUG::database.py::285 get count rows!
+2022-05-31 10:29:06,898::DEBUG::database.py::285 get count rows!
+2022-05-31 10:29:06,940::DEBUG::database.py::285 get count rows!
+2022-05-31 10:29:09,202::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 10:29:09,203::DEBUG::database.py::285 get count rows!
+2022-05-31 11:12:35,668::DEBUG::database.py::285 get count rows!
+2022-05-31 11:12:35,708::DEBUG::database.py::285 get count rows!
+2022-05-31 11:12:38,506::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 11:12:38,526::DEBUG::database.py::285 get count rows!
+2022-05-31 14:05:17,047::DEBUG::database.py::285 get count rows!
+2022-05-31 14:05:17,062::DEBUG::database.py::285 get count rows!
+2022-05-31 14:07:37,028::DEBUG::database.py::285 get count rows!
+2022-05-31 14:07:37,030::DEBUG::database.py::285 get count rows!
+2022-05-31 14:10:02,660::DEBUG::database.py::285 get count rows!
+2022-05-31 14:10:02,671::DEBUG::database.py::285 get count rows!
+2022-05-31 14:13:55,278::DEBUG::database.py::285 get count rows!
+2022-05-31 14:13:55,313::DEBUG::database.py::285 get count rows!
+2022-05-31 14:13:58,071::DEBUG::database.py::467 inserting user vehicle !
+2022-05-31 14:13:58,204::DEBUG::database.py::285 get count rows!
+2022-05-31 14:14:35,230::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 14:14:35,241::DEBUG::database.py::217 selected columns data!
+2022-05-31 14:16:00,877::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 14:16:00,888::DEBUG::database.py::217 selected columns data!
+2022-05-31 14:20:50,882::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 14:20:50,888::DEBUG::database.py::217 selected columns data!
+2022-05-31 14:38:33,357::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 14:38:33,400::DEBUG::database.py::217 selected columns data!
+2022-05-31 14:40:23,601::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 14:40:23,612::DEBUG::database.py::217 selected columns data!
+2022-05-31 14:40:50,932::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 14:40:50,938::DEBUG::database.py::217 selected columns data!
+2022-05-31 15:26:34,572::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 15:26:34,583::DEBUG::database.py::217 selected columns data!
+2022-05-31 15:31:00,210::DEBUG::database.py::737 getting tag lists name!
+2022-05-31 15:31:00,220::DEBUG::database.py::217 selected columns data!
+2022-05-31 15:44:37,110::INFO::database.py::842 check user authorization!
+2022-05-31 15:44:37,121::DEBUG::database.py::195 fetch one data!
+2022-05-31 15:44:37,137::DEBUG::database.py::184 fetch all data!
+2022-05-31 15:44:37,153::DEBUG::database.py::695 getting dashboard data!
+2022-05-31 15:44:37,159::DEBUG::database.py::285 get count rows!
+2022-05-31 15:44:37,185::DEBUG::database.py::184 fetch all data!
+2022-05-31 15:44:37,190::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-31 15:44:37,201::DEBUG::database.py::195 fetch one data!
+2022-05-31 15:44:37,222::DEBUG::database.py::184 fetch all data!
+2022-05-31 15:44:37,227::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-31 15:44:37,238::DEBUG::database.py::195 fetch one data!
+2022-05-31 17:26:46,422::INFO::database.py::842 check user authorization!
+2022-05-31 17:26:46,459::DEBUG::database.py::195 fetch one data!
+2022-05-31 17:26:46,546::DEBUG::database.py::184 fetch all data!
+2022-05-31 17:26:46,593::DEBUG::database.py::695 getting dashboard data!
+2022-05-31 17:26:46,603::DEBUG::database.py::285 get count rows!
+2022-05-31 17:26:46,660::DEBUG::database.py::184 fetch all data!
+2022-05-31 17:26:46,671::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-31 17:26:46,808::DEBUG::database.py::195 fetch one data!
+2022-05-31 17:26:46,865::DEBUG::database.py::184 fetch all data!
+2022-05-31 17:26:46,875::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-31 17:26:46,921::DEBUG::database.py::195 fetch one data!
+2022-05-31 17:26:51,435::DEBUG::database.py::633 get data from userlist!
+2022-05-31 17:26:51,461::DEBUG::database.py::205 select all data!

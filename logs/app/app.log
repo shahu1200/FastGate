@@ -1,0 +1,172 @@
+2022-06-09 09:52:52,925::INFO::main.py::128 Local config read ... OK
+2022-06-09 09:52:57,942::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 09:52:58,977::INFO::main.py::410 periodic thread started!
+2022-06-09 09:52:58,995::DEBUG::main.py::196 started message listner!....
+2022-06-09 09:52:59,147::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 09:53:00,403::INFO::main.py::547 RTC get datetime= 2022-06-09 09:52:40
+2022-06-09 09:53:00,413::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 09:53:00,429::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 09:53:00,445::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 09:53:07,083::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 10:40:19,058::ERROR::utils.py::55 request read timeout
+2022-06-09 10:41:07,114::ERROR::utils.py::61 request connect error
+2022-06-09 10:41:57,174::ERROR::utils.py::58 request connect timeout
+2022-06-09 10:42:47,244::ERROR::utils.py::58 request connect timeout
+2022-06-09 10:43:24,629::ERROR::utils.py::61 request connect error
+2022-06-09 10:43:56,600::ERROR::utils.py::61 request connect error
+2022-06-09 10:44:14,678::ERROR::utils.py::61 request connect error
+2022-06-09 10:44:59,787::ERROR::utils.py::61 request connect error
+2022-06-09 10:45:39,827::ERROR::utils.py::61 request connect error
+2022-06-09 10:46:19,860::ERROR::utils.py::61 request connect error
+2022-06-09 10:46:59,894::ERROR::utils.py::61 request connect error
+2022-06-09 10:48:49,844::ERROR::utils.py::61 request connect error
+2022-06-09 10:49:29,873::ERROR::utils.py::61 request connect error
+2022-06-09 10:50:09,908::ERROR::utils.py::61 request connect error
+2022-06-09 10:50:49,937::ERROR::utils.py::61 request connect error
+2022-06-09 10:51:45,004::ERROR::utils.py::58 request connect timeout
+2022-06-09 10:52:26,314::ERROR::utils.py::61 request connect error
+2022-06-09 10:54:30,290::ERROR::utils.py::61 request connect error
+2022-06-09 10:55:10,319::ERROR::utils.py::61 request connect error
+2022-06-09 10:55:50,349::ERROR::utils.py::61 request connect error
+2022-06-09 10:56:30,388::ERROR::utils.py::61 request connect error
+2022-06-09 10:57:10,422::ERROR::utils.py::61 request connect error
+2022-06-09 10:57:50,462::ERROR::utils.py::61 request connect error
+2022-06-09 10:58:30,499::ERROR::utils.py::61 request connect error
+2022-06-09 10:59:10,533::ERROR::utils.py::61 request connect error
+2022-06-09 10:59:50,569::ERROR::utils.py::61 request connect error
+2022-06-09 11:00:40,603::ERROR::utils.py::61 request connect error
+2022-06-09 11:01:30,649::ERROR::utils.py::61 request connect error
+2022-06-09 11:02:20,694::ERROR::utils.py::61 request connect error
+2022-06-09 11:34:09,315::CRITICAL::main.py::729 app Exited!
+2022-06-09 11:34:17,116::INFO::main.py::128 Local config read ... OK
+2022-06-09 11:34:22,128::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 11:34:22,759::INFO::main.py::410 periodic thread started!
+2022-06-09 11:34:22,778::DEBUG::main.py::196 started message listner!....
+2022-06-09 11:34:22,933::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 11:34:23,563::INFO::main.py::547 RTC get datetime= 2022-06-09 11:34:22
+2022-06-09 11:34:23,574::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 11:34:23,589::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 11:34:23,640::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 11:34:33,747::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 12:10:19,562::CRITICAL::main.py::729 app Exited!
+2022-06-09 12:10:27,858::INFO::main.py::128 Local config read ... OK
+2022-06-09 12:10:32,869::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 12:10:33,462::INFO::main.py::410 periodic thread started!
+2022-06-09 12:10:33,491::DEBUG::main.py::196 started message listner!....
+2022-06-09 12:10:33,669::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 12:10:34,331::INFO::main.py::547 RTC get datetime= 2022-06-09 12:10:33
+2022-06-09 12:10:34,342::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 12:10:34,352::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 12:10:34,379::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 12:10:40,425::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 12:33:09,547::CRITICAL::main.py::729 app Exited!
+2022-06-09 12:51:26,321::INFO::main.py::128 Local config read ... OK
+2022-06-09 12:51:31,334::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 12:51:32,020::INFO::main.py::410 periodic thread started!
+2022-06-09 12:51:32,044::DEBUG::main.py::196 started message listner!....
+2022-06-09 12:51:32,198::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 12:51:32,877::INFO::main.py::547 RTC get datetime= 2022-06-09 12:51:31
+2022-06-09 12:51:32,888::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 12:51:32,893::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 12:51:32,909::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 12:51:46,523::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 14:42:46,972::CRITICAL::main.py::729 app Exited!
+2022-06-09 15:48:19,307::INFO::main.py::128 Local config read ... OK
+2022-06-09 15:48:24,317::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 15:48:24,990::INFO::main.py::410 periodic thread started!
+2022-06-09 15:48:25,008::DEBUG::main.py::196 started message listner!....
+2022-06-09 15:48:25,081::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 15:48:25,737::INFO::main.py::547 RTC get datetime= 2022-06-09 15:48:24
+2022-06-09 15:48:25,747::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 15:48:25,758::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 15:48:25,774::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 15:48:31,999::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 15:49:14,441::CRITICAL::main.py::729 app Exited!
+2022-06-09 15:50:16,845::INFO::main.py::128 Local config read ... OK
+2022-06-09 15:50:21,857::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 15:50:25,467::INFO::main.py::410 periodic thread started!
+2022-06-09 15:50:25,493::DEBUG::main.py::196 started message listner!....
+2022-06-09 15:50:25,671::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 15:50:26,259::INFO::main.py::547 RTC get datetime= 2022-06-09 15:50:24
+2022-06-09 15:50:26,269::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 15:50:26,285::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 15:50:26,326::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 15:50:38,500::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 16:12:28,336::CRITICAL::main.py::729 app Exited!
+2022-06-09 16:12:38,582::INFO::main.py::128 Local config read ... OK
+2022-06-09 16:12:43,588::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 16:12:44,170::INFO::main.py::410 periodic thread started!
+2022-06-09 16:12:44,182::DEBUG::main.py::196 started message listner!....
+2022-06-09 16:12:44,277::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 16:12:44,990::INFO::main.py::547 RTC get datetime= 2022-06-09 16:12:44
+2022-06-09 16:12:45,001::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 16:12:45,017::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 16:12:45,042::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 16:12:54,929::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 16:26:18,843::CRITICAL::main.py::729 app Exited!
+2022-06-09 16:26:25,131::INFO::main.py::128 Local config read ... OK
+2022-06-09 16:26:30,142::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 16:26:30,723::INFO::main.py::410 periodic thread started!
+2022-06-09 16:26:30,741::DEBUG::main.py::196 started message listner!....
+2022-06-09 16:26:30,950::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 16:26:31,634::INFO::main.py::547 RTC get datetime= 2022-06-09 16:26:29
+2022-06-09 16:26:31,650::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 16:26:31,661::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 16:26:31,692::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 16:26:38,423::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 16:27:12,241::CRITICAL::main.py::729 app Exited!
+2022-06-09 16:27:16,319::INFO::main.py::128 Local config read ... OK
+2022-06-09 16:27:21,330::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 16:27:21,902::INFO::main.py::410 periodic thread started!
+2022-06-09 16:27:21,919::DEBUG::main.py::196 started message listner!....
+2022-06-09 16:27:22,093::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 16:27:22,706::INFO::main.py::547 RTC get datetime= 2022-06-09 16:27:21
+2022-06-09 16:27:22,717::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 16:27:22,732::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 16:27:22,743::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 16:27:28,382::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 16:30:46,862::CRITICAL::main.py::729 app Exited!
+2022-06-09 16:30:50,191::INFO::main.py::128 Local config read ... OK
+2022-06-09 16:30:55,196::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 16:30:55,761::INFO::main.py::410 periodic thread started!
+2022-06-09 16:30:55,785::DEBUG::main.py::196 started message listner!....
+2022-06-09 16:30:55,974::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 16:30:56,611::INFO::main.py::547 RTC get datetime= 2022-06-09 16:30:55
+2022-06-09 16:30:56,628::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 16:30:56,643::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 16:30:56,649::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 16:31:02,566::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 16:31:52,244::CRITICAL::main.py::729 app Exited!
+2022-06-09 16:51:02,998::INFO::main.py::128 Local config read ... OK
+2022-06-09 16:51:24,780::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 16:51:25,440::INFO::main.py::410 periodic thread started!
+2022-06-09 16:51:25,461::DEBUG::main.py::196 started message listner!....
+2022-06-09 16:51:25,635::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 16:51:26,318::INFO::main.py::547 RTC get datetime= 2022-06-09 16:51:08
+2022-06-09 16:51:26,329::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 16:51:26,335::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 16:51:26,411::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 16:51:38,049::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 16:52:45,480::CRITICAL::main.py::729 app Exited!
+2022-06-09 16:53:02,147::INFO::main.py::128 Local config read ... OK
+2022-06-09 16:53:07,160::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 16:53:07,777::INFO::main.py::410 periodic thread started!
+2022-06-09 16:53:07,794::DEBUG::main.py::196 started message listner!....
+2022-06-09 16:53:07,962::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 16:53:08,602::INFO::main.py::547 RTC get datetime= 2022-06-09 16:53:07
+2022-06-09 16:53:08,613::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 16:53:08,629::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 16:53:08,644::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 16:53:23,717::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 16:56:58,113::CRITICAL::main.py::729 app Exited!
+2022-06-09 16:57:02,305::INFO::main.py::128 Local config read ... OK
+2022-06-09 16:57:07,318::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-09 16:57:07,896::INFO::main.py::410 periodic thread started!
+2022-06-09 16:57:07,913::DEBUG::main.py::196 started message listner!....
+2022-06-09 16:57:08,040::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-09 16:57:08,745::INFO::main.py::547 RTC get datetime= 2022-06-09 16:57:07
+2022-06-09 16:57:08,756::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-09 16:57:08,771::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-09 16:57:08,807::DEBUG::main.py::174 process rfid fastgate
+2022-06-09 16:57:16,250::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-09 17:11:19,854::CRITICAL::main.py::729 app Exited!

@@ -1,0 +1,11 @@
+path file log > /home/iTEK/local/FastGate/dist/cli_app/
+device ipv4 >  192.168.1.203
+device mac id >  e4:5f:01:82:7b:03
+Reading config file ... OK
+Application VERSION= 1.0.0 , Build= 02/06/2022 19:00:28
+!!! started mqtt client.....
+system date time is >  2022-06-09 16:33:17.470092
+current rtc date time is  2022-06-09 16:33:33
+ * Serving Flask app "app.main" (lazy loading)
+ * Environment: development
+ * Debug mode: on

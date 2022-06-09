@@ -1,0 +1,14 @@
+2022-06-07 11:26:14,950::INFO::main.py::127 Local config read ... OK
+2022-06-07 11:26:19,968::INFO::main.py::734 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-07 11:26:20,600::INFO::main.py::409 periodic thread started!
+2022-06-07 11:26:20,609::DEBUG::main.py::195 started message listner!....
+2022-06-07 11:26:20,832::DEBUG::main.py::520 Device ID : E4:5F:01:82:7B:03
+2022-06-07 11:26:21,429::INFO::main.py::546 RTC get datetime= 2022-06-07 11:26:04
+2022-06-07 11:26:21,440::DEBUG::main.py::366 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-07 11:26:21,455::DEBUG::main.py::173 process rfid fastgate
+2022-06-07 11:26:21,476::DEBUG::main.py::557 >>> Start scanning !.....
+2022-06-07 11:26:23,044::DEBUG::main.py::354 send start scanning : {'topic': 'mqtt', 'type': None, 'data': {'action': 'userConfig', 'data': {'deviceId': None, 'time': None, 'userVehicle': {'add': [{'tagId': None, 'fromDate': '2022-05-25 00:00:00', 'toDate': '2022-05-27 00:00:00', 'weekDay': 'A', 'fromTime': '00:00:00', 'toTime': '00:00:00'}], 'edit': [], 'del': [], 'block': []}}}}
+2022-06-07 11:26:23,111::INFO::main.py::229 call url : http://192.168.1.203:8080/api/userConfig
+2022-06-07 11:26:23,390::INFO::main.py::233 response : <Response [200]>
+2022-06-07 11:26:31,219::DEBUG::main.py::160 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-07 11:26:37,583::CRITICAL::main.py::728 app Exited!

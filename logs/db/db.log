@@ -1,0 +1,1108 @@
+2022-06-09 09:52:59,014::DEBUG::database.py::285 get count rows!
+2022-06-09 09:52:59,097::DEBUG::database.py::285 get count rows!
+2022-06-09 09:53:24,136::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 09:53:24,147::DEBUG::database.py::285 get count rows!
+2022-06-09 09:53:24,283::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:53:24,401::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:53:24,473::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:53:24,509::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:53:24,525::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:53:24,603::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:54:27,266::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 09:54:27,302::DEBUG::database.py::285 get count rows!
+2022-06-09 09:54:27,594::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:54:27,630::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:54:27,651::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:54:27,728::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:54:27,764::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:54:27,837::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:55:06,291::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 09:55:06,354::DEBUG::database.py::285 get count rows!
+2022-06-09 09:55:06,616::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:55:06,637::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:55:06,760::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:55:06,816::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:55:06,863::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:55:06,899::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:55:57,346::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 09:55:57,357::DEBUG::database.py::285 get count rows!
+2022-06-09 09:55:57,435::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:55:57,440::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:55:57,451::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:55:57,468::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:55:57,473::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:55:57,484::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:59:38,552::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 09:59:38,670::DEBUG::database.py::285 get count rows!
+2022-06-09 09:59:38,900::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:59:38,916::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:59:39,029::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:59:39,076::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:59:39,091::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:59:39,158::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:59:42,952::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 09:59:42,963::DEBUG::database.py::285 get count rows!
+2022-06-09 09:59:43,089::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:59:43,094::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:59:43,126::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:59:43,169::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:59:43,179::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:59:43,217::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:59:45,011::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 09:59:45,027::DEBUG::database.py::285 get count rows!
+2022-06-09 09:59:45,089::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:59:45,115::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:59:45,156::DEBUG::database.py::195 fetch one data!
+2022-06-09 09:59:45,243::DEBUG::database.py::184 fetch all data!
+2022-06-09 09:59:45,264::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 09:59:45,398::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:01:11,706::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:01:11,721::DEBUG::database.py::285 get count rows!
+2022-06-09 10:01:12,023::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:01:12,033::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:01:12,049::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:01:12,198::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:01:12,244::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:01:12,448::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:01:15,881::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:01:15,893::DEBUG::database.py::285 get count rows!
+2022-06-09 10:01:16,016::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:01:16,048::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:01:16,074::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:01:16,125::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:01:16,284::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:01:16,315::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:02:06,922::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:02:06,958::DEBUG::database.py::285 get count rows!
+2022-06-09 10:02:07,026::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:02:07,052::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:02:07,068::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:02:07,094::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:02:07,105::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:02:07,136::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:02:20,117::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:02:20,128::DEBUG::database.py::285 get count rows!
+2022-06-09 10:02:20,185::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:02:20,191::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:02:20,222::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:02:20,243::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:02:20,249::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:02:20,291::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:02:42,954::INFO::database.py::842 check user authorization!
+2022-06-09 10:02:43,023::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:02:43,065::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:02:43,132::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:02:43,138::DEBUG::database.py::285 get count rows!
+2022-06-09 10:02:43,267::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:02:43,349::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:02:43,405::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:02:43,529::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:02:43,570::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:02:43,632::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:04:13,632::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:04:13,649::DEBUG::database.py::285 get count rows!
+2022-06-09 10:04:13,691::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:04:13,707::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:04:13,733::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:04:13,775::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:04:13,811::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:04:13,837::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:04:19,880::INFO::database.py::842 check user authorization!
+2022-06-09 10:04:19,897::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:04:19,950::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:04:19,983::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:04:19,998::DEBUG::database.py::285 get count rows!
+2022-06-09 10:04:20,035::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:04:20,045::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:04:20,061::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:04:20,087::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:04:20,103::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:04:20,119::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:05:02,047::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:05:02,063::DEBUG::database.py::285 get count rows!
+2022-06-09 10:05:02,120::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:05:02,131::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:05:02,177::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:05:02,204::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:05:02,215::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:05:02,230::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:05:13,848::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:05:13,870::DEBUG::database.py::285 get count rows!
+2022-06-09 10:05:13,927::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:05:13,927::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:05:13,958::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:05:13,998::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:05:14,014::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:05:14,060::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:06:05,210::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:06:05,226::DEBUG::database.py::285 get count rows!
+2022-06-09 10:06:05,330::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:06:05,500::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:06:05,521::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:06:05,557::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:06:05,563::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:06:05,574::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:06:15,556::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:06:15,588::DEBUG::database.py::285 get count rows!
+2022-06-09 10:06:15,655::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:06:15,675::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:06:15,748::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:06:15,916::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:06:15,994::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:06:16,061::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:10:45,433::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:10:45,449::DEBUG::database.py::285 get count rows!
+2022-06-09 10:10:45,598::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:10:45,624::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:10:45,655::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:10:45,697::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:10:45,794::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:10:45,835::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:10:52,167::INFO::database.py::842 check user authorization!
+2022-06-09 10:10:52,192::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:10:52,224::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:10:52,281::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:10:52,297::DEBUG::database.py::285 get count rows!
+2022-06-09 10:10:52,350::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:10:52,355::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:10:52,397::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:10:52,479::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:10:52,495::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:10:52,552::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:15,814::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:12:15,825::DEBUG::database.py::285 get count rows!
+2022-06-09 10:12:15,974::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:16,128::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:16,164::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:16,307::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:16,369::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:16,395::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:35,171::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:12:35,181::DEBUG::database.py::285 get count rows!
+2022-06-09 10:12:35,264::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:35,285::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:35,311::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:35,357::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:35,368::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:35,384::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:46,057::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:12:46,083::DEBUG::database.py::285 get count rows!
+2022-06-09 10:12:46,186::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:46,207::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:46,238::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:46,280::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:46,295::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:46,321::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:58,328::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:12:58,344::DEBUG::database.py::285 get count rows!
+2022-06-09 10:12:58,401::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:58,411::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:58,483::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:12:58,580::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:12:58,586::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:12:58,597::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:13:09,800::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:13:09,837::DEBUG::database.py::285 get count rows!
+2022-06-09 10:13:09,899::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:13:09,909::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:13:09,936::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:13:09,957::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:13:09,972::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:13:10,003::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:14:07,592::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:14:07,598::DEBUG::database.py::285 get count rows!
+2022-06-09 10:14:07,716::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:14:07,753::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:14:07,779::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:14:07,836::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:14:07,863::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:14:07,899::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:15:05,679::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:15:05,689::DEBUG::database.py::285 get count rows!
+2022-06-09 10:15:05,721::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:15:05,727::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:15:05,764::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:15:05,801::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:15:05,832::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:15:05,874::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:15:08,514::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:15:08,525::DEBUG::database.py::285 get count rows!
+2022-06-09 10:15:08,563::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:15:08,574::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:15:08,590::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:15:08,621::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:15:08,627::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:15:08,644::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:15:11,291::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:15:11,296::DEBUG::database.py::285 get count rows!
+2022-06-09 10:15:11,348::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:15:11,359::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:15:11,391::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:15:11,480::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:15:11,496::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:15:11,533::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:16:34,509::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:16:34,535::DEBUG::database.py::285 get count rows!
+2022-06-09 10:16:34,593::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:16:34,649::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:16:34,670::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:16:34,885::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:16:34,962::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:16:35,034::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:16:53,190::INFO::database.py::842 check user authorization!
+2022-06-09 10:16:53,263::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:16:53,387::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:16:53,444::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:16:53,572::DEBUG::database.py::285 get count rows!
+2022-06-09 10:16:53,665::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:16:53,752::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:16:53,778::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:16:53,927::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:16:53,958::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:16:54,045::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:17:35,674::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:17:35,685::DEBUG::database.py::285 get count rows!
+2022-06-09 10:17:35,798::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:17:35,926::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:17:35,947::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:17:36,060::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:17:36,086::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:17:36,184::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:17:39,901::INFO::database.py::842 check user authorization!
+2022-06-09 10:17:39,948::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:17:39,985::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:17:40,032::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:17:40,037::DEBUG::database.py::285 get count rows!
+2022-06-09 10:17:40,130::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:17:40,166::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:17:40,274::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:17:40,336::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:17:40,351::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:17:40,403::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:18:34,738::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:18:34,749::DEBUG::database.py::285 get count rows!
+2022-06-09 10:18:34,796::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:18:34,863::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:18:34,889::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:18:35,027::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:18:35,058::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:18:35,085::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:19:06,144::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:19:06,155::DEBUG::database.py::285 get count rows!
+2022-06-09 10:19:06,233::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:19:06,269::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:19:06,280::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:19:06,296::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:19:06,302::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:19:06,349::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:19:22,433::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:19:22,459::DEBUG::database.py::285 get count rows!
+2022-06-09 10:19:22,674::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:19:22,746::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:19:22,859::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:19:22,963::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:19:22,979::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:19:22,995::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:19:48,473::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:19:48,479::DEBUG::database.py::285 get count rows!
+2022-06-09 10:19:48,495::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:19:48,496::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:19:48,496::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:19:48,497::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:19:48,497::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:19:48,497::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:20:07,427::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:20:07,459::DEBUG::database.py::285 get count rows!
+2022-06-09 10:20:07,542::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:20:07,547::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:20:07,569::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:20:07,656::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:20:07,672::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:20:07,683::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:20:43,021::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:20:43,032::DEBUG::database.py::285 get count rows!
+2022-06-09 10:20:43,237::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:20:43,262::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:20:43,278::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:20:43,334::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:20:43,345::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:20:43,360::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:21:08,957::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:21:08,968::DEBUG::database.py::285 get count rows!
+2022-06-09 10:21:09,020::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:21:09,035::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:21:09,072::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:21:09,129::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:21:09,154::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:21:09,170::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:21:38,644::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:21:38,670::DEBUG::database.py::285 get count rows!
+2022-06-09 10:21:38,737::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:21:38,752::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:21:38,824::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:21:38,911::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:21:38,927::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:21:38,942::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:22:18,211::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:22:18,223::DEBUG::database.py::285 get count rows!
+2022-06-09 10:22:18,290::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:22:18,301::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:22:18,322::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:22:18,399::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:22:18,415::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:22:18,451::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:22:30,372::INFO::database.py::842 check user authorization!
+2022-06-09 10:22:30,475::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:22:30,618::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:22:30,680::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:22:30,690::DEBUG::database.py::285 get count rows!
+2022-06-09 10:22:30,793::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:22:30,880::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:22:30,921::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:22:31,115::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:22:31,130::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:22:31,182::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:23:37,681::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:23:37,712::DEBUG::database.py::285 get count rows!
+2022-06-09 10:23:37,790::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:23:37,806::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:23:37,821::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:23:37,873::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:23:37,904::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:23:37,930::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:23:57,152::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:23:57,159::DEBUG::database.py::285 get count rows!
+2022-06-09 10:23:57,212::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:23:57,222::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:23:57,259::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:23:57,286::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:23:57,301::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:23:57,318::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:23:59,822::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:23:59,961::DEBUG::database.py::285 get count rows!
+2022-06-09 10:24:00,217::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:24:00,284::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:24:00,386::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:24:00,428::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:24:00,438::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:24:00,551::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:26:39,624::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:26:39,665::DEBUG::database.py::285 get count rows!
+2022-06-09 10:26:39,890::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:26:39,911::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:26:39,993::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:26:40,127::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:26:40,133::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:26:40,144::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:26:50,034::INFO::database.py::842 check user authorization!
+2022-06-09 10:26:50,105::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:26:50,300::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:26:50,418::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:26:50,454::DEBUG::database.py::285 get count rows!
+2022-06-09 10:26:50,537::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:26:50,558::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:26:50,579::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:26:50,697::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:26:50,738::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:26:50,764::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:27:34,374::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:27:34,385::DEBUG::database.py::285 get count rows!
+2022-06-09 10:27:34,437::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:27:34,442::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:27:34,463::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:27:34,494::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:27:34,505::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:27:34,536::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:27:55,349::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:27:55,401::DEBUG::database.py::285 get count rows!
+2022-06-09 10:27:55,448::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:27:55,454::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:27:55,470::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:27:55,487::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:27:55,518::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:27:55,529::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:28:11,494::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:28:11,505::DEBUG::database.py::285 get count rows!
+2022-06-09 10:28:11,547::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:28:11,557::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:28:11,609::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:28:11,640::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:28:11,656::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:28:11,682::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:28:21,971::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:28:21,982::DEBUG::database.py::285 get count rows!
+2022-06-09 10:28:22,064::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:28:22,084::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:28:22,141::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:28:22,295::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:28:22,402::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:28:22,423::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:28:36,955::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:28:36,976::DEBUG::database.py::285 get count rows!
+2022-06-09 10:28:37,069::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:28:37,100::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:28:37,187::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:28:37,270::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:28:37,275::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:28:37,287::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:28:59,806::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:28:59,914::DEBUG::database.py::285 get count rows!
+2022-06-09 10:28:59,959::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:28:59,964::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:29:00,006::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:29:00,108::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:29:00,287::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:29:00,319::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:29:14,788::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:29:14,843::DEBUG::database.py::285 get count rows!
+2022-06-09 10:29:15,130::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:29:15,181::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:29:15,269::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:29:15,412::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:29:15,504::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:29:15,551::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:29:23,936::INFO::database.py::842 check user authorization!
+2022-06-09 10:29:23,999::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:29:24,030::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:29:24,067::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:29:24,078::DEBUG::database.py::285 get count rows!
+2022-06-09 10:29:24,155::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:29:24,166::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:29:24,192::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:29:24,239::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:29:24,259::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:29:24,280::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:21,649::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:30:21,660::DEBUG::database.py::285 get count rows!
+2022-06-09 10:30:21,728::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:21,739::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:21,811::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:21,990::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:22,066::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:22,103::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:39,189::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:30:39,215::DEBUG::database.py::285 get count rows!
+2022-06-09 10:30:39,303::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:39,334::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:39,376::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:39,447::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:39,468::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:39,525::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:52,950::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:30:52,951::DEBUG::database.py::285 get count rows!
+2022-06-09 10:30:53,019::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:53,029::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:53,152::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:53,168::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:53,214::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:53,225::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:58,393::INFO::database.py::842 check user authorization!
+2022-06-09 10:30:58,420::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:58,451::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:58,813::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:30:58,834::DEBUG::database.py::285 get count rows!
+2022-06-09 10:30:58,876::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:58,892::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:58,913::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:30:58,934::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:30:58,940::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:30:58,966::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:31:32,112::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:31:32,124::DEBUG::database.py::285 get count rows!
+2022-06-09 10:31:32,181::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:31:32,186::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:31:32,197::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:31:32,228::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:31:32,234::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:31:32,245::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:31:55,668::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:31:55,674::DEBUG::database.py::285 get count rows!
+2022-06-09 10:31:55,722::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:31:55,727::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:31:55,748::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:31:55,781::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:31:55,822::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:31:55,864::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:32:07,200::INFO::database.py::842 check user authorization!
+2022-06-09 10:32:07,221::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:32:07,273::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:32:07,304::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:32:07,315::DEBUG::database.py::285 get count rows!
+2022-06-09 10:32:07,393::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:32:07,403::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:32:07,475::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:32:07,770::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:32:07,791::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:32:07,807::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:32:29,446::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:32:29,472::DEBUG::database.py::285 get count rows!
+2022-06-09 10:32:29,570::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:32:29,621::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:32:29,718::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:32:29,764::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:32:29,775::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:32:29,841::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:16,759::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:33:16,775::DEBUG::database.py::285 get count rows!
+2022-06-09 10:33:16,863::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:16,869::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:16,915::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:16,973::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:16,984::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:17,056::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:29,842::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:33:29,857::DEBUG::database.py::285 get count rows!
+2022-06-09 10:33:29,930::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:29,941::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:29,972::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:30,013::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:30,039::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:30,060::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:39,906::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:33:39,983::DEBUG::database.py::285 get count rows!
+2022-06-09 10:33:40,056::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:40,075::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:40,107::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:40,214::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:40,240::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:40,251::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:49,985::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:33:49,996::DEBUG::database.py::285 get count rows!
+2022-06-09 10:33:50,053::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:50,059::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:50,080::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:50,136::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:50,157::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:50,299::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:53,652::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:33:53,663::DEBUG::database.py::285 get count rows!
+2022-06-09 10:33:53,745::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:53,751::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:53,762::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:33:53,777::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:33:53,813::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:33:53,865::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:03,902::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:34:03,944::DEBUG::database.py::285 get count rows!
+2022-06-09 10:34:04,021::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:04,032::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:04,053::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:04,079::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:04,105::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:04,131::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:09,024::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:34:09,035::DEBUG::database.py::285 get count rows!
+2022-06-09 10:34:09,087::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:09,103::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:09,139::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:09,165::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:09,191::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:09,217::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:23,595::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:34:23,606::DEBUG::database.py::285 get count rows!
+2022-06-09 10:34:23,710::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:23,715::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:23,737::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:23,784::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:23,794::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:23,816::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:25,734::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:34:25,760::DEBUG::database.py::285 get count rows!
+2022-06-09 10:34:25,850::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:25,850::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:25,887::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:25,913::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:25,918::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:25,929::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:49,316::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:34:49,335::DEBUG::database.py::285 get count rows!
+2022-06-09 10:34:49,417::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:49,428::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:49,489::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:49,612::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:49,617::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:49,720::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:52,614::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:34:52,657::DEBUG::database.py::285 get count rows!
+2022-06-09 10:34:52,735::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:52,740::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:52,915::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:34:52,930::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:34:52,936::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:34:52,957::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:35:24,583::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:35:24,622::DEBUG::database.py::285 get count rows!
+2022-06-09 10:35:24,690::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:35:24,696::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:35:24,712::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:35:24,759::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:35:24,774::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:35:24,785::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:35:27,305::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:35:27,326::DEBUG::database.py::285 get count rows!
+2022-06-09 10:35:27,383::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:35:27,394::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:35:27,425::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:35:27,461::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:35:27,482::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:35:27,508::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:35:57,727::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:35:57,728::DEBUG::database.py::285 get count rows!
+2022-06-09 10:35:57,811::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:35:57,826::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:35:57,878::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:35:57,904::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:35:57,910::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:35:57,926::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:00,609::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:36:00,621::DEBUG::database.py::285 get count rows!
+2022-06-09 10:36:00,698::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:00,729::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:00,745::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:00,771::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:00,782::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:00,808::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:21,986::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:36:22,012::DEBUG::database.py::285 get count rows!
+2022-06-09 10:36:22,116::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:22,116::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:22,117::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:22,117::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:22,117::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:22,123::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:40,635::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:36:40,642::DEBUG::database.py::285 get count rows!
+2022-06-09 10:36:40,690::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:40,716::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:40,727::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:40,775::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:40,801::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:40,806::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:49,841::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:36:49,857::DEBUG::database.py::285 get count rows!
+2022-06-09 10:36:49,925::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:49,951::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:49,972::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:36:49,988::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:36:50,004::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:36:50,020::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:02,166::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:37:02,192::DEBUG::database.py::285 get count rows!
+2022-06-09 10:37:02,249::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:02,260::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:02,281::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:02,317::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:02,333::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:02,354::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:11,574::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:37:11,580::DEBUG::database.py::285 get count rows!
+2022-06-09 10:37:11,638::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:11,679::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:11,695::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:11,731::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:11,762::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:11,799::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:18,541::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:37:18,552::DEBUG::database.py::285 get count rows!
+2022-06-09 10:37:18,599::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:18,624::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:18,646::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:18,718::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:18,825::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:18,861::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:26,900::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:37:26,916::DEBUG::database.py::285 get count rows!
+2022-06-09 10:37:27,039::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:27,055::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:27,091::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:27,157::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:27,244::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:27,280::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:32,155::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:37:32,237::DEBUG::database.py::285 get count rows!
+2022-06-09 10:37:32,345::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:32,350::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:32,361::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:32,377::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:32,382::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:32,393::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:56,655::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:37:56,747::DEBUG::database.py::285 get count rows!
+2022-06-09 10:37:56,922::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:56,937::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:57,071::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:37:57,148::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:37:57,174::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:37:57,200::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:06,036::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:38:06,052::DEBUG::database.py::285 get count rows!
+2022-06-09 10:38:06,114::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:06,119::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:06,151::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:06,177::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:06,183::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:06,209::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:11,871::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:38:11,892::DEBUG::database.py::285 get count rows!
+2022-06-09 10:38:11,962::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:11,967::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:11,989::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:12,040::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:12,051::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:12,108::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:41,928::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:38:41,939::DEBUG::database.py::285 get count rows!
+2022-06-09 10:38:41,971::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:41,977::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:41,993::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:42,025::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:42,035::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:42,057::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:44,623::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:38:44,653::DEBUG::database.py::285 get count rows!
+2022-06-09 10:38:44,751::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:44,777::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:44,814::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:44,855::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:44,866::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:44,917::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:45,732::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:38:45,748::DEBUG::database.py::285 get count rows!
+2022-06-09 10:38:45,811::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:45,827::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:45,904::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:45,925::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:45,930::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:45,946::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:57,146::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:38:57,163::DEBUG::database.py::285 get count rows!
+2022-06-09 10:38:57,190::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:57,201::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:57,233::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:38:57,265::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:38:57,280::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:38:57,312::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:07,332::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:39:07,347::DEBUG::database.py::285 get count rows!
+2022-06-09 10:39:07,429::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:07,435::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:07,451::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:07,472::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:07,477::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:07,494::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:24,848::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:39:24,920::DEBUG::database.py::285 get count rows!
+2022-06-09 10:39:25,034::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:25,065::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:25,101::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:25,122::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:25,133::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:25,160::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:48,597::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:39:48,607::DEBUG::database.py::285 get count rows!
+2022-06-09 10:39:48,690::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:48,705::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:48,762::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:48,834::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:48,855::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:48,896::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:51,326::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:39:51,342::DEBUG::database.py::285 get count rows!
+2022-06-09 10:39:51,429::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:51,445::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:51,492::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:39:51,534::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:39:51,544::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:39:51,566::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:40:02,370::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:40:02,381::DEBUG::database.py::285 get count rows!
+2022-06-09 10:40:02,382::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:40:02,382::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:40:02,393::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:40:02,414::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:40:02,435::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:40:02,451::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:40:15,758::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:40:15,774::DEBUG::database.py::285 get count rows!
+2022-06-09 10:40:15,815::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:40:15,831::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:40:15,852::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:40:15,894::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:40:15,909::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:40:15,930::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:40:32,243::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:40:32,274::DEBUG::database.py::285 get count rows!
+2022-06-09 10:40:32,382::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:40:32,398::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:40:32,418::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:40:32,439::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:40:32,449::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:40:32,517::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:21,116::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:41:21,127::DEBUG::database.py::285 get count rows!
+2022-06-09 10:41:21,227::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:21,232::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:21,243::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:21,269::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:21,285::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:21,306::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:26,036::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:41:26,047::DEBUG::database.py::285 get count rows!
+2022-06-09 10:41:26,175::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:26,186::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:26,385::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:26,518::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:26,538::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:26,646::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:54,458::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:41:54,468::DEBUG::database.py::285 get count rows!
+2022-06-09 10:41:54,511::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:54,521::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:54,542::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:54,563::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:54,579::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:54,595::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:57,339::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:41:57,385::DEBUG::database.py::285 get count rows!
+2022-06-09 10:41:57,427::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:57,448::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:57,479::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:41:57,525::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:41:57,536::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:41:57,577::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:42:12,195::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:42:12,211::DEBUG::database.py::285 get count rows!
+2022-06-09 10:42:12,291::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:42:12,312::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:42:12,334::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:42:12,350::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:42:12,355::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:42:12,366::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:42:31,485::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:42:31,496::DEBUG::database.py::285 get count rows!
+2022-06-09 10:42:31,527::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:42:31,543::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:42:31,559::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:42:31,580::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:42:31,590::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:42:31,612::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:42:48,801::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:42:48,812::DEBUG::database.py::285 get count rows!
+2022-06-09 10:42:48,900::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:42:48,920::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:42:48,967::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:42:48,993::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:42:49,008::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:42:49,035::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:43:14,500::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:43:14,510::DEBUG::database.py::285 get count rows!
+2022-06-09 10:43:14,567::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:43:14,588::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:43:14,614::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:43:14,635::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:43:14,701::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:43:14,768::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:44:20,442::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:44:20,448::DEBUG::database.py::285 get count rows!
+2022-06-09 10:44:20,464::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:44:20,469::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:44:20,490::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:44:20,526::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:44:20,542::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:44:20,568::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:46:54,876::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:46:54,882::DEBUG::database.py::285 get count rows!
+2022-06-09 10:46:54,939::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:46:54,949::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:46:54,965::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:46:54,991::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:46:55,002::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:46:55,018::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:48:26,124::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 10:48:26,134::DEBUG::database.py::285 get count rows!
+2022-06-09 10:48:26,237::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:48:26,248::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:48:26,340::DEBUG::database.py::195 fetch one data!
+2022-06-09 10:48:26,376::DEBUG::database.py::184 fetch all data!
+2022-06-09 10:48:26,428::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 10:48:26,479::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:12,441::INFO::database.py::842 check user authorization!
+2022-06-09 11:10:12,462::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:12,534::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:12,652::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:10:12,698::DEBUG::database.py::285 get count rows!
+2022-06-09 11:10:12,907::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:13,137::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:13,372::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:13,419::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:13,439::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:13,603::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:22,934::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:10:22,940::DEBUG::database.py::285 get count rows!
+2022-06-09 11:10:22,971::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:22,977::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:22,988::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:23,008::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:23,014::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:23,025::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:49,576::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:10:49,587::DEBUG::database.py::285 get count rows!
+2022-06-09 11:10:49,645::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:49,655::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:49,677::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:49,719::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:49,740::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:49,771::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:52,921::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:10:52,940::DEBUG::database.py::285 get count rows!
+2022-06-09 11:10:53,013::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:53,024::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:53,040::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:10:53,098::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:10:53,139::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:10:53,155::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:07,096::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:11:07,112::DEBUG::database.py::285 get count rows!
+2022-06-09 11:11:07,217::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:07,243::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:07,254::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:07,275::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:07,280::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:07,291::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:10,094::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:11:10,121::DEBUG::database.py::285 get count rows!
+2022-06-09 11:11:10,250::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:10,322::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:10,363::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:10,384::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:10,395::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:10,421::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:19,736::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:11:19,741::DEBUG::database.py::285 get count rows!
+2022-06-09 11:11:19,810::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:19,826::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:19,847::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:19,868::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:19,884::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:19,956::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:22,623::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 11:11:22,634::DEBUG::database.py::285 get count rows!
+2022-06-09 11:11:22,697::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:22,703::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:22,754::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:11:22,776::DEBUG::database.py::184 fetch all data!
+2022-06-09 11:11:22,801::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 11:11:22,823::DEBUG::database.py::195 fetch one data!
+2022-06-09 11:34:22,848::DEBUG::database.py::285 get count rows!
+2022-06-09 11:34:22,875::DEBUG::database.py::285 get count rows!
+2022-06-09 12:02:12,747::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:02:12,759::DEBUG::database.py::285 get count rows!
+2022-06-09 12:02:12,841::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:02:12,847::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:02:12,868::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:02:12,920::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:02:12,925::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:02:12,952::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:06:47,871::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:06:47,882::DEBUG::database.py::285 get count rows!
+2022-06-09 12:06:47,939::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:06:47,949::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:06:47,975::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:06:48,037::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:06:48,053::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:06:48,094::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:07:08,792::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:07:08,803::DEBUG::database.py::285 get count rows!
+2022-06-09 12:07:08,860::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:07:09,038::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:07:09,059::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:07:09,156::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:07:09,171::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:07:09,192::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:07:25,559::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:07:25,565::DEBUG::database.py::285 get count rows!
+2022-06-09 12:07:25,608::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:07:25,646::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:07:25,678::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:07:25,799::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:07:25,819::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:07:25,907::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:08:16,058::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:08:16,119::DEBUG::database.py::285 get count rows!
+2022-06-09 12:08:16,207::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:08:16,244::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:08:16,281::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:08:16,308::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:08:16,323::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:08:16,349::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:09:02,108::INFO::database.py::842 check user authorization!
+2022-06-09 12:09:02,155::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:09:02,171::WARNING::database.py::860 while authorization!
+2022-06-09 12:09:06,658::INFO::database.py::842 check user authorization!
+2022-06-09 12:09:06,828::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:09:06,879::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:09:06,961::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:09:06,972::DEBUG::database.py::285 get count rows!
+2022-06-09 12:09:07,034::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:09:07,070::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:09:07,141::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:09:07,172::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:09:07,193::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:09:07,208::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:10:33,579::DEBUG::database.py::285 get count rows!
+2022-06-09 12:10:33,616::DEBUG::database.py::285 get count rows!
+2022-06-09 12:10:44,043::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:10:44,064::DEBUG::database.py::285 get count rows!
+2022-06-09 12:10:44,137::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:10:44,147::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:10:44,164::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:10:44,180::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:10:44,190::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:10:44,207::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:13:02,332::INFO::database.py::842 check user authorization!
+2022-06-09 12:13:02,364::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:13:02,425::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:13:02,457::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:13:02,467::DEBUG::database.py::285 get count rows!
+2022-06-09 12:13:02,560::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:13:02,575::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:13:02,591::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:13:02,694::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:13:02,704::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:13:02,730::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:20:18,506::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:20:18,527::DEBUG::database.py::285 get count rows!
+2022-06-09 12:20:18,604::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:20:18,619::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:20:18,640::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:20:18,701::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:20:18,714::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:20:18,741::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:28:24,717::DEBUG::database.py::695 getting dashboard data!
+2022-06-09 12:28:24,728::DEBUG::database.py::285 get count rows!
+2022-06-09 12:28:24,871::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:28:24,902::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:28:24,923::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:28:24,964::DEBUG::database.py::184 fetch all data!
+2022-06-09 12:28:25,137::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-09 12:28:25,214::DEBUG::database.py::195 fetch one data!
+2022-06-09 12:51:32,118::DEBUG::database.py::285 get count rows!
+2022-06-09 12:51:32,150::DEBUG::database.py::285 get count rows!
+2022-06-09 15:48:25,020::DEBUG::database.py::285 get count rows!
+2022-06-09 15:48:25,034::DEBUG::database.py::285 get count rows!
+2022-06-09 15:50:25,582::DEBUG::database.py::285 get count rows!
+2022-06-09 15:50:25,618::DEBUG::database.py::285 get count rows!
+2022-06-09 16:12:44,202::DEBUG::database.py::285 get count rows!
+2022-06-09 16:12:44,229::DEBUG::database.py::285 get count rows!
+2022-06-09 16:26:30,865::DEBUG::database.py::285 get count rows!
+2022-06-09 16:26:30,902::DEBUG::database.py::285 get count rows!
+2022-06-09 16:27:22,023::DEBUG::database.py::285 get count rows!
+2022-06-09 16:27:22,055::DEBUG::database.py::285 get count rows!
+2022-06-09 16:30:55,888::DEBUG::database.py::285 get count rows!
+2022-06-09 16:30:55,930::DEBUG::database.py::285 get count rows!
+2022-06-09 16:51:25,536::DEBUG::database.py::285 get count rows!
+2022-06-09 16:51:25,577::DEBUG::database.py::285 get count rows!
+2022-06-09 16:53:07,877::DEBUG::database.py::285 get count rows!
+2022-06-09 16:53:07,914::DEBUG::database.py::285 get count rows!
+2022-06-09 16:57:07,981::DEBUG::database.py::285 get count rows!
+2022-06-09 16:57:07,997::DEBUG::database.py::285 get count rows!

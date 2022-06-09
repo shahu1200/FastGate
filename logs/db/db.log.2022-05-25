@@ -1,0 +1,838 @@
+2022-05-25 09:36:54,744::DEBUG::database.py::285 get count rows!
+2022-05-25 09:36:54,833::DEBUG::database.py::285 get count rows!
+2022-05-25 09:36:58,016::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 09:36:58,052::DEBUG::database.py::285 get count rows!
+2022-05-25 09:37:33,099::INFO::database.py::842 check user authorization!
+2022-05-25 09:37:33,141::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:37:33,162::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:37:33,179::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 09:37:33,281::DEBUG::database.py::285 get count rows!
+2022-05-25 09:37:33,475::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:37:33,486::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 09:37:33,537::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:37:33,609::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:37:33,614::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 09:37:33,625::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:37:59,471::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 09:37:59,477::DEBUG::database.py::285 get count rows!
+2022-05-25 09:38:09,452::INFO::database.py::842 check user authorization!
+2022-05-25 09:38:09,851::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:38:09,912::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:38:09,964::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 09:38:09,970::DEBUG::database.py::285 get count rows!
+2022-05-25 09:38:10,006::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:38:10,012::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 09:38:10,022::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:38:10,043::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:38:10,049::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 09:38:10,064::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:38:24,234::INFO::database.py::842 check user authorization!
+2022-05-25 09:38:24,337::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:38:24,368::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:38:24,430::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 09:38:24,634::DEBUG::database.py::285 get count rows!
+2022-05-25 09:38:24,910::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:38:24,935::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 09:38:25,027::DEBUG::database.py::195 fetch one data!
+2022-05-25 09:38:25,359::DEBUG::database.py::184 fetch all data!
+2022-05-25 09:38:25,364::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 09:38:25,375::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:24:23,170::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 10:24:23,181::DEBUG::database.py::285 get count rows!
+2022-05-25 10:24:23,314::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:24:23,325::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 10:24:23,411::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:24:23,498::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:24:23,514::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 10:24:23,575::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:42:56,730::INFO::database.py::791 create new user > shahu
+2022-05-25 10:42:56,741::DEBUG::database.py::285 get count rows!
+2022-05-25 10:43:08,315::INFO::database.py::842 check user authorization!
+2022-05-25 10:43:08,337::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:43:08,379::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:43:08,619::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 10:43:08,629::DEBUG::database.py::285 get count rows!
+2022-05-25 10:43:08,905::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:43:08,915::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 10:43:09,308::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:43:09,369::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:43:09,380::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 10:43:09,589::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:43:17,056::DEBUG::database.py::633 get data from userlist!
+2022-05-25 10:43:17,480::DEBUG::database.py::205 select all data!
+2022-05-25 10:43:25,671::DEBUG::database.py::677 get data from trans vehicle logs!
+2022-05-25 10:43:25,676::DEBUG::database.py::656 get data from table where datetime!
+2022-05-25 10:43:25,804::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:44:03,139::INFO::database.py::842 check user authorization!
+2022-05-25 10:44:03,156::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:44:03,533::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:44:03,605::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 10:44:03,825::DEBUG::database.py::285 get count rows!
+2022-05-25 10:44:04,355::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:44:04,366::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 10:44:04,447::DEBUG::database.py::195 fetch one data!
+2022-05-25 10:44:04,662::DEBUG::database.py::184 fetch all data!
+2022-05-25 10:44:04,672::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 10:44:04,719::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:21:38,902::INFO::database.py::842 check user authorization!
+2022-05-25 11:21:39,015::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:21:39,092::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:21:39,149::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 11:21:39,159::DEBUG::database.py::285 get count rows!
+2022-05-25 11:21:39,206::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:21:39,216::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:21:39,283::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:21:39,324::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:21:39,334::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:21:39,355::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:21:53,126::INFO::database.py::842 check user authorization!
+2022-05-25 11:21:53,178::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:21:53,316::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:21:53,607::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 11:21:53,618::DEBUG::database.py::285 get count rows!
+2022-05-25 11:21:53,705::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:21:53,721::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:21:53,736::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:21:53,823::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:21:53,834::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:21:53,895::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:37:10,188::DEBUG::database.py::285 get count rows!
+2022-05-25 11:37:10,225::DEBUG::database.py::285 get count rows!
+2022-05-25 11:37:12,505::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 11:37:12,542::DEBUG::database.py::285 get count rows!
+2022-05-25 11:37:57,272::INFO::database.py::842 check user authorization!
+2022-05-25 11:37:57,288::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:37:57,299::WARNING::database.py::860 while authorization!
+2022-05-25 11:38:21,105::INFO::database.py::842 check user authorization!
+2022-05-25 11:38:21,142::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:38:21,235::WARNING::database.py::860 while authorization!
+2022-05-25 11:38:24,057::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 11:38:24,068::DEBUG::database.py::285 get count rows!
+2022-05-25 11:38:24,191::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:38:24,304::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:38:24,350::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:38:24,493::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:38:24,514::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:38:24,626::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:51:30,108::DEBUG::database.py::285 get count rows!
+2022-05-25 11:51:30,149::DEBUG::database.py::285 get count rows!
+2022-05-25 11:51:32,663::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 11:51:32,666::DEBUG::database.py::285 get count rows!
+2022-05-25 11:52:45,131::INFO::database.py::842 check user authorization!
+2022-05-25 11:52:45,163::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:52:45,179::WARNING::database.py::860 while authorization!
+2022-05-25 11:53:02,650::INFO::database.py::842 check user authorization!
+2022-05-25 11:53:02,686::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:53:02,718::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:53:02,751::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 11:53:02,762::DEBUG::database.py::285 get count rows!
+2022-05-25 11:53:11,250::INFO::database.py::842 check user authorization!
+2022-05-25 11:53:11,297::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:53:11,348::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:53:11,374::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 11:53:11,385::DEBUG::database.py::285 get count rows!
+2022-05-25 11:53:11,512::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:53:11,523::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:53:11,579::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:53:11,686::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:53:11,697::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:53:11,748::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:53:29,489::INFO::database.py::842 check user authorization!
+2022-05-25 11:53:29,669::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:53:29,700::WARNING::database.py::860 while authorization!
+2022-05-25 11:54:50,403::INFO::database.py::842 check user authorization!
+2022-05-25 11:54:50,451::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:54:50,472::WARNING::database.py::860 while authorization!
+2022-05-25 11:55:18,786::INFO::database.py::842 check user authorization!
+2022-05-25 11:55:18,808::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:55:18,818::WARNING::database.py::860 while authorization!
+2022-05-25 11:57:00,935::INFO::database.py::842 check user authorization!
+2022-05-25 11:57:00,947::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:57:00,978::WARNING::database.py::860 while authorization!
+2022-05-25 11:57:27,169::INFO::database.py::842 check user authorization!
+2022-05-25 11:57:27,206::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:57:27,217::WARNING::database.py::860 while authorization!
+2022-05-25 11:58:13,397::INFO::database.py::842 check user authorization!
+2022-05-25 11:58:13,423::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:58:13,454::WARNING::database.py::860 while authorization!
+2022-05-25 11:58:55,230::INFO::database.py::842 check user authorization!
+2022-05-25 11:58:55,252::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:58:55,284::WARNING::database.py::860 while authorization!
+2022-05-25 11:59:27,170::INFO::database.py::842 check user authorization!
+2022-05-25 11:59:27,206::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:59:27,262::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:59:27,313::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 11:59:27,324::DEBUG::database.py::285 get count rows!
+2022-05-25 11:59:38,258::INFO::database.py::842 check user authorization!
+2022-05-25 11:59:38,290::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:59:38,397::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:59:38,429::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 11:59:38,439::DEBUG::database.py::285 get count rows!
+2022-05-25 11:59:38,679::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:59:38,695::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:59:38,771::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:59:38,802::DEBUG::database.py::184 fetch all data!
+2022-05-25 11:59:38,818::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 11:59:38,843::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:59:52,213::INFO::database.py::842 check user authorization!
+2022-05-25 11:59:52,358::DEBUG::database.py::195 fetch one data!
+2022-05-25 11:59:52,394::WARNING::database.py::860 while authorization!
+2022-05-25 12:00:03,286::INFO::database.py::842 check user authorization!
+2022-05-25 12:00:03,313::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:00:03,364::DEBUG::database.py::184 fetch all data!
+2022-05-25 12:00:03,456::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 12:00:03,482::DEBUG::database.py::285 get count rows!
+2022-05-25 12:00:03,549::DEBUG::database.py::184 fetch all data!
+2022-05-25 12:00:03,565::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 12:00:03,636::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:00:03,698::DEBUG::database.py::184 fetch all data!
+2022-05-25 12:00:03,713::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 12:00:03,938::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:00:13,157::INFO::database.py::842 check user authorization!
+2022-05-25 12:00:13,301::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:00:13,337::WARNING::database.py::860 while authorization!
+2022-05-25 12:04:59,592::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 12:04:59,603::DEBUG::database.py::285 get count rows!
+2022-05-25 12:06:21,984::DEBUG::database.py::285 get count rows!
+2022-05-25 12:06:22,015::DEBUG::database.py::285 get count rows!
+2022-05-25 12:06:25,159::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 12:06:25,175::DEBUG::database.py::285 get count rows!
+2022-05-25 12:07:27,142::INFO::database.py::842 check user authorization!
+2022-05-25 12:07:27,184::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:07:27,424::WARNING::database.py::860 while authorization!
+2022-05-25 12:07:47,337::INFO::database.py::842 check user authorization!
+2022-05-25 12:07:47,395::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:07:47,410::WARNING::database.py::860 while authorization!
+2022-05-25 12:07:58,502::INFO::database.py::842 check user authorization!
+2022-05-25 12:07:58,534::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:07:58,717::WARNING::database.py::860 while authorization!
+2022-05-25 12:30:04,120::INFO::database.py::842 check user authorization!
+2022-05-25 12:30:04,141::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:30:04,163::WARNING::database.py::860 while authorization!
+2022-05-25 12:30:12,985::INFO::database.py::842 check user authorization!
+2022-05-25 12:30:13,016::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:30:13,119::DEBUG::database.py::184 fetch all data!
+2022-05-25 12:30:13,211::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 12:30:13,227::DEBUG::database.py::285 get count rows!
+2022-05-25 12:30:13,661::DEBUG::database.py::184 fetch all data!
+2022-05-25 12:30:13,676::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 12:30:13,728::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:30:13,794::DEBUG::database.py::184 fetch all data!
+2022-05-25 12:30:13,805::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 12:30:13,947::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:30:42,921::INFO::database.py::842 check user authorization!
+2022-05-25 12:30:42,942::DEBUG::database.py::195 fetch one data!
+2022-05-25 12:30:42,958::WARNING::database.py::860 while authorization!
+2022-05-25 12:33:11,957::DEBUG::database.py::633 get data from userlist!
+2022-05-25 12:33:12,014::DEBUG::database.py::205 select all data!
+2022-05-25 12:36:19,974::DEBUG::database.py::737 getting tag lists name!
+2022-05-25 12:36:19,995::DEBUG::database.py::217 selected columns data!
+2022-05-25 12:53:09,900::DEBUG::database.py::677 get data from trans vehicle logs!
+2022-05-25 12:53:09,906::DEBUG::database.py::656 get data from table where datetime!
+2022-05-25 12:53:09,917::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:00:43,592::INFO::database.py::842 check user authorization!
+2022-05-25 14:00:43,634::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:00:43,929::WARNING::database.py::860 while authorization!
+2022-05-25 14:02:00,117::INFO::database.py::842 check user authorization!
+2022-05-25 14:02:00,424::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:02:00,455::WARNING::database.py::860 while authorization!
+2022-05-25 14:02:18,125::INFO::database.py::842 check user authorization!
+2022-05-25 14:02:18,161::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:02:18,264::WARNING::database.py::860 while authorization!
+2022-05-25 14:02:51,619::INFO::database.py::842 check user authorization!
+2022-05-25 14:02:51,640::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:02:51,661::WARNING::database.py::860 while authorization!
+2022-05-25 14:03:03,311::INFO::database.py::842 check user authorization!
+2022-05-25 14:03:03,348::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:03:03,364::WARNING::database.py::860 while authorization!
+2022-05-25 14:03:34,084::INFO::database.py::842 check user authorization!
+2022-05-25 14:03:34,163::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:03:34,194::WARNING::database.py::860 while authorization!
+2022-05-25 14:04:08,655::INFO::database.py::842 check user authorization!
+2022-05-25 14:04:08,692::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:04:08,712::WARNING::database.py::860 while authorization!
+2022-05-25 14:04:14,336::INFO::database.py::842 check user authorization!
+2022-05-25 14:04:14,372::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:04:14,759::WARNING::database.py::860 while authorization!
+2022-05-25 14:15:08,509::INFO::database.py::842 check user authorization!
+2022-05-25 14:15:08,540::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:15:08,561::WARNING::database.py::860 while authorization!
+2022-05-25 14:15:29,336::INFO::database.py::842 check user authorization!
+2022-05-25 14:15:29,368::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:15:29,384::WARNING::database.py::860 while authorization!
+2022-05-25 14:15:44,124::INFO::database.py::842 check user authorization!
+2022-05-25 14:15:44,170::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:15:44,186::WARNING::database.py::860 while authorization!
+2022-05-25 14:17:13,292::INFO::database.py::842 check user authorization!
+2022-05-25 14:17:13,334::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:17:13,385::WARNING::database.py::860 while authorization!
+2022-05-25 14:17:41,768::INFO::database.py::842 check user authorization!
+2022-05-25 14:17:41,805::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:17:41,866::WARNING::database.py::860 while authorization!
+2022-05-25 14:18:17,254::INFO::database.py::842 check user authorization!
+2022-05-25 14:18:17,336::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:18:17,505::WARNING::database.py::860 while authorization!
+2022-05-25 14:18:34,444::INFO::database.py::842 check user authorization!
+2022-05-25 14:18:34,480::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:18:34,511::WARNING::database.py::860 while authorization!
+2022-05-25 14:18:47,884::INFO::database.py::842 check user authorization!
+2022-05-25 14:18:47,916::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:18:47,962::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:18:48,013::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 14:18:48,024::DEBUG::database.py::285 get count rows!
+2022-05-25 14:18:59,901::INFO::database.py::842 check user authorization!
+2022-05-25 14:19:00,029::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:19:00,085::WARNING::database.py::860 while authorization!
+2022-05-25 14:19:04,755::INFO::database.py::842 check user authorization!
+2022-05-25 14:19:04,817::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:19:04,884::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:19:04,955::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 14:19:04,966::DEBUG::database.py::285 get count rows!
+2022-05-25 14:19:05,202::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:19:05,335::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 14:19:05,346::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:19:05,366::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:19:05,372::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 14:19:05,382::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:26:24,200::INFO::database.py::842 check user authorization!
+2022-05-25 14:26:24,221::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:26:24,492::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:26:24,544::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 14:26:24,555::DEBUG::database.py::285 get count rows!
+2022-05-25 14:26:24,616::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:26:24,627::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 14:26:24,693::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:26:24,725::DEBUG::database.py::184 fetch all data!
+2022-05-25 14:26:24,740::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 14:26:24,792::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:27:24,683::INFO::database.py::842 check user authorization!
+2022-05-25 14:27:24,725::DEBUG::database.py::195 fetch one data!
+2022-05-25 14:27:24,847::WARNING::database.py::860 while authorization!
+2022-05-25 15:07:06,786::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:07:06,868::DEBUG::database.py::285 get count rows!
+2022-05-25 15:07:07,461::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:07:07,466::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:07:07,666::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:07:07,717::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:07:07,723::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:07:07,764::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:08:26,317::DEBUG::database.py::285 get count rows!
+2022-05-25 15:08:26,359::DEBUG::database.py::285 get count rows!
+2022-05-25 15:08:29,073::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 15:08:29,083::DEBUG::database.py::285 get count rows!
+2022-05-25 15:08:58,451::INFO::database.py::842 check user authorization!
+2022-05-25 15:08:58,473::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:08:58,524::WARNING::database.py::860 while authorization!
+2022-05-25 15:09:04,312::INFO::database.py::842 check user authorization!
+2022-05-25 15:09:04,333::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:04,415::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:04,472::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:09:04,559::DEBUG::database.py::285 get count rows!
+2022-05-25 15:09:04,646::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:04,661::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:09:04,687::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:04,713::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:04,734::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:09:04,754::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:22,821::INFO::database.py::842 check user authorization!
+2022-05-25 15:09:22,848::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:23,190::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:23,507::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:09:23,513::DEBUG::database.py::285 get count rows!
+2022-05-25 15:09:42,326::INFO::database.py::842 check user authorization!
+2022-05-25 15:09:42,399::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:42,450::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:42,512::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:09:42,522::DEBUG::database.py::285 get count rows!
+2022-05-25 15:09:42,584::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:42,595::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:09:42,661::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:42,717::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:42,743::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:09:42,774::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:58,594::INFO::database.py::842 check user authorization!
+2022-05-25 15:09:58,723::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:09:58,770::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:09:58,806::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:09:58,867::DEBUG::database.py::285 get count rows!
+2022-05-25 15:10:34,516::INFO::database.py::842 check user authorization!
+2022-05-25 15:10:34,556::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:10:34,608::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:10:34,659::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:10:34,670::DEBUG::database.py::285 get count rows!
+2022-05-25 15:11:26,995::INFO::database.py::842 check user authorization!
+2022-05-25 15:11:27,037::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:11:27,068::WARNING::database.py::860 while authorization!
+2022-05-25 15:11:35,594::INFO::database.py::842 check user authorization!
+2022-05-25 15:11:35,615::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:11:35,662::WARNING::database.py::860 while authorization!
+2022-05-25 15:11:51,469::INFO::database.py::842 check user authorization!
+2022-05-25 15:11:51,689::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:11:51,725::WARNING::database.py::860 while authorization!
+2022-05-25 15:11:58,843::INFO::database.py::842 check user authorization!
+2022-05-25 15:11:58,874::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:11:59,012::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:11:59,120::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:11:59,130::DEBUG::database.py::285 get count rows!
+2022-05-25 15:11:59,218::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:11:59,233::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:11:59,274::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:11:59,331::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:11:59,356::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:11:59,418::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:12:12,190::INFO::database.py::842 check user authorization!
+2022-05-25 15:12:12,380::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:12:12,401::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:12:12,555::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:12:12,560::DEBUG::database.py::285 get count rows!
+2022-05-25 15:13:28,498::INFO::database.py::842 check user authorization!
+2022-05-25 15:13:28,545::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:13:28,571::WARNING::database.py::860 while authorization!
+2022-05-25 15:13:49,791::INFO::database.py::842 check user authorization!
+2022-05-25 15:13:49,828::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:13:50,195::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:13:50,252::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:13:50,262::DEBUG::database.py::285 get count rows!
+2022-05-25 15:14:06,415::INFO::database.py::842 check user authorization!
+2022-05-25 15:14:06,427::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:14:06,458::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:14:07,050::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:14:07,055::DEBUG::database.py::285 get count rows!
+2022-05-25 15:14:49,927::INFO::database.py::842 check user authorization!
+2022-05-25 15:14:49,959::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:14:50,106::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:14:50,214::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:14:50,224::DEBUG::database.py::285 get count rows!
+2022-05-25 15:15:23,567::INFO::database.py::842 check user authorization!
+2022-05-25 15:15:23,624::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:15:23,660::WARNING::database.py::860 while authorization!
+2022-05-25 15:15:31,730::INFO::database.py::842 check user authorization!
+2022-05-25 15:15:31,766::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:15:31,818::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:15:31,905::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:15:31,916::DEBUG::database.py::285 get count rows!
+2022-05-25 15:15:58,564::INFO::database.py::842 check user authorization!
+2022-05-25 15:15:58,717::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:15:58,758::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:15:58,845::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:15:58,851::DEBUG::database.py::285 get count rows!
+2022-05-25 15:16:34,307::INFO::database.py::842 check user authorization!
+2022-05-25 15:16:34,343::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:16:34,379::WARNING::database.py::860 while authorization!
+2022-05-25 15:16:45,995::INFO::database.py::842 check user authorization!
+2022-05-25 15:16:46,053::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:16:46,334::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:16:46,400::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:16:46,472::DEBUG::database.py::285 get count rows!
+2022-05-25 15:17:42,018::INFO::database.py::842 check user authorization!
+2022-05-25 15:17:42,070::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:17:42,106::WARNING::database.py::860 while authorization!
+2022-05-25 15:17:55,712::INFO::database.py::842 check user authorization!
+2022-05-25 15:17:55,739::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:17:55,862::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:17:56,270::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:17:56,276::DEBUG::database.py::285 get count rows!
+2022-05-25 15:18:37,446::INFO::database.py::842 check user authorization!
+2022-05-25 15:18:37,478::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:18:37,611::WARNING::database.py::860 while authorization!
+2022-05-25 15:18:46,405::INFO::database.py::842 check user authorization!
+2022-05-25 15:18:46,447::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:18:46,483::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:18:46,509::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:18:46,520::DEBUG::database.py::285 get count rows!
+2022-05-25 15:19:50,208::INFO::database.py::842 check user authorization!
+2022-05-25 15:19:50,219::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:19:50,240::WARNING::database.py::860 while authorization!
+2022-05-25 15:20:03,662::INFO::database.py::842 check user authorization!
+2022-05-25 15:20:03,703::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:20:03,785::WARNING::database.py::860 while authorization!
+2022-05-25 15:20:12,488::INFO::database.py::842 check user authorization!
+2022-05-25 15:20:12,740::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:20:12,806::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:20:12,858::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:20:12,868::DEBUG::database.py::285 get count rows!
+2022-05-25 15:21:56,133::INFO::database.py::842 check user authorization!
+2022-05-25 15:21:56,175::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:21:56,201::WARNING::database.py::860 while authorization!
+2022-05-25 15:22:14,492::INFO::database.py::842 check user authorization!
+2022-05-25 15:22:14,510::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:22:14,638::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:22:14,654::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:22:14,661::DEBUG::database.py::285 get count rows!
+2022-05-25 15:22:37,248::INFO::database.py::842 check user authorization!
+2022-05-25 15:22:37,285::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:22:37,438::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:22:37,500::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:22:37,511::DEBUG::database.py::285 get count rows!
+2022-05-25 15:23:03,452::INFO::database.py::842 check user authorization!
+2022-05-25 15:23:03,489::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:23:03,561::WARNING::database.py::860 while authorization!
+2022-05-25 15:23:13,771::INFO::database.py::842 check user authorization!
+2022-05-25 15:23:13,814::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:23:13,937::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:23:14,024::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:23:14,034::DEBUG::database.py::285 get count rows!
+2022-05-25 15:23:25,551::INFO::database.py::842 check user authorization!
+2022-05-25 15:23:25,670::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:23:26,040::WARNING::database.py::860 while authorization!
+2022-05-25 15:23:44,575::INFO::database.py::842 check user authorization!
+2022-05-25 15:23:44,620::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:23:44,637::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:23:44,653::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:23:44,658::DEBUG::database.py::285 get count rows!
+2022-05-25 15:24:18,782::INFO::database.py::842 check user authorization!
+2022-05-25 15:24:18,809::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:24:18,993::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:24:19,106::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:24:19,116::DEBUG::database.py::285 get count rows!
+2022-05-25 15:24:19,219::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:24:19,234::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:24:19,255::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:24:19,362::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:24:19,377::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:24:19,434::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:26:34,757::INFO::database.py::842 check user authorization!
+2022-05-25 15:26:34,789::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:26:34,805::WARNING::database.py::860 while authorization!
+2022-05-25 15:26:40,434::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:26:40,445::DEBUG::database.py::285 get count rows!
+2022-05-25 15:26:40,517::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:26:40,527::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:26:40,609::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:26:40,655::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:26:40,666::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:26:40,737::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:27:02,079::INFO::database.py::842 check user authorization!
+2022-05-25 15:27:02,278::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:27:02,339::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:27:02,544::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:27:02,554::DEBUG::database.py::285 get count rows!
+2022-05-25 15:27:02,749::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:27:02,759::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:27:02,795::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:27:02,826::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:27:02,837::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:27:02,893::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:28:04,518::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:28:04,630::DEBUG::database.py::285 get count rows!
+2022-05-25 15:28:04,783::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:28:04,794::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:28:04,845::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:28:04,896::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:28:04,907::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:28:05,019::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:13,554::INFO::database.py::842 check user authorization!
+2022-05-25 15:35:13,571::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:13,607::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:35:13,694::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:35:13,705::DEBUG::database.py::285 get count rows!
+2022-05-25 15:35:13,782::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:35:13,813::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:35:13,875::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:13,910::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:35:13,926::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:35:13,947::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:24,002::INFO::database.py::842 check user authorization!
+2022-05-25 15:35:24,035::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:24,051::WARNING::database.py::860 while authorization!
+2022-05-25 15:35:29,423::INFO::database.py::842 check user authorization!
+2022-05-25 15:35:29,470::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:29,562::WARNING::database.py::860 while authorization!
+2022-05-25 15:35:36,167::INFO::database.py::842 check user authorization!
+2022-05-25 15:35:36,203::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:36,219::WARNING::database.py::860 while authorization!
+2022-05-25 15:35:45,723::INFO::database.py::842 check user authorization!
+2022-05-25 15:35:45,740::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:45,776::WARNING::database.py::860 while authorization!
+2022-05-25 15:35:51,295::INFO::database.py::842 check user authorization!
+2022-05-25 15:35:51,333::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:51,410::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:35:51,568::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:35:51,579::DEBUG::database.py::285 get count rows!
+2022-05-25 15:35:51,671::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:35:51,682::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:35:51,738::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:35:51,988::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:35:52,003::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:35:52,196::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:36:53,585::DEBUG::database.py::633 get data from userlist!
+2022-05-25 15:36:53,598::DEBUG::database.py::205 select all data!
+2022-05-25 15:39:18,730::INFO::database.py::842 check user authorization!
+2022-05-25 15:39:18,772::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:39:18,838::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:39:19,093::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 15:39:19,104::DEBUG::database.py::285 get count rows!
+2022-05-25 15:40:06,896::INFO::database.py::842 check user authorization!
+2022-05-25 15:40:06,998::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:40:07,034::WARNING::database.py::860 while authorization!
+2022-05-25 15:40:11,793::INFO::database.py::842 check user authorization!
+2022-05-25 15:40:11,830::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:40:11,907::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:40:11,964::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:40:11,974::DEBUG::database.py::285 get count rows!
+2022-05-25 15:40:12,047::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:40:12,052::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:40:12,063::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:40:12,303::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:40:12,309::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:40:12,319::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:40:22,807::DEBUG::database.py::677 get data from trans vehicle logs!
+2022-05-25 15:40:22,812::DEBUG::database.py::656 get data from table where datetime!
+2022-05-25 15:40:23,572::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:56:34,033::DEBUG::database.py::285 get count rows!
+2022-05-25 15:56:34,074::DEBUG::database.py::285 get count rows!
+2022-05-25 15:56:36,765::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 15:56:36,776::DEBUG::database.py::285 get count rows!
+2022-05-25 15:56:53,126::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 15:56:53,158::DEBUG::database.py::285 get count rows!
+2022-05-25 15:56:53,469::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:56:53,485::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:56:53,496::DEBUG::database.py::195 fetch one data!
+2022-05-25 15:56:53,512::DEBUG::database.py::184 fetch all data!
+2022-05-25 15:56:53,517::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 15:56:53,528::DEBUG::database.py::195 fetch one data!
+2022-05-25 17:38:11,483::DEBUG::database.py::285 get count rows!
+2022-05-25 17:38:11,523::DEBUG::database.py::285 get count rows!
+2022-05-25 17:38:13,997::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 17:38:14,008::DEBUG::database.py::285 get count rows!
+2022-05-25 17:49:24,942::DEBUG::database.py::285 get count rows!
+2022-05-25 17:49:24,972::DEBUG::database.py::285 get count rows!
+2022-05-25 17:49:27,890::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 17:49:27,902::DEBUG::database.py::285 get count rows!
+2022-05-25 17:57:55,096::DEBUG::database.py::411 select all data from column!
+2022-05-25 17:57:55,133::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:57:55,346::DEBUG::database.py::357 save transaction with limit tag id 30361FAD281E5817487E871A
+2022-05-25 17:58:01,824::DEBUG::database.py::411 select all data from column!
+2022-05-25 17:58:01,851::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:58:01,975::DEBUG::database.py::357 save transaction with limit tag id 30361FAD281E5817487E87F2
+2022-05-25 17:58:20,997::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 17:58:21,008::DEBUG::database.py::285 get count rows!
+2022-05-25 17:58:21,030::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:58:21,035::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 17:58:21,046::DEBUG::database.py::195 fetch one data!
+2022-05-25 17:58:21,062::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:58:21,067::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 17:58:21,078::DEBUG::database.py::195 fetch one data!
+2022-05-25 17:58:35,274::DEBUG::database.py::411 select all data from column!
+2022-05-25 17:58:35,311::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:58:35,442::DEBUG::database.py::357 save transaction with limit tag id 30361FAD281E5817487E871A
+2022-05-25 17:58:42,765::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 17:58:42,775::DEBUG::database.py::285 get count rows!
+2022-05-25 17:58:42,842::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:58:42,853::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 17:58:42,904::DEBUG::database.py::195 fetch one data!
+2022-05-25 17:58:43,032::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:58:43,093::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 17:58:43,144::DEBUG::database.py::195 fetch one data!
+2022-05-25 17:58:52,239::DEBUG::database.py::411 select all data from column!
+2022-05-25 17:58:52,270::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:58:52,376::DEBUG::database.py::357 save transaction with limit tag id 30361FAD281E5817487E871A
+2022-05-25 17:58:59,350::DEBUG::database.py::411 select all data from column!
+2022-05-25 17:58:59,371::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:59:08,973::DEBUG::database.py::411 select all data from column!
+2022-05-25 17:59:09,005::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:59:09,104::DEBUG::database.py::357 save transaction with limit tag id 00361F46981138174876EE46
+2022-05-25 17:59:15,645::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 17:59:15,656::DEBUG::database.py::285 get count rows!
+2022-05-25 17:59:15,784::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:59:15,795::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 17:59:15,831::DEBUG::database.py::195 fetch one data!
+2022-05-25 17:59:15,958::DEBUG::database.py::184 fetch all data!
+2022-05-25 17:59:15,969::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 17:59:15,989::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:00:09,444::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 18:00:09,480::DEBUG::database.py::285 get count rows!
+2022-05-25 18:00:09,593::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:00:09,604::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:00:09,620::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:00:09,691::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:00:09,697::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:00:09,712::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:00:29,405::INFO::database.py::842 check user authorization!
+2022-05-25 18:00:29,462::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:00:29,667::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:00:29,713::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 18:00:29,724::DEBUG::database.py::285 get count rows!
+2022-05-25 18:00:29,801::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:00:29,811::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:00:29,867::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:00:29,995::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:00:30,005::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:00:30,051::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:00:47,339::INFO::database.py::842 check user authorization!
+2022-05-25 18:00:47,396::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:00:47,432::WARNING::database.py::860 while authorization!
+2022-05-25 18:01:05,201::INFO::database.py::842 check user authorization!
+2022-05-25 18:01:05,248::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:01:05,294::WARNING::database.py::860 while authorization!
+2022-05-25 18:01:27,337::INFO::database.py::842 check user authorization!
+2022-05-25 18:01:27,420::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:01:27,507::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:01:27,589::INFO::database.py::810 updating login user shahu
+2022-05-25 18:01:27,599::DEBUG::database.py::285 get count rows!
+2022-05-25 18:01:39,707::INFO::database.py::842 check user authorization!
+2022-05-25 18:01:39,825::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:01:39,876::WARNING::database.py::860 while authorization!
+2022-05-25 18:01:45,563::INFO::database.py::842 check user authorization!
+2022-05-25 18:01:45,640::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:01:45,834::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:01:45,901::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 18:01:45,911::DEBUG::database.py::285 get count rows!
+2022-05-25 18:01:46,192::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:01:46,198::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:01:46,208::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:01:46,597::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:01:46,603::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:01:46,619::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:02:04,507::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 18:02:04,518::DEBUG::database.py::285 get count rows!
+2022-05-25 18:02:04,615::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:02:04,621::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:02:04,642::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:02:04,708::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:02:05,050::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:02:05,111::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:08:19,458::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 18:08:19,489::DEBUG::database.py::285 get count rows!
+2022-05-25 18:08:19,943::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:08:20,338::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:08:20,404::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:08:20,456::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:08:20,466::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:08:20,487::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:12:04,886::INFO::database.py::842 check user authorization!
+2022-05-25 18:12:04,964::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:12:05,011::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:12:05,078::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 18:12:05,088::DEBUG::database.py::285 get count rows!
+2022-05-25 18:12:05,186::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:12:05,211::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:12:05,751::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:12:05,854::DEBUG::database.py::184 fetch all data!
+2022-05-25 18:12:05,865::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 18:12:06,013::DEBUG::database.py::195 fetch one data!
+2022-05-25 18:12:15,664::DEBUG::database.py::677 get data from trans vehicle logs!
+2022-05-25 18:12:15,670::DEBUG::database.py::656 get data from table where datetime!
+2022-05-25 18:12:15,702::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:02:36,321::DEBUG::database.py::285 get count rows!
+2022-05-25 19:02:36,356::DEBUG::database.py::285 get count rows!
+2022-05-25 19:02:39,881::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 19:02:40,142::DEBUG::database.py::285 get count rows!
+2022-05-25 19:08:54,656::DEBUG::database.py::285 get count rows!
+2022-05-25 19:08:54,693::DEBUG::database.py::285 get count rows!
+2022-05-25 19:08:57,122::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 19:08:57,149::DEBUG::database.py::285 get count rows!
+2022-05-25 19:25:17,326::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:25:17,337::DEBUG::database.py::285 get count rows!
+2022-05-25 19:25:17,435::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:25:17,451::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:25:17,777::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:25:17,940::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:25:17,966::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:25:18,028::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:25:31,730::DEBUG::database.py::285 get count rows!
+2022-05-25 19:25:31,757::DEBUG::database.py::285 get count rows!
+2022-05-25 19:25:32,968::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:25:32,983::DEBUG::database.py::285 get count rows!
+2022-05-25 19:25:33,642::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:25:33,648::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:25:33,704::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:25:33,772::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:25:33,792::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:25:33,890::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:25:34,519::DEBUG::database.py::467 inserting user vehicle !
+2022-05-25 19:25:34,540::DEBUG::database.py::285 get count rows!
+2022-05-25 19:25:37,268::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:25:37,269::DEBUG::database.py::285 get count rows!
+2022-05-25 19:25:37,383::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:25:37,403::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:25:37,501::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:25:37,550::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:25:37,556::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:25:37,684::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:06,634::INFO::database.py::842 check user authorization!
+2022-05-25 19:26:06,869::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:06,910::WARNING::database.py::860 while authorization!
+2022-05-25 19:26:22,488::INFO::database.py::842 check user authorization!
+2022-05-25 19:26:22,610::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:23,043::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:23,095::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 19:26:23,106::DEBUG::database.py::285 get count rows!
+2022-05-25 19:26:32,502::INFO::database.py::842 check user authorization!
+2022-05-25 19:26:32,514::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:32,514::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:32,515::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:26:32,515::DEBUG::database.py::285 get count rows!
+2022-05-25 19:26:32,516::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:32,516::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:26:32,517::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:32,517::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:32,518::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:26:32,518::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:43,999::INFO::database.py::842 check user authorization!
+2022-05-25 19:26:44,021::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:44,368::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:44,414::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 19:26:44,425::DEBUG::database.py::285 get count rows!
+2022-05-25 19:26:51,583::INFO::database.py::842 check user authorization!
+2022-05-25 19:26:51,630::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:51,671::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:51,702::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:26:51,712::DEBUG::database.py::285 get count rows!
+2022-05-25 19:26:51,881::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:51,897::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:26:51,927::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:26:51,969::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:26:51,979::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:26:52,213::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:34:10,071::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:34:10,132::DEBUG::database.py::285 get count rows!
+2022-05-25 19:34:10,209::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:34:10,220::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:34:11,193::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:34:11,290::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:34:11,300::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:34:11,346::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:34:24,924::INFO::database.py::842 check user authorization!
+2022-05-25 19:34:25,363::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:34:25,450::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:34:25,511::INFO::database.py::810 updating login user iTEKAVI
+2022-05-25 19:34:25,522::DEBUG::database.py::285 get count rows!
+2022-05-25 19:34:30,004::INFO::database.py::842 check user authorization!
+2022-05-25 19:34:30,194::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:34:30,373::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:34:30,521::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:34:30,532::DEBUG::database.py::285 get count rows!
+2022-05-25 19:34:30,614::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:34:30,640::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:34:30,716::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:34:30,854::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:34:30,864::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:34:30,880::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:39:14,950::INFO::database.py::842 check user authorization!
+2022-05-25 19:39:14,971::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:39:15,028::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:39:15,554::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:39:15,560::DEBUG::database.py::285 get count rows!
+2022-05-25 19:39:15,847::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:39:15,852::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:39:15,863::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:39:15,884::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:39:15,889::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:39:15,900::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:39:43,857::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:39:43,868::DEBUG::database.py::285 get count rows!
+2022-05-25 19:39:43,955::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:39:43,966::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:39:44,002::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:39:44,211::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:39:44,237::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:39:44,339::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:39:47,884::DEBUG::database.py::695 getting dashboard data!
+2022-05-25 19:39:47,935::DEBUG::database.py::285 get count rows!
+2022-05-25 19:39:48,207::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:39:48,217::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:39:48,248::DEBUG::database.py::195 fetch one data!
+2022-05-25 19:39:48,315::DEBUG::database.py::184 fetch all data!
+2022-05-25 19:39:48,325::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-25 19:39:48,371::DEBUG::database.py::195 fetch one data!

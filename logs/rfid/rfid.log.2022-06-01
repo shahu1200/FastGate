@@ -1,0 +1,105 @@
+2022-06-01 14:45:31,201::DEBUG::reader.py::118 RFID service started...
+2022-06-01 14:45:49,001::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 14:45:57,326::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 14:45:58,298::INFO::reader.py::350 rfid setup done!
+2022-06-01 14:45:58,303::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 16:46:29,501::DEBUG::reader.py::118 RFID service started...
+2022-06-01 16:46:30,594::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 16:46:40,810::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 16:46:42,727::INFO::reader.py::350 rfid setup done!
+2022-06-01 16:46:42,773::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:00:01,504::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:00:02,340::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:00:15,907::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:00:18,077::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:00:18,087::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:08:11,405::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:08:12,140::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:08:20,964::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:08:22,076::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:08:22,082::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:09:12,830::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:09:13,702::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:09:26,688::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:09:28,295::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:09:28,306::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:17:46,401::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:17:47,270::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:17:56,312::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:17:57,874::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:17:57,920::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:25:02,361::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:25:03,303::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:25:15,396::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:25:18,082::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:25:18,088::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:46:48,236::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:46:49,146::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:46:57,863::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:46:59,453::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:46:59,458::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:53:36,428::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:53:37,345::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:53:46,434::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:53:47,860::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:53:47,870::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 17:56:24,400::DEBUG::reader.py::118 RFID service started...
+2022-06-01 17:56:25,250::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 17:56:33,878::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 17:56:36,917::INFO::reader.py::350 rfid setup done!
+2022-06-01 17:56:37,034::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 18:08:59,037::DEBUG::reader.py::118 RFID service started...
+2022-06-01 18:08:59,901::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 18:09:13,981::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 18:09:16,918::INFO::reader.py::350 rfid setup done!
+2022-06-01 18:09:17,096::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 18:29:37,945::DEBUG::reader.py::118 RFID service started...
+2022-06-01 18:29:38,905::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 18:29:49,058::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 18:29:50,666::INFO::reader.py::350 rfid setup done!
+2022-06-01 18:29:50,677::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 18:36:16,214::DEBUG::reader.py::118 RFID service started...
+2022-06-01 18:36:17,024::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 18:36:25,556::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 18:36:27,646::INFO::reader.py::350 rfid setup done!
+2022-06-01 18:36:27,657::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:41:21,862::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:41:22,750::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:41:30,293::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:41:31,862::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:41:31,873::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:45:41,254::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:45:42,138::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:45:53,498::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:45:54,789::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:45:54,800::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:47:19,688::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:47:20,712::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:47:34,697::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:47:36,866::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:47:36,872::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:49:17,572::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:49:18,433::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:49:30,383::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:49:32,696::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:49:32,706::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:50:59,340::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:51:00,211::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:51:08,724::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:51:10,460::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:51:10,471::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:55:39,114::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:55:40,161::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:55:49,169::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:55:51,465::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:55:51,476::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:56:59,779::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:57:00,677::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:57:12,444::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:57:15,442::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:57:15,453::DEBUG::reader.py::123 RFID published message =  on topic 6
+2022-06-01 19:58:07,795::DEBUG::reader.py::118 RFID service started...
+2022-06-01 19:58:08,580::DEBUG::reader.py::123 RFID published message = {'oem_epc': '692d54454b72666964746167', 'tagType': 'both', 'encode_method': 1, 'max_encode_retry': 3, 'reader': 'MRU102', 'reader_id': '', 'epc_mask': '', 'interface': 'serial', 'baudrate': 38400, 'parity': 'NONE', 'port': '/dev/ttyS0', 'reader_ip': '192.168.6.15', 'reader_port': 10001, 'antennas': [[1, 200, 0], [2, 200, 0], [3, 500, 0], [4, 500, 0]], 'antennas_name': ['IN', 'OUT', 'NA', 'NA'], 'ant_location': ['Main gate', 'Main Gate', 'location3', 'location4'], 'epc_len': 24} on topic 1
+2022-06-01 19:58:17,107::INFO::reader.py::304 reader connect to interface!..
+2022-06-01 19:58:21,220::INFO::reader.py::350 rfid setup done!
+2022-06-01 19:58:21,225::DEBUG::reader.py::123 RFID published message =  on topic 6

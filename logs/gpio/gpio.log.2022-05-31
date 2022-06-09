@@ -1,0 +1,296 @@
+2022-05-31 09:52:01,480::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:01,481::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:01,481::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:01,481::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:01,481::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:01,482::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:01,482::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 09:52:06,500::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:06,501::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:06,501::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:06,501::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:06,502::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:06,502::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:52:21,219::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 09:52:21,224::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 09:52:21,230::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 09:52:21,235::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 09:52:21,271::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 09:52:21,833::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 09:52:22,627::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 09:52:23,109::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 09:52:23,710::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 09:52:53,419::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 09:53:33,044::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:33,044::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:33,044::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:33,044::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:33,045::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:33,045::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:33,045::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 09:53:38,060::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:38,060::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:38,061::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:38,061::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:38,061::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:38,062::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 09:53:47,571::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 09:53:47,576::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 09:53:47,577::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 09:53:47,582::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 09:53:47,592::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 09:53:48,002::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 09:53:48,462::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 09:53:48,976::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 09:53:49,383::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 09:53:49,800::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 09:53:50,237::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 09:55:14,846::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 10:04:42,799::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:42,800::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:42,800::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:42,800::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:42,801::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:42,801::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:42,801::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 10:04:47,816::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:47,816::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:47,817::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:47,817::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:47,817::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:47,818::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:04:55,581::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 10:04:55,582::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 10:04:55,587::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 10:04:55,593::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 10:04:55,598::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 10:04:56,002::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:04:56,419::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:04:56,828::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:04:57,240::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:04:57,653::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:04:58,060::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:05:24,692::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 10:06:42,950::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:42,950::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:42,951::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:42,951::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:42,951::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:42,951::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:42,951::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 10:06:47,968::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:47,968::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:47,969::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:47,969::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:47,969::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:47,970::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:06:59,043::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 10:06:59,048::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 10:06:59,053::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 10:06:59,059::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 10:06:59,069::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 10:06:59,710::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:07:00,127::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:07:00,559::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:07:00,996::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:07:24,226::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 10:14:59,581::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:14:59,581::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:14:59,582::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:14:59,582::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:14:59,582::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:14:59,582::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:14:59,582::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 10:15:04,595::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:15:04,596::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:15:04,596::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:15:04,596::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:15:04,597::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:15:04,597::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:15:12,958::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 10:15:12,963::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 10:15:12,963::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 10:15:12,979::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 10:15:12,990::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 10:15:13,392::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:15:13,805::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:15:14,227::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:15:14,650::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:15:15,073::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:15:15,501::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:19:32,304::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 10:24:28,107::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:28,108::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:28,108::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:28,108::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:28,108::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:28,108::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:28,109::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 10:24:33,123::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:33,124::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:33,124::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:33,125::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:33,125::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:33,126::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:24:47,372::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 10:24:47,378::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 10:24:47,383::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 10:24:47,397::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 10:24:47,403::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 10:24:47,840::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:24:48,256::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:24:48,826::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:24:49,253::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:24:49,686::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:24:50,358::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:28:57,278::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 10:29:01,203::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:01,203::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:01,204::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:01,204::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:01,204::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:01,204::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:01,204::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 10:29:06,218::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:06,218::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:06,219::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:06,219::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:06,219::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:06,220::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 10:29:14,584::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 10:29:14,590::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 10:29:14,605::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 10:29:14,626::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 10:29:14,632::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 10:29:15,039::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:29:15,459::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:29:15,874::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:29:16,298::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:29:16,706::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 10:29:17,134::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 10:35:15,655::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 11:12:29,952::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:29,956::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:29,956::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:29,956::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:29,956::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:29,957::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:29,957::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 11:12:34,975::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:34,976::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:34,976::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:34,977::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:34,977::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:34,978::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 11:12:48,359::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 11:12:48,365::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 11:12:48,431::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 11:12:48,472::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 11:12:48,477::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 11:12:48,930::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 11:12:49,378::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 11:12:49,805::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 11:12:50,231::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 11:12:50,641::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 11:12:51,221::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 11:30:07,417::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 14:05:11,334::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:11,338::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:11,339::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:11,339::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:11,339::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:11,339::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:11,339::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 14:05:16,356::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:16,357::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:16,357::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:16,357::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:16,357::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:16,357::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:05:26,251::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 14:05:26,257::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 14:05:26,257::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 14:05:26,263::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 14:05:26,401::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 14:05:26,694::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:05:27,109::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:05:27,577::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:05:27,998::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:05:28,399::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:05:28,901::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:07:27,883::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 14:07:31,440::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:31,440::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:31,441::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:31,441::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:31,441::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:31,441::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:31,441::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 14:07:36,447::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:36,447::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:36,448::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:36,448::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:36,448::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:36,448::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:07:45,737::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 14:07:45,743::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 14:07:45,743::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 14:07:45,748::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 14:07:45,800::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 14:07:46,164::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:07:46,580::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:07:47,004::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:07:47,421::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:07:47,869::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:07:48,272::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:09:38,773::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 14:09:57,021::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:09:57,021::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:09:57,021::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:09:57,022::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:09:57,022::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:09:57,022::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:09:57,022::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 14:10:02,032::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:10:02,032::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:10:02,033::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:10:02,033::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:10:02,033::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:10:02,033::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:10:10,526::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 14:10:10,532::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 14:10:10,532::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 14:10:10,537::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 14:10:10,543::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 14:10:10,962::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:10:11,394::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:10:11,802::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:10:12,295::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:10:12,713::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:10:13,150::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:12:05,886::DEBUG::gpio_process.py::106 stopping program running blink thread
+2022-05-31 14:13:49,531::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:49,535::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:49,535::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:49,535::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:49,536::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:49,536::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:49,536::DEBUG::gpio_process.py::111 blink booting light thread!
+2022-05-31 14:13:54,555::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:54,556::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:54,556::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:54,556::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:54,557::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:13:54,557::DEBUG::HandleGpio.py::340 IO Blink thread
+2022-05-31 14:14:12,383::DEBUG::gpio_process.py::121 stopping booting light blink thread
+2022-05-31 14:14:12,384::DEBUG::gpio_process.py::205 start up buzzer blink
+2022-05-31 14:14:12,389::DEBUG::HandleGpio.py::383 IO Blink thread
+2022-05-31 14:14:12,491::DEBUG::HandleGpio.py::394 IO Blink thread running pin 23
+2022-05-31 14:14:12,507::DEBUG::gpio_process.py::96 blink program running thread!
+2022-05-31 14:14:12,907::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:14:13,326::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:14:13,754::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:14:14,156::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 14:14:14,567::INFO::HandleGpio.py::403 on out : 23
+2022-05-31 14:14:15,096::INFO::HandleGpio.py::408 off out : 23
+2022-05-31 19:09:49,485::DEBUG::gpio_process.py::106 stopping program running blink thread

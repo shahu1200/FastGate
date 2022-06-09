@@ -1,0 +1,1381 @@
+2022-06-08 11:58:29,473::INFO::main.py::127 Local config read ... OK
+2022-06-08 11:58:34,488::INFO::main.py::734 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 11:58:35,487::INFO::main.py::409 periodic thread started!
+2022-06-08 11:58:35,500::DEBUG::main.py::195 started message listner!....
+2022-06-08 11:58:35,667::DEBUG::main.py::520 Device ID : E4:5F:01:82:7B:03
+2022-06-08 11:58:36,268::INFO::main.py::546 RTC get datetime= 2022-06-08 11:58:19
+2022-06-08 11:58:36,279::DEBUG::main.py::366 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 11:58:36,285::DEBUG::main.py::557 >>> Start scanning !.....
+2022-06-08 11:58:36,330::DEBUG::main.py::173 process rfid fastgate
+2022-06-08 11:58:37,989::DEBUG::main.py::354 send start scanning : {'topic': 'mqtt', 'type': None, 'data': {'action': 'userConfig', 'data': {'deviceId': None, 'time': None, 'userVehicle': {'add': [{'tagId': None, 'fromDate': '2022-05-25 00:00:00', 'toDate': '2022-05-27 00:00:00', 'weekDay': 'A', 'fromTime': '00:00:00', 'toTime': '00:00:00'}], 'edit': [], 'del': [], 'block': []}}}}
+2022-06-08 11:58:38,008::INFO::main.py::229 call url : http://192.168.1.203:8080/api/userConfig
+2022-06-08 11:58:38,721::INFO::main.py::233 response : <Response [200]>
+2022-06-08 11:58:49,692::DEBUG::main.py::160 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 11:58:54,359::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:58:54,364::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:58:54,365::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:58:54,517::INFO::main.py::591 resp url : 201
+2022-06-08 11:58:54,532::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 11:58:54,677::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 11:59:00,068::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:00,074::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:00,079::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:00,195::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:05,664::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:05,665::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:05,665::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:05,675::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:11,950::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:11,961::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:11,966::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:12,066::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:17,614::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:17,630::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:17,635::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:17,771::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:23,283::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:23,308::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:23,314::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:23,415::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:29,734::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:29,734::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:29,740::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:29,856::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:34,871::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:34,876::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:34,881::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:34,995::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:41,465::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:41,470::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:41,476::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:41,587::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:46,184::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:46,190::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:46,205::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:46,320::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:51,974::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:51,979::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:51,994::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:52,101::INFO::main.py::591 resp url : 201
+2022-06-08 11:59:57,967::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:57,972::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 11:59:57,977::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 11:59:58,119::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:03,596::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:03,602::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:03,607::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:03,734::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:09,437::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:09,442::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:09,458::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:09,559::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:15,388::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:15,393::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:15,399::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:15,520::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:20,690::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:20,695::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:20,717::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:20,792::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:26,770::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:26,770::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:26,786::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:26,902::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:31,973::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:31,978::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:31,984::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:32,106::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:38,296::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:38,296::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:38,296::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:38,313::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:43,628::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:43,633::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:43,648::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:43,760::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:50,128::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:50,128::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:50,134::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:50,245::INFO::main.py::591 resp url : 201
+2022-06-08 12:00:55,332::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:55,337::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:00:55,343::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:00:55,423::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:00,425::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:00,431::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:00,446::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:00,562::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:05,999::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:06,009::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:06,025::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:06,170::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:11,823::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:11,829::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:11,844::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:11,991::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:17,988::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:17,993::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:17,998::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:18,094::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:23,198::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:23,249::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:23,264::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:23,371::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:29,341::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:29,346::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:29,352::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:29,492::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:35,579::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:35,584::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:35,589::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:35,705::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:41,198::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:41,203::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:41,209::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:41,310::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:46,959::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:46,964::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:46,969::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:47,086::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:52,525::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:52,530::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:52,536::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:52,672::INFO::main.py::591 resp url : 201
+2022-06-08 12:01:58,170::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:58,175::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:01:58,190::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:01:58,303::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:03,887::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:03,893::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:03,898::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:04,010::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:11,470::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:11,470::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:11,476::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:11,542::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:17,057::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:17,063::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:17,078::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:17,217::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:23,989::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:23,994::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:23,999::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:24,125::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:28,424::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:28,430::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:28,445::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:28,566::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:34,031::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:34,036::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:34,052::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:34,153::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:39,856::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:39,892::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:39,948::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:40,059::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:46,069::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:46,075::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:46,100::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:46,226::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:51,468::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:51,473::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:51,489::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:51,593::INFO::main.py::591 resp url : 201
+2022-06-08 12:02:58,099::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:58,104::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:02:58,110::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:02:58,231::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:03,014::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:03,019::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:03,024::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:03,151::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:09,466::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:09,472::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:09,538::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:09,624::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:14,944::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:14,949::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:14,965::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:15,086::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:20,631::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:20,637::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:20,642::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:20,748::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:26,449::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:26,454::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:26,459::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:26,571::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:32,147::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:32,152::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:32,158::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:32,265::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:37,789::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:37,795::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:37,810::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:37,906::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:43,077::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:43,078::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:43,083::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:43,094::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:48,598::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:48,603::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:48,608::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:48,704::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:54,623::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:54,629::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:54,644::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:54,763::INFO::main.py::591 resp url : 201
+2022-06-08 12:03:59,844::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:59,849::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:03:59,854::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:03:59,980::INFO::main.py::591 resp url : 201
+2022-06-08 12:04:05,613::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:05,618::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:05,623::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:04:05,765::INFO::main.py::591 resp url : 201
+2022-06-08 12:04:11,208::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:11,213::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:11,219::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:04:11,321::INFO::main.py::591 resp url : 201
+2022-06-08 12:04:17,081::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:17,086::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:17,102::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:04:17,197::INFO::main.py::591 resp url : 201
+2022-06-08 12:04:22,987::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:22,993::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:22,998::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:04:23,114::INFO::main.py::591 resp url : 201
+2022-06-08 12:04:28,899::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:28,905::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:04:28,910::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:04:29,018::INFO::main.py::591 resp url : 201
+2022-06-08 12:04:30,237::CRITICAL::main.py::728 app Exited!
+2022-06-08 12:18:42,997::INFO::main.py::127 Local config read ... OK
+2022-06-08 12:18:48,013::INFO::main.py::734 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 12:18:48,607::INFO::main.py::409 periodic thread started!
+2022-06-08 12:18:48,621::DEBUG::main.py::195 started message listner!....
+2022-06-08 12:18:48,770::DEBUG::main.py::520 Device ID : E4:5F:01:82:7B:03
+2022-06-08 12:18:49,342::INFO::main.py::546 RTC get datetime= 2022-06-08 12:18:48
+2022-06-08 12:18:49,352::DEBUG::main.py::366 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 12:18:49,358::DEBUG::main.py::173 process rfid fastgate
+2022-06-08 12:18:49,368::DEBUG::main.py::557 >>> Start scanning !.....
+2022-06-08 12:18:51,226::DEBUG::main.py::354 send start scanning : {'topic': 'mqtt', 'type': None, 'data': {'action': 'userConfig', 'data': {'deviceId': None, 'time': None, 'userVehicle': {'add': [{'tagId': None, 'fromDate': '2022-05-25 00:00:00', 'toDate': '2022-05-27 00:00:00', 'weekDay': 'A', 'fromTime': '00:00:00', 'toTime': '00:00:00'}], 'edit': [], 'del': [], 'block': []}}}}
+2022-06-08 12:18:51,263::INFO::main.py::229 call url : http://192.168.1.203:8080/api/userConfig
+2022-06-08 12:18:51,804::INFO::main.py::233 response : <Response [200]>
+2022-06-08 12:18:59,441::DEBUG::main.py::160 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 12:19:04,919::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:19:04,924::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:19:04,930::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:19:05,073::INFO::main.py::591 resp url : 201
+2022-06-08 12:19:05,094::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 12:19:05,246::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 12:19:06,901::CRITICAL::main.py::728 app Exited!
+2022-06-08 12:28:33,265::INFO::main.py::127 Local config read ... OK
+2022-06-08 12:28:38,277::INFO::main.py::734 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 12:28:38,872::INFO::main.py::409 periodic thread started!
+2022-06-08 12:28:38,889::DEBUG::main.py::195 started message listner!....
+2022-06-08 12:28:39,036::DEBUG::main.py::520 Device ID : E4:5F:01:82:7B:03
+2022-06-08 12:28:39,691::INFO::main.py::546 RTC get datetime= 2022-06-08 12:28:38
+2022-06-08 12:28:39,702::DEBUG::main.py::366 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 12:28:39,712::DEBUG::main.py::557 >>> Start scanning !.....
+2022-06-08 12:28:39,717::DEBUG::main.py::173 process rfid fastgate
+2022-06-08 12:28:41,738::DEBUG::main.py::354 send start scanning : {'topic': 'mqtt', 'type': None, 'data': {'action': 'userConfig', 'data': {'deviceId': None, 'time': None, 'userVehicle': {'add': [{'tagId': None, 'fromDate': '2022-05-25 00:00:00', 'toDate': '2022-05-27 00:00:00', 'weekDay': 'A', 'fromTime': '00:00:00', 'toTime': '00:00:00'}], 'edit': [], 'del': [], 'block': []}}}}
+2022-06-08 12:28:41,743::INFO::main.py::229 call url : http://192.168.1.203:8080/api/userConfig
+2022-06-08 12:28:41,960::INFO::main.py::233 response : <Response [200]>
+2022-06-08 12:28:51,155::DEBUG::main.py::160 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 12:28:55,789::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:28:55,794::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:28:55,800::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:28:55,927::INFO::main.py::591 resp url : 201
+2022-06-08 12:28:55,943::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 12:28:56,084::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 12:29:00,557::CRITICAL::main.py::728 app Exited!
+2022-06-08 12:54:10,138::INFO::main.py::127 Local config read ... OK
+2022-06-08 12:54:15,150::INFO::main.py::734 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 12:54:15,804::INFO::main.py::409 periodic thread started!
+2022-06-08 12:54:15,821::DEBUG::main.py::195 started message listner!....
+2022-06-08 12:54:15,993::DEBUG::main.py::520 Device ID : E4:5F:01:82:7B:03
+2022-06-08 12:54:16,805::INFO::main.py::546 RTC get datetime= 2022-06-08 12:54:15
+2022-06-08 12:54:16,816::DEBUG::main.py::366 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 12:54:16,831::DEBUG::main.py::557 >>> Start scanning !.....
+2022-06-08 12:54:16,984::DEBUG::main.py::173 process rfid fastgate
+2022-06-08 12:54:18,447::DEBUG::main.py::354 send start scanning : {'topic': 'mqtt', 'type': None, 'data': {'action': 'userConfig', 'data': {'deviceId': None, 'time': None, 'userVehicle': {'add': [{'tagId': None, 'fromDate': '2022-05-25 00:00:00', 'toDate': '2022-05-27 00:00:00', 'weekDay': 'A', 'fromTime': '00:00:00', 'toTime': '00:00:00'}], 'edit': [], 'del': [], 'block': []}}}}
+2022-06-08 12:54:18,458::INFO::main.py::229 call url : http://192.168.1.203:8080/api/userConfig
+2022-06-08 12:54:19,314::INFO::main.py::233 response : <Response [200]>
+2022-06-08 12:54:25,818::DEBUG::main.py::160 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 12:54:28,096::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:54:28,101::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:54:28,102::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:54:28,250::INFO::main.py::591 resp url : 201
+2022-06-08 12:54:28,266::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 12:54:28,401::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 12:54:33,659::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:54:33,669::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:54:33,684::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:54:33,815::INFO::main.py::591 resp url : 201
+2022-06-08 12:54:39,468::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:54:39,468::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 12:54:39,483::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 12:54:39,582::INFO::main.py::591 resp url : 201
+2022-06-08 12:54:43,967::CRITICAL::main.py::728 app Exited!
+2022-06-08 14:02:12,704::INFO::main.py::127 Local config read ... OK
+2022-06-08 14:02:17,717::INFO::main.py::734 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 14:02:18,318::INFO::main.py::409 periodic thread started!
+2022-06-08 14:02:18,337::DEBUG::main.py::195 started message listner!....
+2022-06-08 14:02:18,512::DEBUG::main.py::520 Device ID : E4:5F:01:82:7B:03
+2022-06-08 14:02:19,130::INFO::main.py::546 RTC get datetime= 2022-06-08 14:02:17
+2022-06-08 14:02:19,140::DEBUG::main.py::366 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 14:02:19,146::DEBUG::main.py::557 >>> Start scanning !.....
+2022-06-08 14:02:19,156::DEBUG::main.py::173 process rfid fastgate
+2022-06-08 14:02:21,111::DEBUG::main.py::354 send start scanning : {'topic': 'mqtt', 'type': None, 'data': {'action': 'userConfig', 'data': {'deviceId': None, 'time': None, 'userVehicle': {'add': [{'tagId': None, 'fromDate': '2022-05-25 00:00:00', 'toDate': '2022-05-27 00:00:00', 'weekDay': 'A', 'fromTime': '00:00:00', 'toTime': '00:00:00'}], 'edit': [], 'del': [], 'block': []}}}}
+2022-06-08 14:02:21,158::INFO::main.py::229 call url : http://192.168.1.203:8080/api/userConfig
+2022-06-08 14:02:21,404::INFO::main.py::233 response : <Response [200]>
+2022-06-08 14:02:33,566::DEBUG::main.py::160 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 14:02:38,369::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:02:38,374::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:02:38,374::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:38,384::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:38,384::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:38,395::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:38,396::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:38,455::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:38,470::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:38,613::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:38,656::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:38,787::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:38,802::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:38,955::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:38,987::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:39,109::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:39,114::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:39,267::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:43,820::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:43,825::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:43,841::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:43,980::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:43,995::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:44,156::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:46,316::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:02:46,322::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:02:46,327::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:46,570::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:46,581::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:46,586::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:46,587::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:46,753::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:46,796::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:46,928::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:46,938::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:47,116::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:49,655::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:49,661::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:49,678::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:49,799::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:49,820::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:49,971::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:52,115::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:52,121::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:52,121::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:52,253::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:52,264::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:52,441::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:55,349::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:55,355::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:02:55,360::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:55,450::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:55,456::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:55,597::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:02:59,073::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:59,078::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:02:59,084::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:02:59,174::INFO::main.py::591 resp url : 201
+2022-06-08 14:02:59,185::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:02:59,316::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:00,890::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:00,895::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:01,017::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:01,138::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:01,149::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:01,326::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:03,536::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:03,542::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:03,557::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:03,678::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:03,689::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:03,825::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:06,587::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:06,592::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:06,613::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:06,763::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:06,778::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:06,906::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:08,587::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:03:08,592::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:03:08,610::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:03:08,610::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:08,620::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:03:08,747::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:08,757::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:08,908::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:08,961::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:09,058::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:09,068::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:09,243::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:09,511::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:09,532::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:09,538::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:09,669::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:09,674::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:09,855::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:12,115::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:12,120::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:12,136::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:12,235::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:12,250::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:12,437::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:15,040::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:15,045::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:15,060::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:15,171::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:15,171::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:15,328::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:21,784::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:21,790::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:21,821::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:21,823::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:03:21,841::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:03:21,971::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:21,981::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:22,279::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:22,332::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:22,539::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:22,551::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:22,737::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:22,833::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:22,838::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:22,843::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:22,944::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:22,965::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:23,087::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:27,309::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:27,314::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:27,360::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:27,492::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:27,502::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:27,664::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:32,573::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:32,609::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:32,614::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:32,726::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:32,741::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:32,934::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:32,963::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:32,963::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:32,969::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:33,082::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:33,092::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:33,254::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:36,224::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:03:36,229::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:03:36,236::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:36,268::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:03:36,285::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:03:36,350::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:36,365::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:36,503::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:36,551::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:36,683::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:36,693::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:36,865::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:38,477::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:38,482::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:38,544::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:38,655::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:38,665::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:38,816::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:38,850::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:38,855::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:38,871::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:38,996::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:39,007::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:39,173::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:44,359::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:44,518::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:44,523::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:44,588::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:44,604::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:44,679::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:44,684::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:44,752::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:44,795::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:44,916::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:44,932::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:45,055::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:50,334::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:50,340::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:50,344::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:50,355::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:50,965::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:50,971::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:03:50,986::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:51,082::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:51,098::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:51,244::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:03:56,208::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:56,214::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:03:56,229::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:03:56,328::INFO::main.py::591 resp url : 201
+2022-06-08 14:03:56,343::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:03:56,474::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:00,172::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:00,177::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:00,177::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:00,298::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:00,309::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:00,434::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:02,513::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:02,519::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:02,524::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:02,625::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:02,636::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:02,806::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:08,373::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:08,379::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:08,393::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:08,495::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:10,688::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:10,688::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:10,694::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:10,795::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:10,806::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:10,942::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:15,160::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:15,165::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:15,170::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:15,235::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:15,246::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:15,414::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:15,485::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:15,491::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:15,506::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:15,662::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:15,673::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:15,829::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:20,301::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:20,306::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:20,311::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:20,376::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:20,387::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:20,529::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:24,398::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:24,403::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:24,419::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:24,545::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:24,555::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:24,712::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:25,732::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:25,737::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:25,743::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:25,844::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:25,860::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:25,992::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:32,340::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:32,346::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:32,346::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:32,356::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:32,361::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:32,455::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:32,470::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:32,580::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:32,591::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:32,741::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:38,248::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:38,253::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:38,375::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:38,383::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:38,391::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:38,509::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:38,525::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:38,666::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:38,704::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:38,820::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:38,836::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:38,956::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:44,266::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:44,272::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:44,290::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:44,310::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:44,316::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:44,418::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:44,439::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:44,594::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:44,642::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:44,768::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:44,779::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:44,926::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:49,914::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:49,919::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:50,016::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:50,047::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:50,053::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:50,155::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:50,171::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:50,326::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:50,364::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:50,480::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:50,491::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:50,657::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:56,492::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:56,502::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:04:56,507::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:56,515::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:56,528::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:04:56,616::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:56,637::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:56,767::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:56,815::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:56,945::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:56,955::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:57,081::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:04:58,143::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:04:58,148::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:04:58,163::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:04:58,264::INFO::main.py::591 resp url : 201
+2022-06-08 14:04:58,275::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:04:58,442::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:01,801::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:01,806::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:01,811::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:01,907::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:01,923::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:02,094::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:02,429::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:02,435::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:02,440::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:02,551::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:02,556::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:02,717::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:07,590::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:07,596::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:07,601::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:07,732::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:07,737::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:07,888::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:08,400::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:08,406::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:08,411::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:08,548::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:08,558::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:08,728::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:10,380::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:10,385::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:10,421::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:10,541::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:10,547::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:10,699::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:13,463::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:13,469::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:13,484::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:13,594::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:13,609::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:13,775::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:19,040::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:19,121::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:19,137::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:19,167::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:19,167::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:19,265::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:19,281::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:19,387::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:19,402::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:19,554::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:23,330::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:23,336::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:23,341::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:23,377::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:23,382::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:23,454::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:23,465::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:23,636::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:23,683::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:23,784::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:23,795::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:23,951::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:24,991::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:25,021::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:25,047::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:25,178::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:25,189::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:25,342::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:31,077::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:31,087::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:31,102::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:31,162::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:33,965::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:33,991::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:33,997::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:34,125::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:34,140::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:34,293::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:36,163::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:36,168::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:36,184::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:36,310::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:36,321::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:36,497::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:37,294::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:37,309::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:37,315::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:37,460::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:37,465::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:37,514::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:37,535::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:37,686::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:37,729::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:37,860::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:37,865::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:38,022::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:42,315::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:42,320::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:42,336::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:42,437::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:42,448::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:42,598::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:43,832::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:43,837::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:44,077::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:44,194::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:44,209::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:44,366::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:45,431::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:45,437::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:45,442::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:45,568::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:45,584::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:45,720::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:47,923::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:48,097::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:48,102::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:48,208::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:48,219::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:48,349::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:49,621::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:49,627::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:49,642::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:49,672::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:49,678::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:49,775::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:49,791::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:49,927::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:49,959::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:50,080::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:50,096::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:50,251::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:51,441::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:51,447::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:51,457::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:51,584::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:51,600::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:51,746::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:56,102::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:56,108::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:05:56,123::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:56,148::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:56,154::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:05:56,176::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:56,193::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:05:56,259::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:56,274::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:56,416::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:56,458::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:56,575::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:56,585::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:56,751::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:56,789::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:56,895::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:56,905::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:57,021::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:05:59,454::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:59,459::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:05:59,470::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:05:59,601::INFO::main.py::591 resp url : 201
+2022-06-08 14:05:59,616::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:05:59,762::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:01,510::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:01,515::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:01,520::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:01,626::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:01,642::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:01,783::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:02,168::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:02,174::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:02,220::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:02,351::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:02,361::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:02,519::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:07,684::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:07,689::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:07,704::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:07,785::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:07,796::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:07,940::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:12,718::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:12,764::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:12,858::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:12,863::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:12,869::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:12,995::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:13,010::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:13,074::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:06:13,079::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:06:13,178::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:13,221::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:13,352::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:13,363::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:13,460::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:13,460::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:13,586::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:13,634::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:13,725::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:13,736::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:13,912::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:13,955::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:14,076::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:14,087::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:14,254::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:20,835::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:20,841::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:20,856::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:20,974::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:21,364::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:21,369::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:21,385::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:21,497::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:21,507::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:21,668::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:26,356::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:26,361::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:26,366::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:26,477::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:26,483::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:26,627::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:27,160::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:27,166::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:27,171::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:27,287::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:27,297::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:27,440::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:32,030::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:32,035::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:32,341::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:32,477::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:32,493::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:32,669::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:34,575::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:34,580::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:34,586::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:34,701::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:34,716::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:34,857::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:36,417::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:36,423::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:36,443::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:36,579::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:36,589::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:36,787::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:37,920::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:37,930::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:37,936::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:38,048::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:38,060::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:38,242::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:39,477::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:06:39,482::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:06:39,487::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:39,603::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:39,613::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:39,804::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:43,696::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:43,701::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:43,706::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:43,812::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:43,823::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:43,897::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:43,902::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:44,021::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:44,069::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:44,186::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:44,196::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:44,392::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:46,159::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:46,282::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:06:46,307::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:46,418::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:46,434::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:46,624::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:50,215::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:50,221::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:50,226::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:50,234::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:50,239::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:50,334::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:50,350::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:50,531::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:50,559::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:50,670::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:50,681::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:50,877::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:55,860::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:55,871::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:06:55,881::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:55,891::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:55,891::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:55,892::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:55,891::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:06:55,946::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:55,948::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:55,957::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:55,958::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:56,001::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:06:59,200::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:06:59,205::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B326A0D', 'TID': 'E28011702000120D664D0923', 'ANT': '01'}}
+2022-06-08 14:06:59,211::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:06:59,220::INFO::main.py::591 resp url : 201
+2022-06-08 14:06:59,220::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:06:59,240::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:01,649::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:01,654::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:01,914::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:01,916::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:01,929::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:02,048::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:02,064::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:02,204::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:02,257::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:02,393::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:02,404::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:02,550::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:07,837::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:07,843::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:07,848::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:07,855::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:07,861::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:07,956::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:07,972::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:08,130::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:08,172::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:08,282::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:08,298::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:08,444::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:13,113::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:13,118::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:13,180::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:13,194::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:13,194::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:13,298::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:13,313::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:13,488::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:13,531::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:13,652::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:13,663::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:13,845::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:19,692::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:19,739::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:19,744::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:19,870::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:19,881::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:20,011::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:21,275::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:21,280::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:21,285::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:21,389::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:21,400::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:21,521::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:24,513::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:24,519::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:24,534::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:24,658::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:24,668::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:24,799::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:28,590::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:28,596::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:28,601::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:28,733::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:28,748::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:28,879::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:31,578::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:31,584::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:31,711::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:31,847::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:31,858::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:32,024::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:34,354::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:34,359::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:34,834::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:34,950::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:34,960::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:35,121::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:37,476::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:37,486::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:37,487::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:37,608::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:37,623::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:37,754::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:43,260::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:43,265::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:43,275::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:43,391::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:43,990::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:43,995::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:44,000::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:44,096::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:44,107::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:44,237::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:48,840::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:48,845::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:48,856::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:48,972::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:48,982::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:49,120::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:49,694::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:49,700::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:49,705::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:49,770::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:49,771::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:49,916::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:54,728::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:54,734::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:07:54,739::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:54,840::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:54,851::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:54,986::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:07:58,014::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:58,019::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:07:58,024::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:07:58,151::INFO::main.py::591 resp url : 201
+2022-06-08 14:07:58,166::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:07:58,307::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:00,166::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:00,171::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:00,187::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:00,298::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:00,308::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:00,449::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:07,493::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:07,499::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:07,504::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:07,623::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:07,628::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:07,682::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:07,698::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:07,824::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:07,835::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:07,961::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:13,398::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:13,408::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:13,424::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:13,449::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:13,454::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:13,548::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:13,559::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:13,793::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:13,826::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:13,947::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:13,963::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:14,173::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:18,850::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:18,856::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:18,871::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:18,967::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:18,978::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:19,198::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:19,349::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:19,355::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:19,370::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:19,507::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:19,517::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:19,680::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:24,637::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:24,657::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:24,663::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:24,769::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:24,774::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:24,948::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:25,130::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:25,135::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:25,140::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:25,247::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:25,257::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:25,418::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:30,145::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:30,150::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:30,163::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:30,264::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:30,279::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:30,412::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:31,535::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:31,535::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:31,541::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:31,591::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:31,592::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:31,612::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:35,971::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:35,977::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:35,977::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:36,086::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:36,102::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:36,238::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:37,243::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:37,248::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:37,264::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:37,370::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:37,386::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:37,549::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:41,475::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:41,481::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:41,496::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:41,627::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:41,637::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:41,783::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:43,246::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:43,339::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:43,344::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:43,466::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:43,482::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:43,627::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:47,320::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:47,325::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:47,351::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:47,458::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:47,474::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:47,594::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:49,164::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:49,170::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:49,195::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:49,338::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:49,353::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:49,510::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:53,278::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:53,284::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:53,289::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:53,390::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:53,405::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:53,561::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:55,249::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:55,254::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327335', 'TID': 'E280117020001335664E0923', 'ANT': '01'}}
+2022-06-08 14:08:55,285::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:55,401::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:55,406::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:55,543::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:08:58,426::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:58,431::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:08:58,497::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:08:58,603::INFO::main.py::591 resp url : 201
+2022-06-08 14:08:58,614::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:08:58,749::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:01,541::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AF43AF', 'TID': 'E2801170200013AFD5E80922', 'ANT': '01'}}
+2022-06-08 14:09:01,542::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AF43AF', 'TID': 'E2801170200013AFD5E80922', 'ANT': '01'}}
+2022-06-08 14:09:01,547::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:01,659::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:01,669::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:01,919::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AEF5A3', 'TID': 'E2801170200015A3D5DE0922', 'ANT': '01'}}
+2022-06-08 14:09:01,924::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AEF5A3', 'TID': 'E2801170200015A3D5DE0922', 'ANT': '01'}}
+2022-06-08 14:09:01,925::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:01,993::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:02,000::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA05E', 'TID': 'E28011602000605EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:02,021::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA05E', 'TID': 'E28011602000605EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:02,148::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:02,164::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:02,289::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:02,321::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:02,332::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:02,332::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:02,352::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:04,890::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:09:04,896::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:09:04,936::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:05,032::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:05,048::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:05,184::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:11,479::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:09:11,479::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:09:11,484::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:11,601::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:13,794::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AF43AF', 'TID': 'E2801170200013AFD5E80922', 'ANT': '01'}}
+2022-06-08 14:09:13,799::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AF43AF', 'TID': 'E2801170200013AFD5E80922', 'ANT': '01'}}
+2022-06-08 14:09:13,799::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:13,809::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA05E', 'TID': 'E28011602000605EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:13,809::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA05E', 'TID': 'E28011602000605EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:13,811::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AEF5A3', 'TID': 'E2801170200015A3D5DE0922', 'ANT': '01'}}
+2022-06-08 14:09:13,824::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020916AEF5A3', 'TID': 'E2801170200015A3D5DE0922', 'ANT': '01'}}
+2022-06-08 14:09:13,921::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:13,937::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:14,084::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:14,128::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:14,250::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:14,255::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:14,406::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:14,439::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:14,565::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:14,571::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:14,707::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:14,772::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA04E', 'TID': 'E28011602000704EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:14,971::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA04E', 'TID': 'E28011602000704EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:14,976::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:15,017::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '30361FB05052F8974876E802', 'TID': 'E280117020001255D69909E9', 'ANT': '01'}}
+2022-06-08 14:09:15,022::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '30361FB05052F8974876E802', 'TID': 'E280117020001255D69909E9', 'ANT': '01'}}
+2022-06-08 14:09:15,060::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327302', 'TID': 'E280117020000302664E0923', 'ANT': '01'}}
+2022-06-08 14:09:15,066::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327302', 'TID': 'E280117020000302664E0923', 'ANT': '01'}}
+2022-06-08 14:09:15,241::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:15,241::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '000010121800000000000016', 'TID': 'E28011702000006EB1CD0911', 'ANT': '01'}}
+2022-06-08 14:09:15,247::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:15,257::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '000010121800000000000016', 'TID': 'E28011702000006EB1CD0911', 'ANT': '01'}}
+2022-06-08 14:09:15,424::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:15,476::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:15,592::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:15,598::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:15,735::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:15,768::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:15,879::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:15,884::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:16,004::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '370032019120300000000002', 'TID': 'E28011052000734C2C4F0993', 'ANT': '01'}}
+2022-06-08 14:09:16,010::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '370032019120300000000002', 'TID': 'E28011052000734C2C4F0993', 'ANT': '01'}}
+2022-06-08 14:09:16,100::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:16,147::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:16,264::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:16,269::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:16,415::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:16,464::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:16,465::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:09:16,473::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB150084C174876E810', 'TID': 'E28011052000748957E20906', 'ANT': '01'}}
+2022-06-08 14:09:16,538::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB1500849174876E916', 'TID': 'E2801170200000B31AE50940', 'ANT': '01'}}
+2022-06-08 14:09:16,544::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FB1500849174876E916', 'TID': 'E2801170200000B31AE50940', 'ANT': '01'}}
+2022-06-08 14:09:16,610::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '370032019120300000000022', 'TID': 'E28011052000755A2B490993', 'ANT': '01'}}
+2022-06-08 14:09:16,615::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '370032019120300000000022', 'TID': 'E28011052000755A2B490993', 'ANT': '01'}}
+2022-06-08 14:09:16,637::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:16,648::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:16,783::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '370032019120300000000004', 'TID': 'E2801105200073952C880993', 'ANT': '01'}}
+2022-06-08 14:09:16,784::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '370032019120300000000004', 'TID': 'E2801105200073952C880993', 'ANT': '01'}}
+2022-06-08 14:09:16,898::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327343', 'TID': 'E280117020000343664E0923', 'ANT': '01'}}
+2022-06-08 14:09:16,904::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B327343', 'TID': 'E280117020000343664E0923', 'ANT': '01'}}
+2022-06-08 14:09:17,012::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:17,060::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:17,157::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:17,162::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:17,288::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B3251E1', 'TID': 'E2801170200011E1664A0923', 'ANT': '01'}}
+2022-06-08 14:09:17,294::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B3251E1', 'TID': 'E2801170200011E1664A0923', 'ANT': '01'}}
+2022-06-08 14:09:17,346::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:17,384::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:17,430::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020989346554', 'TID': 'E280117020000554268C0931', 'ANT': '01'}}
+2022-06-08 14:09:17,435::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020989346554', 'TID': 'E280117020000554268C0931', 'ANT': '01'}}
+2022-06-08 14:09:17,503::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:17,516::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:09:17,521::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:17,526::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E2801170000002091B32731C', 'TID': 'E28011702000031C664E0923', 'ANT': '01'}}
+2022-06-08 14:09:17,562::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FA504442D174876E8EC', 'TID': 'E28011052000758658110906', 'ANT': '01'}}
+2022-06-08 14:09:17,562::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '00361FA504442D174876E8EC', 'TID': 'E28011052000758658110906', 'ANT': '01'}}
+2022-06-08 14:09:17,715::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020989344B54', 'TID': 'E28011702000035426890931', 'ANT': '01'}}
+2022-06-08 14:09:17,725::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E28011700000020989344B54', 'TID': 'E28011702000035426890931', 'ANT': '01'}}
+2022-06-08 14:09:17,799::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:17,847::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:18,038::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '30361FA67C04E2174876EDB0', 'TID': 'E280110520007B0557E00906', 'ANT': '01'}}
+2022-06-08 14:09:18,044::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '30361FA67C04E2174876EDB0', 'TID': 'E280110520007B0557E00906', 'ANT': '01'}}
+2022-06-08 14:09:18,103::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:18,118::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:18,279::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:18,326::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:18,422::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:18,433::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:18,545::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:18,552::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:18,673::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:18,689::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:18,876::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:18,924::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:19,040::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA05E', 'TID': 'E28011602000605EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:19,050::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': 'E280116060000209F7DFA05E', 'TID': 'E28011602000605EFBF4093E', 'ANT': '01'}}
+2022-06-08 14:09:19,073::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:19,078::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:19,231::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:19,273::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:19,385::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:19,390::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:19,526::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:19,563::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:19,695::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:19,700::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:19,841::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:19,879::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:19,994::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:20,000::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:20,146::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:20,204::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:20,320::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:20,326::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:20,455::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:20,503::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:20,624::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:20,635::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:20,759::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:20,792::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:20,908::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:20,914::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:21,046::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:09:21,259::DEBUG::main.py::166 insert que data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '30361FB05052F8974876E802', 'TID': 'E280117020001255D69909E9', 'ANT': '01'}}
+2022-06-08 14:09:21,264::DEBUG::main.py::341 insert data : {'cmd': 'fastgate', 'status': 'running', 'reason': '', 'eanList': None, 'tagList': None, 'taglist': {'EPC': '30361FB05052F8974876E802', 'TID': 'E280117020001255D69909E9', 'ANT': '01'}}
+2022-06-08 14:09:21,280::INFO::main.py::584 call url : http://192.168.1.203:8080/api/vehicle_access
+2022-06-08 14:09:21,386::INFO::main.py::591 resp url : 201
+2022-06-08 14:09:21,392::INFO::main.py::697 call url : http://192.168.1.203:8080/api/save_transaction_withLimit
+2022-06-08 14:09:21,549::INFO::main.py::701 resp url : <Response [200]>
+2022-06-08 14:41:59,588::ERROR::utils.py::61 request connect error
+2022-06-08 15:10:16,680::CRITICAL::main.py::728 app Exited!
+2022-06-08 18:32:46,910::INFO::main.py::126 Local config read ... OK
+2022-06-08 18:32:51,930::INFO::main.py::733 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 18:32:54,286::INFO::main.py::408 periodic thread started!
+2022-06-08 18:32:54,309::DEBUG::main.py::194 started message listner!....
+2022-06-08 18:32:54,453::DEBUG::main.py::519 Device ID : e4:5f:01:82:7b:03
+2022-06-08 18:32:55,134::INFO::main.py::545 RTC get datetime= 2022-06-08 18:32:37
+2022-06-08 18:32:55,145::DEBUG::main.py::365 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 18:32:55,161::DEBUG::main.py::556 >>> Start scanning !.....
+2022-06-08 18:32:55,186::DEBUG::main.py::172 process rfid fastgate
+2022-06-08 18:33:07,536::DEBUG::main.py::159 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 18:33:45,362::CRITICAL::main.py::727 app Exited!
+2022-06-08 18:33:49,419::CRITICAL::main.py::113 ERROR while reading config file or mac id doesnt matches
+2022-06-08 18:33:49,420::CRITICAL::main.py::114 Exiting application.
+2022-06-08 18:34:24,546::INFO::main.py::126 Local config read ... OK
+2022-06-08 18:34:29,559::INFO::main.py::733 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 18:34:30,159::INFO::main.py::408 periodic thread started!
+2022-06-08 18:34:30,195::DEBUG::main.py::194 started message listner!....
+2022-06-08 18:34:30,322::DEBUG::main.py::519 Device ID : e4:5f:01:82:7b:03
+2022-06-08 18:34:31,372::INFO::main.py::545 RTC get datetime= 2022-06-08 18:34:29
+2022-06-08 18:34:31,382::DEBUG::main.py::365 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 18:34:31,398::DEBUG::main.py::556 >>> Start scanning !.....
+2022-06-08 18:34:31,464::DEBUG::main.py::172 process rfid fastgate
+2022-06-08 18:34:45,640::DEBUG::main.py::159 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 18:36:59,279::CRITICAL::main.py::727 app Exited!
+2022-06-08 18:37:13,506::CRITICAL::main.py::113 ERROR while reading config file or mac id doesnt matches
+2022-06-08 18:37:13,507::CRITICAL::main.py::114 Exiting application.
+2022-06-08 18:37:20,497::CRITICAL::main.py::113 ERROR while reading config file or mac id doesnt matches
+2022-06-08 18:37:20,497::CRITICAL::main.py::114 Exiting application.
+2022-06-08 18:37:37,232::INFO::main.py::128 Local config read ... OK
+2022-06-08 18:37:42,244::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 18:37:42,837::INFO::main.py::410 periodic thread started!
+2022-06-08 18:37:42,854::DEBUG::main.py::196 started message listner!....
+2022-06-08 18:37:43,026::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-08 18:37:43,728::INFO::main.py::547 RTC get datetime= 2022-06-08 18:37:43
+2022-06-08 18:37:43,739::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 18:37:43,755::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-08 18:37:44,066::DEBUG::main.py::174 process rfid fastgate
+2022-06-08 18:37:53,208::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 18:38:25,681::CRITICAL::main.py::729 app Exited!
+2022-06-08 18:38:28,565::INFO::main.py::128 Local config read ... OK
+2022-06-08 18:38:33,578::INFO::main.py::735 Application VERSION= 1.0.0 02/06/2022 19:00:28
+2022-06-08 18:38:34,191::INFO::main.py::410 periodic thread started!
+2022-06-08 18:38:34,208::DEBUG::main.py::196 started message listner!....
+2022-06-08 18:38:34,345::DEBUG::main.py::521 Device ID : e4:5f:01:82:7b:03
+2022-06-08 18:38:35,001::INFO::main.py::547 RTC get datetime= 2022-06-08 18:38:33
+2022-06-08 18:38:35,017::DEBUG::main.py::367 send start scanning : {'topic': 'rfid', 'cmd': 'fastgate', 'type': 'None', 'data': ''}
+2022-06-08 18:38:35,032::DEBUG::main.py::558 >>> Start scanning !.....
+2022-06-08 18:38:35,083::DEBUG::main.py::174 process rfid fastgate
+2022-06-08 18:38:44,652::DEBUG::main.py::161 rfid setup message : {'cmd': 'setup', 'status': 'success', 'reason': ''}
+2022-06-08 19:09:04,623::CRITICAL::main.py::729 app Exited!

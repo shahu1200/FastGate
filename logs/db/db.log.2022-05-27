@@ -1,0 +1,49 @@
+2022-05-27 16:22:21,643::DEBUG::database.py::285 get count rows!
+2022-05-27 16:22:21,696::DEBUG::database.py::285 get count rows!
+2022-05-27 16:22:24,272::DEBUG::database.py::467 inserting user vehicle !
+2022-05-27 16:22:24,278::DEBUG::database.py::285 get count rows!
+2022-05-27 16:24:28,053::DEBUG::database.py::695 getting dashboard data!
+2022-05-27 16:24:28,228::DEBUG::database.py::285 get count rows!
+2022-05-27 16:24:28,387::DEBUG::database.py::184 fetch all data!
+2022-05-27 16:24:28,418::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 16:24:28,475::DEBUG::database.py::195 fetch one data!
+2022-05-27 16:24:28,506::DEBUG::database.py::184 fetch all data!
+2022-05-27 16:24:28,512::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 16:24:28,548::DEBUG::database.py::195 fetch one data!
+2022-05-27 16:24:53,597::INFO::database.py::842 check user authorization!
+2022-05-27 16:24:53,665::DEBUG::database.py::195 fetch one data!
+2022-05-27 16:24:53,711::DEBUG::database.py::184 fetch all data!
+2022-05-27 16:24:53,738::DEBUG::database.py::695 getting dashboard data!
+2022-05-27 16:24:53,749::DEBUG::database.py::285 get count rows!
+2022-05-27 16:24:53,842::DEBUG::database.py::184 fetch all data!
+2022-05-27 16:24:53,862::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 16:24:53,944::DEBUG::database.py::195 fetch one data!
+2022-05-27 16:24:53,996::DEBUG::database.py::184 fetch all data!
+2022-05-27 16:24:54,210::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 16:24:54,236::DEBUG::database.py::195 fetch one data!
+2022-05-27 16:25:17,790::DEBUG::database.py::695 getting dashboard data!
+2022-05-27 16:25:17,796::DEBUG::database.py::285 get count rows!
+2022-05-27 16:25:17,878::DEBUG::database.py::184 fetch all data!
+2022-05-27 16:25:17,903::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 16:25:17,990::DEBUG::database.py::195 fetch one data!
+2022-05-27 16:25:18,031::DEBUG::database.py::184 fetch all data!
+2022-05-27 16:25:18,042::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 16:25:18,062::DEBUG::database.py::195 fetch one data!
+2022-05-27 17:16:32,199::DEBUG::database.py::285 get count rows!
+2022-05-27 17:16:32,226::DEBUG::database.py::285 get count rows!
+2022-05-27 17:16:35,320::DEBUG::database.py::467 inserting user vehicle !
+2022-05-27 17:16:35,336::DEBUG::database.py::285 get count rows!
+2022-05-27 17:16:50,051::DEBUG::database.py::695 getting dashboard data!
+2022-05-27 17:16:50,158::DEBUG::database.py::285 get count rows!
+2022-05-27 17:16:50,230::DEBUG::database.py::184 fetch all data!
+2022-05-27 17:16:50,241::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 17:16:50,302::DEBUG::database.py::195 fetch one data!
+2022-05-27 17:16:50,465::DEBUG::database.py::184 fetch all data!
+2022-05-27 17:16:50,486::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-05-27 17:16:50,599::DEBUG::database.py::195 fetch one data!
+2022-05-27 19:58:24,553::DEBUG::database.py::285 get count rows!
+2022-05-27 19:58:24,584::DEBUG::database.py::285 get count rows!
+2022-05-27 20:01:49,200::DEBUG::database.py::285 get count rows!
+2022-05-27 20:01:49,217::DEBUG::database.py::285 get count rows!
+2022-05-27 20:01:51,796::DEBUG::database.py::467 inserting user vehicle !
+2022-05-27 20:01:51,802::DEBUG::database.py::285 get count rows!

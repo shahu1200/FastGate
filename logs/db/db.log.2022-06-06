@@ -1,0 +1,65 @@
+2022-06-06 10:44:02,198::DEBUG::database.py::285 get count rows!
+2022-06-06 10:44:02,300::DEBUG::database.py::285 get count rows!
+2022-06-06 11:15:10,252::DEBUG::database.py::285 get count rows!
+2022-06-06 11:15:10,298::DEBUG::database.py::285 get count rows!
+2022-06-06 11:15:13,716::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 11:15:13,742::DEBUG::database.py::285 get count rows!
+2022-06-06 12:43:09,738::DEBUG::database.py::285 get count rows!
+2022-06-06 12:43:09,779::DEBUG::database.py::285 get count rows!
+2022-06-06 12:43:15,406::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 12:43:15,416::DEBUG::database.py::285 get count rows!
+2022-06-06 14:22:07,565::DEBUG::database.py::285 get count rows!
+2022-06-06 14:22:07,600::DEBUG::database.py::285 get count rows!
+2022-06-06 14:22:10,560::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 14:22:10,575::DEBUG::database.py::285 get count rows!
+2022-06-06 14:27:25,764::DEBUG::database.py::285 get count rows!
+2022-06-06 14:27:25,800::DEBUG::database.py::285 get count rows!
+2022-06-06 14:27:28,594::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 14:27:28,610::DEBUG::database.py::285 get count rows!
+2022-06-06 14:29:30,444::DEBUG::database.py::285 get count rows!
+2022-06-06 14:29:30,475::DEBUG::database.py::285 get count rows!
+2022-06-06 14:29:33,004::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 14:29:33,269::DEBUG::database.py::285 get count rows!
+2022-06-06 14:30:41,277::DEBUG::database.py::695 getting dashboard data!
+2022-06-06 14:30:41,288::DEBUG::database.py::285 get count rows!
+2022-06-06 14:30:41,365::DEBUG::database.py::184 fetch all data!
+2022-06-06 14:30:41,427::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-06 14:30:41,483::DEBUG::database.py::195 fetch one data!
+2022-06-06 14:30:41,845::DEBUG::database.py::184 fetch all data!
+2022-06-06 14:30:41,856::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-06 14:30:41,892::DEBUG::database.py::195 fetch one data!
+2022-06-06 14:30:52,947::INFO::database.py::842 check user authorization!
+2022-06-06 14:30:53,014::DEBUG::database.py::195 fetch one data!
+2022-06-06 14:30:53,080::DEBUG::database.py::184 fetch all data!
+2022-06-06 14:30:53,122::DEBUG::database.py::695 getting dashboard data!
+2022-06-06 14:30:53,137::DEBUG::database.py::285 get count rows!
+2022-06-06 14:30:53,235::DEBUG::database.py::184 fetch all data!
+2022-06-06 14:30:53,245::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-06 14:30:53,302::DEBUG::database.py::195 fetch one data!
+2022-06-06 14:30:53,363::DEBUG::database.py::184 fetch all data!
+2022-06-06 14:30:53,383::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-06 14:30:53,435::DEBUG::database.py::195 fetch one data!
+2022-06-06 14:39:21,960::DEBUG::database.py::285 get count rows!
+2022-06-06 14:39:21,991::DEBUG::database.py::285 get count rows!
+2022-06-06 14:39:24,836::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 14:39:24,851::DEBUG::database.py::285 get count rows!
+2022-06-06 14:40:17,816::DEBUG::database.py::285 get count rows!
+2022-06-06 14:40:17,842::DEBUG::database.py::285 get count rows!
+2022-06-06 14:40:20,617::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 14:40:20,628::DEBUG::database.py::285 get count rows!
+2022-06-06 17:34:45,010::DEBUG::database.py::285 get count rows!
+2022-06-06 17:34:45,055::DEBUG::database.py::285 get count rows!
+2022-06-06 17:34:47,514::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 17:34:47,699::DEBUG::database.py::285 get count rows!
+2022-06-06 17:35:49,667::DEBUG::database.py::285 get count rows!
+2022-06-06 17:35:49,704::DEBUG::database.py::285 get count rows!
+2022-06-06 17:35:52,571::DEBUG::database.py::467 inserting user vehicle !
+2022-06-06 17:35:52,842::DEBUG::database.py::285 get count rows!
+2022-06-06 18:08:49,595::DEBUG::database.py::695 getting dashboard data!
+2022-06-06 18:08:49,606::DEBUG::database.py::285 get count rows!
+2022-06-06 18:08:49,713::DEBUG::database.py::184 fetch all data!
+2022-06-06 18:08:49,754::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-06 18:08:49,815::DEBUG::database.py::195 fetch one data!
+2022-06-06 18:08:49,917::DEBUG::database.py::184 fetch all data!
+2022-06-06 18:08:49,948::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-06 18:08:50,005::DEBUG::database.py::195 fetch one data!
