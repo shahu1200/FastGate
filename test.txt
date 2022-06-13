@@ -1,2 +1,1 @@
-test.txt file
-hello world
+1.0.0
