@@ -1,0 +1,1447 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>itekfeig.common.feig_host API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>itekfeig.common.feig_host</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from binascii import hexlify, unhexlify
+
+from ..common.feig_base import FeigBase
+from ..common.feig_errors import FeigError
+
+TR_TYPE_BARCODE = 0xC2
+TR_TYPE_EPC_C1G2 = 0x84
+
+IDDT_EPC = 0x00
+IDDT_EPC_TID = 0x02
+
+
+class FeigHost(FeigBase):
+
+    DB_SIZE = 2
+
+    KILL_UNLOCK = 0x800000
+    KILL_UNLOCK_PERMANENT = 0xC01000
+    KILL_LOCK = 0x802000
+    KILL_LOCK_PERMANENT = 0xC03000
+
+    ACCESS_UNLOCK = 0x200000
+    ACCESS_UNLOCK_PERMANENT = 0x300400
+    ACCESS_LOCK = 0x200800
+    ACCESS_LOCK_PERMANENT = 0x300C00
+
+    EPC_UNLOCK = 0x080000
+    EPC_UNLOCK_PERMANENT = 0x0C0100
+    EPC_LOCK = 0x080200
+    EPC_LOCK_PERMANENT = 0x0C03000
+
+    TID_UNLOCK = 0x020000
+    TID_UNLOCK_PERMANENT = 0x030040
+    TID_LOCK = 0x020080
+    TID_LOCK_PERMANENT = 0x0300C0
+
+    USER_UNLOCK = 0x008000
+    USER_UNLOCK_PERMANENT = 0x00C010
+    USER_LOCK = 0x008020
+    USER_LOCK_PERMANENT = 0x00C030
+
+    def __init__(self, interface, lastError):
+        &#34;&#34;&#34;This class implements HOST mode functionality of Feig reader.
+
+        Args:
+            interface: This the interface on which communication will happen.
+            lastError: This parameter is shared for reporting error
+        &#34;&#34;&#34;
+        super().__init__()
+        FeigBase._interface = interface
+        FeigBase._last_error = lastError
+
+    def _write_block(self, uid, bank, addr, db_size, wdata, access):
+        uid_lng = len(uid)
+
+        cmd = [0xB0, 0x24, 0x31, uid_lng] + uid
+        if isinstance(access, list):
+            bank = bank + 0x80
+            cmd.append(bank)
+            cmd.append(len(access))
+            cmd = cmd + access
+        else:
+            cmd.append(bank)
+
+        # DB-ADR
+        cmd.append((addr &gt;&gt; 8) &amp; 0xFF)
+        cmd.append((addr &gt;&gt; 0) &amp; 0xFF)
+
+        # DB-N
+        cmd.append(len(wdata) // db_size)
+
+        # DB-SIZE
+        cmd.append(db_size)
+
+        # Data
+        cmd = cmd + wdata
+
+        data = FeigBase._interface.transfer(2.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0xB0:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            return FeigBase._last_error is FeigError.OK
+
+    def _read_block(self, uid, bank, addr, count, access):
+        uid_lng = len(uid)
+
+        cmd = [0xB0, 0x23, 0x31, uid_lng] + uid
+        if isinstance(access, list):
+            bank = bank + 0x80
+            cmd.append(bank)
+            cmd.append(len(access))
+            cmd = cmd + access
+        else:
+            cmd.append(bank)
+
+        # DB-ADR
+        cmd.append((addr &gt;&gt; 8) &amp; 0xFF)
+        cmd.append((addr &gt;&gt; 0) &amp; 0xFF)
+
+        cmd.append(count)
+
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        rblock = None
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0xB0:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                if data[2] == count:
+                    block_size = data[3]
+                    offset = 4
+                    rblock = list()
+                    for _ in range(0, count):
+                        if data[offset] != 0:
+                            rblock.clear()
+                            rblock = None
+                            FeigBase._last_error = FeigError.INVALID_RESPONSE
+                            break  # invalid block data
+
+                        # copy
+                        for j in range(0, block_size):
+                            rblock.append(data[offset + j + 1])
+
+                        offset = offset + 1 + block_size
+
+        return rblock
+
+    def _get_epc_len_from_protocol_bits(self, pc):
+        epclen = int(pc[0])
+        epclen = epclen &gt;&gt; 3
+        return epclen * 2
+
+    def _inventory(self, tags: list, ant_sel, more=False):
+        mode = 0
+        if more is True:
+            mode = mode + 0x80
+        more = False
+
+        if ant_sel &gt; 0:
+            mode = mode + 0x10
+            cmd = [0xB0, 0x01, mode, ant_sel]
+        else:
+            cmd = [0xB0, 0x01, mode]
+
+        data = FeigBase._interface.transfer(2.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        more = False
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0xB0:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if (
+                FeigBase._last_error is FeigError.MORE_DATA
+                or FeigBase._last_error is FeigError.OK
+            ):
+                data_sets = data[2]
+                data = data[3:]
+                for _ in range(0, data_sets):
+                    tag = {}
+                    offset = 0
+                    if ant_sel &gt; 0:
+                        #flags = data[0]
+                        offset = 1
+
+                    tr_type = data[offset + 0]
+                    iddib = data[offset + 1]
+                    iddlen = data[offset + 2]
+
+                    # extract IDD consits of PC+EPC+TID
+                    idd_start = offset + 3
+                    idd_end = idd_start + iddlen
+                    idd = data[idd_start:idd_end]
+
+                    if tr_type == TR_TYPE_BARCODE:
+                        tag[&#34;barcode&#34;] = idd.decode(&#34;ascii&#34;)
+
+                    elif tr_type == TR_TYPE_EPC_C1G2:
+                        # extract PC(2bytes)
+                        pc_len = 2
+                        pc_start = 0
+                        pc_end = pc_start + pc_len
+                        pc = idd[pc_start:pc_end]
+
+                        # get EPC
+                        epc_len = self._get_epc_len_from_protocol_bits(pc)
+                        epc_start = pc_end
+                        epc_end = epc_start + epc_len
+                        epc = hexlify(idd[epc_start:epc_end]).decode(&#34;ascii&#34;)
+
+                        # get TID only when IDDIB = 02 i.e EPC+TID
+                        tid = &#34;&#34;
+                        if iddib == IDDT_EPC_TID:
+                            tid_len = iddlen - epc_len - 2
+                            tid_start = epc_end
+                            tid_end = tid_start + tid_len
+                            tid = hexlify(idd[tid_start:tid_end]).decode(&#34;ascii&#34;)
+
+                        tag[&#34;epc&#34;] = epc
+                        tag[&#34;tid&#34;] = tid
+
+                        offset = offset + 3 + iddlen
+                        if ant_sel &gt; 0:
+                            # Extracrt Antennas
+                            tag[&#34;antennas&#34;] = []
+                            ant_cnt = data[offset]
+                            for _ in range(0, ant_cnt):
+                                ant_nr = data[offset + 1]
+                                ant_stat = data[offset + 2]
+                                rssi = data[offset + 3]
+                                phase = data[offset + 4] * 256 + data[offset + 5]
+                                phase = (phase * 360) // 4096
+                                tag[&#34;antennas&#34;].append(
+                                    {
+                                        &#34;ant_no&#34;: ant_nr,
+                                        &#34;ant_stat&#34;: ant_stat,
+                                        &#34;rssi&#34;: rssi,
+                                        &#34;angle&#34;: phase,
+                                    }
+                                )
+                                offset = offset + 7
+                            offset = offset + 1
+
+                    data = data[offset:]
+                    tags.append(tag)
+            more = FeigBase._last_error is FeigError.MORE_DATA
+
+        return more
+
+    def inventory(self, antennas=None):
+        &#34;&#34;&#34;Perform Inventory&#34;&#34;&#34;
+        ant_sel = 0
+        if antennas is not None and isinstance(antennas, list):
+            for ant in antennas:
+                ant_sel |= ant
+
+        tags = []
+        done = False
+        more = False
+        while not done:  # loop till MORE is set
+            rsp = self._inventory(tags, ant_sel, more)
+            if rsp is None:
+                break
+
+            more = rsp
+            if more is False:
+                done = True
+
+        return tags
+
+    def read_tid_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+        &#34;&#34;&#34;Read TID memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_TID, addr, count, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def read_epc_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+        &#34;&#34;&#34;Read EPC memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_EPC, addr, count, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_epc_memory(self, epc: str, tid: str, newepc: str, access=None):
+        &#34;&#34;&#34;Write epc to EPC memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_EPC, 2, self.DB_SIZE, list(unhexlify(newepc)), access
+        )
+        return data
+
+    def read_user_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+        &#34;&#34;&#34;Read USER memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_USER, addr, count, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_user_memory(self, epc: str, tid: str, addr: int, wdata: str, access=None):
+        &#34;&#34;&#34;Write data to USER memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_USER, addr, 1, list(unhexlify(wdata)), access
+        )
+        return data
+
+    def read_access_password(self, epc: str, tid: str, access=None):
+        &#34;&#34;&#34;Read ACCESS PASSWWORD of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_RESERVED, 2, 2, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_access_password(self, epc: str, tid: str, newpass: str, access=None):
+        &#34;&#34;&#34;Write Access password&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_RESERVED, 2, self.DB_SIZE, list(unhexlify(newpass)), access
+        )
+        return data
+
+    def read_kill_password(self, epc: str, tid: str, access=None):
+        &#34;&#34;&#34;Read KILL PASSWWORD of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_RESERVED, 0, 2, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_kill_password(self, epc: str, tid: str, killpass: str, access=None):
+        &#34;&#34;&#34;Write Kill password&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_RESERVED, 0, self.DB_SIZE, list(unhexlify(killpass)), access
+        )
+        return data
+
+    def lock(self, epc: str, tid: str, flags: int, access: str):
+        &#34;&#34;&#34;Lock/unlock tag memory region&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        uid_lng = len(uid)
+
+        cmd = [0xB3, 0x22, 0x11, uid_lng] + uid + [0x84, 0x03]
+        cmd += list(flags.to_bytes(3, &#34;big&#34;))
+
+        access = list(unhexlify(access))  # convert to LIST
+        cmd.append(len(access))
+        cmd += access
+
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data:
+            FeigBase._last_error = FeigError.INVALID_RESPONSE
+            if data[0] == 0xB3:
+                FeigBase._last_error = self._feig_status_parser(data[1])
+                if FeigBase._last_error is FeigError.OK:
+                    return True
+
+        return False
+
+    def permalock(self, epc, tid, access=None):
+        raise NotImplementedError</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="itekfeig.common.feig_host.FeigHost"><code class="flex name class">
+<span>class <span class="ident">FeigHost</span></span>
+<span>(</span><span>interface, lastError)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Base class for all readers</p>
+<p>This class implements HOST mode functionality of Feig reader.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>interface</code></strong></dt>
+<dd>This the interface on which communication will happen.</dd>
+<dt><strong><code>lastError</code></strong></dt>
+<dd>This parameter is shared for reporting error</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class FeigHost(FeigBase):
+
+    DB_SIZE = 2
+
+    KILL_UNLOCK = 0x800000
+    KILL_UNLOCK_PERMANENT = 0xC01000
+    KILL_LOCK = 0x802000
+    KILL_LOCK_PERMANENT = 0xC03000
+
+    ACCESS_UNLOCK = 0x200000
+    ACCESS_UNLOCK_PERMANENT = 0x300400
+    ACCESS_LOCK = 0x200800
+    ACCESS_LOCK_PERMANENT = 0x300C00
+
+    EPC_UNLOCK = 0x080000
+    EPC_UNLOCK_PERMANENT = 0x0C0100
+    EPC_LOCK = 0x080200
+    EPC_LOCK_PERMANENT = 0x0C03000
+
+    TID_UNLOCK = 0x020000
+    TID_UNLOCK_PERMANENT = 0x030040
+    TID_LOCK = 0x020080
+    TID_LOCK_PERMANENT = 0x0300C0
+
+    USER_UNLOCK = 0x008000
+    USER_UNLOCK_PERMANENT = 0x00C010
+    USER_LOCK = 0x008020
+    USER_LOCK_PERMANENT = 0x00C030
+
+    def __init__(self, interface, lastError):
+        &#34;&#34;&#34;This class implements HOST mode functionality of Feig reader.
+
+        Args:
+            interface: This the interface on which communication will happen.
+            lastError: This parameter is shared for reporting error
+        &#34;&#34;&#34;
+        super().__init__()
+        FeigBase._interface = interface
+        FeigBase._last_error = lastError
+
+    def _write_block(self, uid, bank, addr, db_size, wdata, access):
+        uid_lng = len(uid)
+
+        cmd = [0xB0, 0x24, 0x31, uid_lng] + uid
+        if isinstance(access, list):
+            bank = bank + 0x80
+            cmd.append(bank)
+            cmd.append(len(access))
+            cmd = cmd + access
+        else:
+            cmd.append(bank)
+
+        # DB-ADR
+        cmd.append((addr &gt;&gt; 8) &amp; 0xFF)
+        cmd.append((addr &gt;&gt; 0) &amp; 0xFF)
+
+        # DB-N
+        cmd.append(len(wdata) // db_size)
+
+        # DB-SIZE
+        cmd.append(db_size)
+
+        # Data
+        cmd = cmd + wdata
+
+        data = FeigBase._interface.transfer(2.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0xB0:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            return FeigBase._last_error is FeigError.OK
+
+    def _read_block(self, uid, bank, addr, count, access):
+        uid_lng = len(uid)
+
+        cmd = [0xB0, 0x23, 0x31, uid_lng] + uid
+        if isinstance(access, list):
+            bank = bank + 0x80
+            cmd.append(bank)
+            cmd.append(len(access))
+            cmd = cmd + access
+        else:
+            cmd.append(bank)
+
+        # DB-ADR
+        cmd.append((addr &gt;&gt; 8) &amp; 0xFF)
+        cmd.append((addr &gt;&gt; 0) &amp; 0xFF)
+
+        cmd.append(count)
+
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        rblock = None
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0xB0:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                if data[2] == count:
+                    block_size = data[3]
+                    offset = 4
+                    rblock = list()
+                    for _ in range(0, count):
+                        if data[offset] != 0:
+                            rblock.clear()
+                            rblock = None
+                            FeigBase._last_error = FeigError.INVALID_RESPONSE
+                            break  # invalid block data
+
+                        # copy
+                        for j in range(0, block_size):
+                            rblock.append(data[offset + j + 1])
+
+                        offset = offset + 1 + block_size
+
+        return rblock
+
+    def _get_epc_len_from_protocol_bits(self, pc):
+        epclen = int(pc[0])
+        epclen = epclen &gt;&gt; 3
+        return epclen * 2
+
+    def _inventory(self, tags: list, ant_sel, more=False):
+        mode = 0
+        if more is True:
+            mode = mode + 0x80
+        more = False
+
+        if ant_sel &gt; 0:
+            mode = mode + 0x10
+            cmd = [0xB0, 0x01, mode, ant_sel]
+        else:
+            cmd = [0xB0, 0x01, mode]
+
+        data = FeigBase._interface.transfer(2.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        more = False
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0xB0:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if (
+                FeigBase._last_error is FeigError.MORE_DATA
+                or FeigBase._last_error is FeigError.OK
+            ):
+                data_sets = data[2]
+                data = data[3:]
+                for _ in range(0, data_sets):
+                    tag = {}
+                    offset = 0
+                    if ant_sel &gt; 0:
+                        #flags = data[0]
+                        offset = 1
+
+                    tr_type = data[offset + 0]
+                    iddib = data[offset + 1]
+                    iddlen = data[offset + 2]
+
+                    # extract IDD consits of PC+EPC+TID
+                    idd_start = offset + 3
+                    idd_end = idd_start + iddlen
+                    idd = data[idd_start:idd_end]
+
+                    if tr_type == TR_TYPE_BARCODE:
+                        tag[&#34;barcode&#34;] = idd.decode(&#34;ascii&#34;)
+
+                    elif tr_type == TR_TYPE_EPC_C1G2:
+                        # extract PC(2bytes)
+                        pc_len = 2
+                        pc_start = 0
+                        pc_end = pc_start + pc_len
+                        pc = idd[pc_start:pc_end]
+
+                        # get EPC
+                        epc_len = self._get_epc_len_from_protocol_bits(pc)
+                        epc_start = pc_end
+                        epc_end = epc_start + epc_len
+                        epc = hexlify(idd[epc_start:epc_end]).decode(&#34;ascii&#34;)
+
+                        # get TID only when IDDIB = 02 i.e EPC+TID
+                        tid = &#34;&#34;
+                        if iddib == IDDT_EPC_TID:
+                            tid_len = iddlen - epc_len - 2
+                            tid_start = epc_end
+                            tid_end = tid_start + tid_len
+                            tid = hexlify(idd[tid_start:tid_end]).decode(&#34;ascii&#34;)
+
+                        tag[&#34;epc&#34;] = epc
+                        tag[&#34;tid&#34;] = tid
+
+                        offset = offset + 3 + iddlen
+                        if ant_sel &gt; 0:
+                            # Extracrt Antennas
+                            tag[&#34;antennas&#34;] = []
+                            ant_cnt = data[offset]
+                            for _ in range(0, ant_cnt):
+                                ant_nr = data[offset + 1]
+                                ant_stat = data[offset + 2]
+                                rssi = data[offset + 3]
+                                phase = data[offset + 4] * 256 + data[offset + 5]
+                                phase = (phase * 360) // 4096
+                                tag[&#34;antennas&#34;].append(
+                                    {
+                                        &#34;ant_no&#34;: ant_nr,
+                                        &#34;ant_stat&#34;: ant_stat,
+                                        &#34;rssi&#34;: rssi,
+                                        &#34;angle&#34;: phase,
+                                    }
+                                )
+                                offset = offset + 7
+                            offset = offset + 1
+
+                    data = data[offset:]
+                    tags.append(tag)
+            more = FeigBase._last_error is FeigError.MORE_DATA
+
+        return more
+
+    def inventory(self, antennas=None):
+        &#34;&#34;&#34;Perform Inventory&#34;&#34;&#34;
+        ant_sel = 0
+        if antennas is not None and isinstance(antennas, list):
+            for ant in antennas:
+                ant_sel |= ant
+
+        tags = []
+        done = False
+        more = False
+        while not done:  # loop till MORE is set
+            rsp = self._inventory(tags, ant_sel, more)
+            if rsp is None:
+                break
+
+            more = rsp
+            if more is False:
+                done = True
+
+        return tags
+
+    def read_tid_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+        &#34;&#34;&#34;Read TID memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_TID, addr, count, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def read_epc_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+        &#34;&#34;&#34;Read EPC memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_EPC, addr, count, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_epc_memory(self, epc: str, tid: str, newepc: str, access=None):
+        &#34;&#34;&#34;Write epc to EPC memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_EPC, 2, self.DB_SIZE, list(unhexlify(newepc)), access
+        )
+        return data
+
+    def read_user_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+        &#34;&#34;&#34;Read USER memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_USER, addr, count, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_user_memory(self, epc: str, tid: str, addr: int, wdata: str, access=None):
+        &#34;&#34;&#34;Write data to USER memory of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_USER, addr, 1, list(unhexlify(wdata)), access
+        )
+        return data
+
+    def read_access_password(self, epc: str, tid: str, access=None):
+        &#34;&#34;&#34;Read ACCESS PASSWWORD of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_RESERVED, 2, 2, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_access_password(self, epc: str, tid: str, newpass: str, access=None):
+        &#34;&#34;&#34;Write Access password&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_RESERVED, 2, self.DB_SIZE, list(unhexlify(newpass)), access
+        )
+        return data
+
+    def read_kill_password(self, epc: str, tid: str, access=None):
+        &#34;&#34;&#34;Read KILL PASSWWORD of the TAG&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._read_block(uid, self.BANK_RESERVED, 0, 2, access)
+        if data:
+            data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+        return data
+
+    def write_kill_password(self, epc: str, tid: str, killpass: str, access=None):
+        &#34;&#34;&#34;Write Kill password&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        if isinstance(access, str):
+            access = list(unhexlify(access))  # convert to LIST
+        else:
+            access = None
+
+        data = self._write_block(
+            uid, self.BANK_RESERVED, 0, self.DB_SIZE, list(unhexlify(killpass)), access
+        )
+        return data
+
+    def lock(self, epc: str, tid: str, flags: int, access: str):
+        &#34;&#34;&#34;Lock/unlock tag memory region&#34;&#34;&#34;
+        if tid:
+            uid = list(unhexlify(tid))
+        else:
+            uid = list(unhexlify(epc))
+
+        uid_lng = len(uid)
+
+        cmd = [0xB3, 0x22, 0x11, uid_lng] + uid + [0x84, 0x03]
+        cmd += list(flags.to_bytes(3, &#34;big&#34;))
+
+        access = list(unhexlify(access))  # convert to LIST
+        cmd.append(len(access))
+        cmd += access
+
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data:
+            FeigBase._last_error = FeigError.INVALID_RESPONSE
+            if data[0] == 0xB3:
+                FeigBase._last_error = self._feig_status_parser(data[1])
+                if FeigBase._last_error is FeigError.OK:
+                    return True
+
+        return False
+
+    def permalock(self, epc, tid, access=None):
+        raise NotImplementedError</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="itekfeig.common.feig_base.FeigBase" href="feig_base.html#itekfeig.common.feig_base.FeigBase">FeigBase</a></li>
+</ul>
+<h3>Class variables</h3>
+<dl>
+<dt id="itekfeig.common.feig_host.FeigHost.ACCESS_LOCK"><code class="name">var <span class="ident">ACCESS_LOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.ACCESS_LOCK_PERMANENT"><code class="name">var <span class="ident">ACCESS_LOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.ACCESS_UNLOCK"><code class="name">var <span class="ident">ACCESS_UNLOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.ACCESS_UNLOCK_PERMANENT"><code class="name">var <span class="ident">ACCESS_UNLOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.DB_SIZE"><code class="name">var <span class="ident">DB_SIZE</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.EPC_LOCK"><code class="name">var <span class="ident">EPC_LOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.EPC_LOCK_PERMANENT"><code class="name">var <span class="ident">EPC_LOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.EPC_UNLOCK"><code class="name">var <span class="ident">EPC_UNLOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.EPC_UNLOCK_PERMANENT"><code class="name">var <span class="ident">EPC_UNLOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.KILL_LOCK"><code class="name">var <span class="ident">KILL_LOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.KILL_LOCK_PERMANENT"><code class="name">var <span class="ident">KILL_LOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.KILL_UNLOCK"><code class="name">var <span class="ident">KILL_UNLOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.KILL_UNLOCK_PERMANENT"><code class="name">var <span class="ident">KILL_UNLOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.TID_LOCK"><code class="name">var <span class="ident">TID_LOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.TID_LOCK_PERMANENT"><code class="name">var <span class="ident">TID_LOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.TID_UNLOCK"><code class="name">var <span class="ident">TID_UNLOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.TID_UNLOCK_PERMANENT"><code class="name">var <span class="ident">TID_UNLOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.USER_LOCK"><code class="name">var <span class="ident">USER_LOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.USER_LOCK_PERMANENT"><code class="name">var <span class="ident">USER_LOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.USER_UNLOCK"><code class="name">var <span class="ident">USER_UNLOCK</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.USER_UNLOCK_PERMANENT"><code class="name">var <span class="ident">USER_UNLOCK_PERMANENT</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+</dl>
+<h3>Methods</h3>
+<dl>
+<dt id="itekfeig.common.feig_host.FeigHost.inventory"><code class="name flex">
+<span>def <span class="ident">inventory</span></span>(<span>self, antennas=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Perform Inventory</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def inventory(self, antennas=None):
+    &#34;&#34;&#34;Perform Inventory&#34;&#34;&#34;
+    ant_sel = 0
+    if antennas is not None and isinstance(antennas, list):
+        for ant in antennas:
+            ant_sel |= ant
+
+    tags = []
+    done = False
+    more = False
+    while not done:  # loop till MORE is set
+        rsp = self._inventory(tags, ant_sel, more)
+        if rsp is None:
+            break
+
+        more = rsp
+        if more is False:
+            done = True
+
+    return tags</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.lock"><code class="name flex">
+<span>def <span class="ident">lock</span></span>(<span>self, epc: str, tid: str, flags: int, access: str)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Lock/unlock tag memory region</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def lock(self, epc: str, tid: str, flags: int, access: str):
+    &#34;&#34;&#34;Lock/unlock tag memory region&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    uid_lng = len(uid)
+
+    cmd = [0xB3, 0x22, 0x11, uid_lng] + uid + [0x84, 0x03]
+    cmd += list(flags.to_bytes(3, &#34;big&#34;))
+
+    access = list(unhexlify(access))  # convert to LIST
+    cmd.append(len(access))
+    cmd += access
+
+    FeigBase._last_error = FeigError.COMM_TIMEOUT
+    data = FeigBase._interface.transfer(1.0, cmd)
+    if data:
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0xB3:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+    return False</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.permalock"><code class="name flex">
+<span>def <span class="ident">permalock</span></span>(<span>self, epc, tid, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def permalock(self, epc, tid, access=None):
+    raise NotImplementedError</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.read_access_password"><code class="name flex">
+<span>def <span class="ident">read_access_password</span></span>(<span>self, epc: str, tid: str, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Read ACCESS PASSWWORD of the TAG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_access_password(self, epc: str, tid: str, access=None):
+    &#34;&#34;&#34;Read ACCESS PASSWWORD of the TAG&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._read_block(uid, self.BANK_RESERVED, 2, 2, access)
+    if data:
+        data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.read_epc_memory"><code class="name flex">
+<span>def <span class="ident">read_epc_memory</span></span>(<span>self, epc: str, tid: str, addr: int, count: int, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Read EPC memory of the TAG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_epc_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+    &#34;&#34;&#34;Read EPC memory of the TAG&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._read_block(uid, self.BANK_EPC, addr, count, access)
+    if data:
+        data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.read_kill_password"><code class="name flex">
+<span>def <span class="ident">read_kill_password</span></span>(<span>self, epc: str, tid: str, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Read KILL PASSWWORD of the TAG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_kill_password(self, epc: str, tid: str, access=None):
+    &#34;&#34;&#34;Read KILL PASSWWORD of the TAG&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._read_block(uid, self.BANK_RESERVED, 0, 2, access)
+    if data:
+        data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.read_tid_memory"><code class="name flex">
+<span>def <span class="ident">read_tid_memory</span></span>(<span>self, epc: str, tid: str, addr: int, count: int, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Read TID memory of the TAG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_tid_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+    &#34;&#34;&#34;Read TID memory of the TAG&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._read_block(uid, self.BANK_TID, addr, count, access)
+    if data:
+        data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.read_user_memory"><code class="name flex">
+<span>def <span class="ident">read_user_memory</span></span>(<span>self, epc: str, tid: str, addr: int, count: int, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Read USER memory of the TAG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_user_memory(self, epc: str, tid: str, addr: int, count: int, access=None):
+    &#34;&#34;&#34;Read USER memory of the TAG&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._read_block(uid, self.BANK_USER, addr, count, access)
+    if data:
+        data = hexlify(bytes(data)).decode(&#34;ascii&#34;)
+
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.write_access_password"><code class="name flex">
+<span>def <span class="ident">write_access_password</span></span>(<span>self, epc: str, tid: str, newpass: str, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Write Access password</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def write_access_password(self, epc: str, tid: str, newpass: str, access=None):
+    &#34;&#34;&#34;Write Access password&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._write_block(
+        uid, self.BANK_RESERVED, 2, self.DB_SIZE, list(unhexlify(newpass)), access
+    )
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.write_epc_memory"><code class="name flex">
+<span>def <span class="ident">write_epc_memory</span></span>(<span>self, epc: str, tid: str, newepc: str, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Write epc to EPC memory of the TAG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def write_epc_memory(self, epc: str, tid: str, newepc: str, access=None):
+    &#34;&#34;&#34;Write epc to EPC memory of the TAG&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._write_block(
+        uid, self.BANK_EPC, 2, self.DB_SIZE, list(unhexlify(newepc)), access
+    )
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.write_kill_password"><code class="name flex">
+<span>def <span class="ident">write_kill_password</span></span>(<span>self, epc: str, tid: str, killpass: str, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Write Kill password</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def write_kill_password(self, epc: str, tid: str, killpass: str, access=None):
+    &#34;&#34;&#34;Write Kill password&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._write_block(
+        uid, self.BANK_RESERVED, 0, self.DB_SIZE, list(unhexlify(killpass)), access
+    )
+    return data</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.common.feig_host.FeigHost.write_user_memory"><code class="name flex">
+<span>def <span class="ident">write_user_memory</span></span>(<span>self, epc: str, tid: str, addr: int, wdata: str, access=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Write data to USER memory of the TAG</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def write_user_memory(self, epc: str, tid: str, addr: int, wdata: str, access=None):
+    &#34;&#34;&#34;Write data to USER memory of the TAG&#34;&#34;&#34;
+    if tid:
+        uid = list(unhexlify(tid))
+    else:
+        uid = list(unhexlify(epc))
+
+    if isinstance(access, str):
+        access = list(unhexlify(access))  # convert to LIST
+    else:
+        access = None
+
+    data = self._write_block(
+        uid, self.BANK_USER, addr, 1, list(unhexlify(wdata)), access
+    )
+    return data</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="itekfeig.common.feig_base.FeigBase" href="feig_base.html#itekfeig.common.feig_base.FeigBase">FeigBase</a></b></code>:
+<ul class="hlist">
+<li><code><a title="itekfeig.common.feig_base.FeigBase.add_filter" href="feig_base.html#itekfeig.common.feig_base.FeigBase.add_filter">add_filter</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.get_last_error" href="feig_base.html#itekfeig.common.feig_base.FeigBase.get_last_error">get_last_error</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.get_last_error_str" href="feig_base.html#itekfeig.common.feig_base.FeigBase.get_last_error_str">get_last_error_str</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.get_software_version" href="feig_base.html#itekfeig.common.feig_base.FeigBase.get_software_version">get_software_version</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.login" href="feig_base.html#itekfeig.common.feig_base.FeigBase.login">login</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.read_all_config" href="feig_base.html#itekfeig.common.feig_base.FeigBase.read_all_config">read_all_config</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.read_config" href="feig_base.html#itekfeig.common.feig_base.FeigBase.read_config">read_config</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.remove_filter" href="feig_base.html#itekfeig.common.feig_base.FeigBase.remove_filter">remove_filter</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.reset_config" href="feig_base.html#itekfeig.common.feig_base.FeigBase.reset_config">reset_config</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.rf_controller_reset" href="feig_base.html#itekfeig.common.feig_base.FeigBase.rf_controller_reset">rf_controller_reset</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.rf_reset" href="feig_base.html#itekfeig.common.feig_base.FeigBase.rf_reset">rf_reset</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.system_reset" href="feig_base.html#itekfeig.common.feig_base.FeigBase.system_reset">system_reset</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.write_config" href="feig_base.html#itekfeig.common.feig_base.FeigBase.write_config">write_config</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="itekfeig.common" href="index.html">itekfeig.common</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="itekfeig.common.feig_host.FeigHost" href="#itekfeig.common.feig_host.FeigHost">FeigHost</a></code></h4>
+<ul class="">
+<li><code><a title="itekfeig.common.feig_host.FeigHost.ACCESS_LOCK" href="#itekfeig.common.feig_host.FeigHost.ACCESS_LOCK">ACCESS_LOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.ACCESS_LOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.ACCESS_LOCK_PERMANENT">ACCESS_LOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.ACCESS_UNLOCK" href="#itekfeig.common.feig_host.FeigHost.ACCESS_UNLOCK">ACCESS_UNLOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.ACCESS_UNLOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.ACCESS_UNLOCK_PERMANENT">ACCESS_UNLOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.DB_SIZE" href="#itekfeig.common.feig_host.FeigHost.DB_SIZE">DB_SIZE</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.EPC_LOCK" href="#itekfeig.common.feig_host.FeigHost.EPC_LOCK">EPC_LOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.EPC_LOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.EPC_LOCK_PERMANENT">EPC_LOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.EPC_UNLOCK" href="#itekfeig.common.feig_host.FeigHost.EPC_UNLOCK">EPC_UNLOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.EPC_UNLOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.EPC_UNLOCK_PERMANENT">EPC_UNLOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.KILL_LOCK" href="#itekfeig.common.feig_host.FeigHost.KILL_LOCK">KILL_LOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.KILL_LOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.KILL_LOCK_PERMANENT">KILL_LOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.KILL_UNLOCK" href="#itekfeig.common.feig_host.FeigHost.KILL_UNLOCK">KILL_UNLOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.KILL_UNLOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.KILL_UNLOCK_PERMANENT">KILL_UNLOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.TID_LOCK" href="#itekfeig.common.feig_host.FeigHost.TID_LOCK">TID_LOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.TID_LOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.TID_LOCK_PERMANENT">TID_LOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.TID_UNLOCK" href="#itekfeig.common.feig_host.FeigHost.TID_UNLOCK">TID_UNLOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.TID_UNLOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.TID_UNLOCK_PERMANENT">TID_UNLOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.USER_LOCK" href="#itekfeig.common.feig_host.FeigHost.USER_LOCK">USER_LOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.USER_LOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.USER_LOCK_PERMANENT">USER_LOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.USER_UNLOCK" href="#itekfeig.common.feig_host.FeigHost.USER_UNLOCK">USER_UNLOCK</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.USER_UNLOCK_PERMANENT" href="#itekfeig.common.feig_host.FeigHost.USER_UNLOCK_PERMANENT">USER_UNLOCK_PERMANENT</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.inventory" href="#itekfeig.common.feig_host.FeigHost.inventory">inventory</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.lock" href="#itekfeig.common.feig_host.FeigHost.lock">lock</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.permalock" href="#itekfeig.common.feig_host.FeigHost.permalock">permalock</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.read_access_password" href="#itekfeig.common.feig_host.FeigHost.read_access_password">read_access_password</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.read_epc_memory" href="#itekfeig.common.feig_host.FeigHost.read_epc_memory">read_epc_memory</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.read_kill_password" href="#itekfeig.common.feig_host.FeigHost.read_kill_password">read_kill_password</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.read_tid_memory" href="#itekfeig.common.feig_host.FeigHost.read_tid_memory">read_tid_memory</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.read_user_memory" href="#itekfeig.common.feig_host.FeigHost.read_user_memory">read_user_memory</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.write_access_password" href="#itekfeig.common.feig_host.FeigHost.write_access_password">write_access_password</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.write_epc_memory" href="#itekfeig.common.feig_host.FeigHost.write_epc_memory">write_epc_memory</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.write_kill_password" href="#itekfeig.common.feig_host.FeigHost.write_kill_password">write_kill_password</a></code></li>
+<li><code><a title="itekfeig.common.feig_host.FeigHost.write_user_memory" href="#itekfeig.common.feig_host.FeigHost.write_user_memory">write_user_memory</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
