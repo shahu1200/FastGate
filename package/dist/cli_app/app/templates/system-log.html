@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %} 
+  <!--header end-->
+    <!--form start-->
+<script>
+  function myFunction() {
+    var module = $('select[name=selmodule]').val();
+    var formdict = {};
+
+    formdict["selmodule"] = module;
+    console.log(module);
+    $('#systemlogtext').empty();
+
+    fetch("/api/get_system_logs",{
+      method: "POST",
+      body: JSON.stringify(formdict),
+      headers: {
+        'Content-Type': 'application/json'
+    }
+    }).then(function (response) {
+        if (response.status !== 200) {
+          console.log(`Looks like there was a problem. Status code: ${response.status}`);
+          return;
+        }
+        response.text().then(function (text) {
+          $('#systemlogtext').text(text);
+        });
+      })
+  }
+
+</script>
+  <div class="global-container">
+    <div class="card systemlog-form">
+      <div class="card-body">
+        <h3 class="card-title text-center">System Logs</h3> <hr>
+        <div class="card-text" style="align-items: center;">
+            <div class="form-row align-items-center" style="justify-content: center;">
+              <div class="col-md-4 my-1">
+                  <label for="exampleInputEmail1" style="font-weight: 600;">Select Module</label>
+                  <select id="inputState" name="selmodule" class="form-control" onchange="myFunction()">
+                      {% for module in data["modules"] %}
+                        <option value={{module}}>{{module}}</option>
+                      {% endfor %}
+                  </select>
+              </div>
+              
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col-md-12" style="max-height: 330px;overflow-y: scroll;">
+                <div class="table-responsive">
+                  <table class="table table-striped" style="white-space: pre-line;">
+
+                    <tbody id="systemlogtext">
+              
+                    </tbody>
+                  </table>
+                
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+   <!--form end--> 
+   {% endblock %}
