@@ -1,6 +1,0 @@
-2022-06-14 09:38:29,615::INFO::weber.py::289 logging session is > info@infoteksoftware.com
-2022-06-14 09:38:30,710::INFO::weber.py::308 dashboard function
-2022-06-14 09:38:30,716::INFO::weber.py::315 {'vehicleuserlistcount': 3, 'lastvehiclelog': {'IN': [(11375, 'E20000191401015015107C17', '2022-06-11 10:21:37', 'IN', 'Unauthorized'), 0], 'OUT': [(7990, '30361FAD281E5817487E87F2', '2022-06-10 15:07:26', 'OUT', 'Unauthorized'), 0]}, 'authority': 1}
-2022-06-14 09:38:33,872::INFO::weber.py::176 handle api call : get_ram_info
-2022-06-14 09:39:17,577::INFO::weber.py::176 handle api call : get_ram_info
-2022-06-14 09:41:29,975::INFO::weber.py::176 handle api call : get_ram_info
