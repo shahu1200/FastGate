@@ -1,0 +1,45 @@
+2022-06-15 09:39:15,413::DEBUG::database.py::285 get count rows!
+2022-06-15 09:39:15,493::DEBUG::database.py::285 get count rows!
+2022-06-15 09:39:56,785::INFO::database.py::842 check user authorization!
+2022-06-15 09:39:57,059::DEBUG::database.py::195 fetch one data!
+2022-06-15 09:39:57,162::DEBUG::database.py::184 fetch all data!
+2022-06-15 09:39:57,702::DEBUG::database.py::695 getting dashboard data!
+2022-06-15 09:39:57,723::DEBUG::database.py::285 get count rows!
+2022-06-15 09:39:57,805::DEBUG::database.py::184 fetch all data!
+2022-06-15 09:39:57,816::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-15 09:39:57,847::DEBUG::database.py::195 fetch one data!
+2022-06-15 09:39:57,888::DEBUG::database.py::184 fetch all data!
+2022-06-15 09:39:57,893::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-15 09:39:57,904::DEBUG::database.py::195 fetch one data!
+2022-06-15 09:48:54,813::DEBUG::database.py::285 get count rows!
+2022-06-15 09:48:54,850::DEBUG::database.py::285 get count rows!
+2022-06-15 12:05:02,087::DEBUG::database.py::285 get count rows!
+2022-06-15 12:05:02,122::DEBUG::database.py::285 get count rows!
+2022-06-15 15:06:15,976::DEBUG::database.py::285 get count rows!
+2022-06-15 15:06:16,011::DEBUG::database.py::285 get count rows!
+2022-06-15 15:06:44,240::INFO::database.py::842 check user authorization!
+2022-06-15 15:06:44,261::DEBUG::database.py::195 fetch one data!
+2022-06-15 15:06:44,379::DEBUG::database.py::184 fetch all data!
+2022-06-15 15:06:44,401::DEBUG::database.py::695 getting dashboard data!
+2022-06-15 15:06:44,406::DEBUG::database.py::285 get count rows!
+2022-06-15 15:06:44,427::DEBUG::database.py::184 fetch all data!
+2022-06-15 15:06:44,433::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-15 15:06:44,444::DEBUG::database.py::195 fetch one data!
+2022-06-15 15:06:44,480::DEBUG::database.py::184 fetch all data!
+2022-06-15 15:06:44,485::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-15 15:06:44,496::DEBUG::database.py::195 fetch one data!
+2022-06-15 15:19:29,884::DEBUG::database.py::285 get count rows!
+2022-06-15 15:19:29,915::DEBUG::database.py::285 get count rows!
+2022-06-15 15:19:52,243::INFO::database.py::842 check user authorization!
+2022-06-15 15:19:52,285::DEBUG::database.py::195 fetch one data!
+2022-06-15 15:19:52,372::DEBUG::database.py::184 fetch all data!
+2022-06-15 15:19:52,434::DEBUG::database.py::695 getting dashboard data!
+2022-06-15 15:19:52,444::DEBUG::database.py::285 get count rows!
+2022-06-15 15:19:52,531::DEBUG::database.py::184 fetch all data!
+2022-06-15 15:19:52,542::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-15 15:19:52,588::DEBUG::database.py::195 fetch one data!
+2022-06-15 15:19:52,609::DEBUG::database.py::184 fetch all data!
+2022-06-15 15:19:52,619::DEBUG::database.py::320 get datetime_filter_multicolmn!
+2022-06-15 15:19:52,742::DEBUG::database.py::195 fetch one data!
+2022-06-15 15:35:15,124::DEBUG::database.py::285 get count rows!
+2022-06-15 15:35:15,161::DEBUG::database.py::285 get count rows!
