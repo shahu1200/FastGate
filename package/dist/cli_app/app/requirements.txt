@@ -1,0 +1,5 @@
+pyserial>=3.4
+smbus
+requests
+psutil
+toml

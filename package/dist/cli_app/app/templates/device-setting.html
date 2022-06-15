@@ -1,0 +1,505 @@
+{% extends "base.html" %}
+{% block content %}
+<script>  
+function antFunction(){
+  var selant  = $('select[name=antNo]').serializeArray();
+  console.log(selant);
+  if (selant[0]['value'] !== "NA")
+  {
+    
+    var formdict = {};
+    formdict[selant[0]['name']] = selant[0]['value'];    
+    console.log(formdict);
+
+    fetch("/api/onchange_antsetting",{
+      method: "POST",
+      body: JSON.stringify(formdict),
+      headers: {
+        'Content-Type': 'application/json'
+    }
+    }).then(function (response) {
+        if (response.status !== 200) {
+          console.log(`Looks like there was a problem. Status code: ${response.status}`);
+          return;
+        }
+        response.json().then(function (data) {
+          console.log(data);
+          document.querySelector('select[name="antname"]').value = data["antname"];
+          document.querySelector('select[name="antpower"]').value = data["antpower"];
+          document.querySelector('input[name="antlocation"]').value = data["antlocation"];
+          // document.querySelector('select[name="relayNum"]').value = data["boardRelay"];
+          
+          if(data["boardRelay"] == 7){
+            document.querySelector('select[name="relayNum"]').value = "Relay-1"
+          };
+          if(data["boardRelay"] == 29){
+            document.querySelector('select[name="relayNum"]').value = "Relay-2"
+          };
+          if(data["boardRelay"] == 21){
+            document.querySelector('select[name="relayNum"]').value = "Relay-6"
+          };
+          
+          if(data["validLedRelay"] == 26){
+            document.querySelector('select[name="validRelayNum"]').value = "Relay-4"
+          };
+          if(data["validLedRelay"] == 31){
+            document.querySelector('select[name="validRelayNum"]').value = "Relay-3"
+          };
+
+
+          if(data["invalidRelay"] === 24){
+            document.querySelector('input[name="ledNum"]').value = "Relay-5"
+          };
+          // document.querySelector('input[name="ledNum"]').value = data["invalidRelay"];
+          document.querySelector('select[name="boomOnTime"]').value = data["boomOnTime"];
+          
+        });
+      })
+  }
+  else
+  {
+    document.querySelector('select[name="antname"]').value = "NA";
+    document.querySelector('select[name="antpower"]').value = "NA";
+    document.querySelector('input[name="antlocation"]').value = "";
+    document.querySelector('select[name="relayNum"]').value = "NA";
+    document.querySelector('input[name="ledNum"]').value = "NA";
+    document.querySelector('select[name="boomOnTime"]').value = "NA";
+    document.querySelector('select[name="validRelayNum"]').value = "NA";
+  }
+}
+
+function antSettingSave()
+{
+  var selant  = $('select[name=antNo]').serializeArray();
+
+  if(selant[0]['value'] === "NA")
+  {
+    alert("please select proper antenna!");
+    return
+  }
+  var inputdata  = $('input').serializeArray();
+  var selectdata  = $('select').serializeArray();
+  // console.log(inputdata, selectdata);
+  var formdict = {};
+  $.each(selectdata, function(i, n){
+    formdict[n['name']] = n['value'];
+  });
+  $.each(inputdata, function(i, n){
+    formdict[n['name']] = n['value'];
+  });
+  // console.log("formdict")
+  // console.log(formdict)
+  // console.log("data")
+  // console.log(data)
+
+
+  fetch("/api/save_antsettings",{
+    method: "POST",
+    body: JSON.stringify(formdict),
+    headers: {
+      'Content-Type': 'application/json'
+  }
+  }).then(function (response) {
+      if (response.status !== 200) {
+        console.log(`Looks like there was a problem. Status code: ${response.status}`);
+        return;
+      }
+      response.json().then(function (data) {
+        console.log(data);
+        alert("configurations saved! please reboot system!");
+      });
+    })
+}
+
+function systemReboot()
+  {
+    var conf = confirm("Are you sure you want to reboot the system?")
+
+    if(conf){
+      alert("System will reboot now")
+      fetch("/api/system_reboot",{
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+      }) 
+    }
+    else{
+      return;
+    }
+    
+  }
+function activateFunction(){
+
+  var activateFlag  = $('input[type=radio]').serializeArray();
+
+  console.log(activateFlag[0]['value'])
+  if(activateFlag[0]['value'] == '1')
+  {
+    var conf = confirm("Are you sure, you want to Activate the system?")
+    if(conf){
+      fetch("/api/set_serviceActivation_flag",{
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+      }).then(function (response){
+      if (response.status == 200){
+        
+        alert("system service is activated"+'\n'+
+              "System will reboot now");
+        systemReboot();
+      }
+      else{
+        alert("system service activation failed")
+      }
+      })
+    }
+    else{
+      return;
+    }
+    
+  }
+  if(activateFlag[0]['value'] == '2')
+  {
+    var conf2 = confirm("Are you sure, you want to deactivate the system?")
+    if(conf2){
+      fetch("/api/reset_serviceActivation_flag",{
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+      }).then(function (response){
+      if (response.status == 200){
+        alert("system service is deactivated"+'\n'+
+              "System will reboot now");
+        systemReboot();
+      }
+      else{
+        alert("system service deactivation failed")
+      }
+      })
+    }
+    else{
+      return;
+    }    
+  }
+}
+
+function setDateTime(){
+  var formdatas = ($('#Date,#Time').serializeArray());  
+  if(formdatas[0]["value"] == '' || formdatas[1]["value"] == '')
+  {
+    alert("Please select proper date time")
+    return
+  }
+  var formdict = {};
+  console.log(formdatas)
+
+  var keys = "";
+  var vals = "";
+  
+  $.each(formdatas, function(i, n){
+    keys = n['name'];
+    
+    if (keys.includes("Date")){vals=dateformats(n['value']);}
+    else if (keys.includes("Time")){vals=n['value'] + ":00";}else{vals=n['value'];}
+    
+    formdict[keys] = vals;
+  });
+  // console.log(formdict)
+  fetch("/api/set_device_date_time",{
+    method: "POST",
+    body: JSON.stringify(formdict),
+    headers: {
+      'Content-Type': 'application/json'
+  }
+  }).then(function (response){
+    if (response.status == 200){
+      alert("Device Date Time Updated.");      
+    }
+    else{
+      alert("Failed to update Device Date Time.");
+    }
+  })
+}
+
+function processCall(){
+
+  fetch("/api/runPyScript",{
+    method: "GET",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+  }).then(function(response){
+    if (response.status == 200){
+      alert("process called successfuly.");
+    }
+    else{
+      alert("process called failed.");
+    }
+  })
+
+}
+
+function checkVersionFromServer(){
+  fetch("/api/ceckVersionFromServer",{
+    method: "GET",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+  }).then(function(response){
+    if (response.status == 200){
+      response.json().then(function(data){
+      if(data['currentVersion'] == data['serverVersion']){
+        alert("Version up to date"+'\n'+
+              "current system version: "+data['currentVersion']+'\n'+
+              "server version: "+data['serverVersion'])
+      }
+      else{
+        var conf = confirm("system current version: "+data['currentVersion']+'\n'+
+                          "version available on server: "+data['serverVersion']+'\n'+
+                          "Do you want to update the system version?")
+        if(conf){
+          processCall();
+        }
+        else{
+          return
+        }
+      }
+    })
+      
+    }
+    else{
+      alert("process called failed.");
+    }
+  })
+}
+
+</script>
+    <div class="global-container">
+     <div class="card login-form">
+      <div class="card-body">
+        <h3 class="card-title text-center">Device Setting</h3> <hr>
+        <div class="card-text">
+          <!--form 1 start-->
+                    <div class="form-row align-items-center">
+                      <div class="col-md-4 my-1">
+                        <label for="inputState" style="font-weight: 600;">Select Antenna</label>
+                         <select id="inputState" class="form-control" name="antNo" onchange="antFunction()">
+                          <option value="NA">NA</option>
+                          {% for antcount in data["antCounts"] %}
+                          <option value={{antcount}}>{{antcount}}</option>
+                           {% endfor %}
+                           </select>
+                      </div>
+                      <div class="col-md-4 my-1">
+                        <label class="mr-sm-2" for="inlineFormCustomSelect" style="font-weight: 600;">IN / OUT</label>
+                        <!-- <input type="text" class="form-control" id="inlineFormInputName" id="antname" name="antname" placeholder=""> -->
+                        <select id="inputState" class="form-control" name="antname">
+                          <option value="NA">NA</option>
+                          <option>IN</option>
+                          <option>OUT</option>
+                        </select>
+                      </div>
+                      <div class="col-md-4 my-1">                        
+                        <label for="inputState" style="font-weight: 600;">Antenna Power</label>
+                        <select id="inputState" class="form-control" name="antpower">
+                          {% if data["rfidReader"] == "MRU102" %}
+                          <option value="NA">NA</option>
+                          <option>0.1</option>
+                          <option>0.2</option>
+                          <option>0.3</option>
+                          <option>0.4</option>
+                          <option>0.5</option>
+                          <option>0.6</option>
+                          <option>0.7</option>
+                          <option>0.8</option>
+                          <option>0.9</option>
+                          <option>1.0</option>
+                          <option>1.1</option>
+                          <option>1.2</option>
+                          <option>1.3</option>
+                          <option>1.4</option>
+                          <option>1.5</option>
+                          <option>1.6</option>
+                          <option>1.7</option>
+                          <option>1.8</option>
+                          <option>1.9</option>
+                          <option>2.0</option>
+                          <!-- </select> -->
+                          {% elif data["rfidReader"] == "LRU1002" %}
+                          <option value="NA">NA</option>
+                          <option>1</option>
+                          <option>1.2</option>
+                          <option>1.3</option>
+                          <option>1.4</option>
+                          <option>1.5</option>
+                          <option>1.6</option>
+                          <option>1.7</option>
+                          <option>1.8</option>
+                          <option>1.9</option>
+                          <option>2</option>
+                          <option>2.1</option>
+                          <option>2.2</option>
+                          <option>2.3</option>
+                          <option>2.4</option>
+                          <option>2.5</option>
+                          <option>2.6</option>
+                          <option>2.7</option>
+                          <option>2.8</option>
+                          <option>2.9</option>
+                          <option>3</option>
+                          <!-- </select> -->
+                          {% endif %}
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-row align-items-center">
+                      <div class="col-md-4 my-1">
+                        <label class="mr-sm-2" for="inlineFormCustomSelect" style="font-weight: 600;">Location</label>
+                        <input type="text" class="form-control" id="inlineFormInputName" name="antlocation" placeholder="">
+                      </div>
+                      
+                      <div class="col-md-4 my-1">
+                        <label for="inputState" style="font-weight: 600;">Boom Relay</label>
+                         <select id="inputState" class="form-control" name="relayNum" >
+                          <option value="NA">NA</option> 
+                          <option>Relay-1</option>
+                          <option>Relay-2</option>
+                          <option>Relay-6</option>                         
+                          <!-- {% for antcount in data["boardRelays"] %}
+                          <option value={{antcount}}>{{antcount}}</option>
+                           {% endfor %} -->
+                           </select>
+                      </div>
+
+                      <div class="col-md-4 my-1">
+                        <label for="inputState" style="font-weight: 600;">Invalid LED Relay</label>
+                        <input type="text" class="form-control" id="inlineFormInputName"  placeholder="" name="ledNum" readonly> 
+                        <!-- <select id="inputState" class="form-control" name="ledNum" readonly>
+                          <option value="NA">NA</option>
+                          {% for antcount in data["boardRelays"] %}
+                          <option value={{antcount}}>{{antcount}}</option>
+                           {% endfor %}
+                           </select> -->
+                      </div>
+                    </div>
+
+                    <div class="form-row align-items-center">
+                      <div class="col-md-4 my-1">  
+                        <label for="inputState" style="font-weight: 600;">Boom Open Time</label>
+                        <select id="inputState" class="form-control" name="boomOnTime">
+                          <option value="NA">NA</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-4 my-1">
+                        <label for="inputState" style="font-weight: 600;">Valid LED Relay</label>
+                         <select id="inputState" class="form-control" name="validRelayNum" >
+                          <option value="NA">NA</option> 
+                          <option>Relay-3</option>
+                          <option>Relay-4</option>                                                  
+                          <!-- {% for antcount in data["boardRelays"] %}
+                          <option value={{antcount}}>{{antcount}}</option>
+                           {% endfor %} -->
+                           </select>
+                      </div>
+                    </div>                    
+                      
+                    <div class="form-row align-items-center">
+                      <div class="col-md-4 my-1">
+                        <button type="submit" style="margin-top: 22%;" class="btn btn-primary" onclick="antSettingSave()">Save</button>
+                      </div>
+                    </div>
+
+                  <hr> 
+                  <label class="mr-sm-2" for="inlineFormCustomSelect" style="font-weight: 600;">System Activation</label>
+                  <div class="row" style="justify-content: center; margin-top:0px">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        {% if data["serviceActivation"] == 1 %}
+                      <label class="btn btn-secondary" title="System is already active" id="option3">                          
+                          <input type="radio"  name="activationFlag" id="option1" autocomplete="off" value="1" onclick="activateFunction()" disabled> Activate
+                        </label>
+                        {% else %}
+                        <label class="btn btn-primary" title="Click to Activate the system" id="option3">                          
+                          <input type="radio"  name="activationFlag" id="option1" autocomplete="off" value="1" onclick="activateFunction()"> Activate
+                        </label>
+                        {% endif %}
+
+
+                        <!-- dummy button to make space between activate and deactivate button -->
+                        <button type="button" class="btn btn-secondary mr-0 ml-1 pr-0 pl-0" disabled></button>
+                        
+                        {% if data["serviceActivation"] == 0 %}
+                        <label class="btn btn-secondary" title="System is already deactivated" id="option4">
+                          <input type="radio"  name="activationFlag" id="option2" autocomplete="off" value="2" onclick="activateFunction()" disabled> Deactivate
+                        </label>
+                        {% else %}
+                        <label class="btn btn-primary" title="Click to deactivate the system" id="option4">
+                          <input type="radio"  name="activationFlag" id="option2" autocomplete="off" value="2" onclick="activateFunction()"> Deactivate
+                        </label>
+                        {% endif %}
+                        
+                    </div>
+                  </div><br>
+                  <div class="card-text">
+                  <hr>
+                  <!-- device date time settings -->
+                  <label class="mr-sm-2" for="inlineFormCustomSelect" style="font-weight: 600;">Device Date Time</label>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" style="font-weight: 600;">Date</label>
+                    {% if data["internetStat"] != True %}                   
+                    <input type="date" name="Date" id="Date" value="{{data['date']}}" class="form-control form-control-sm date">
+                    {% else %}                    
+                    <input type="date" name="Date" id="Date" class="form-control form-control-sm date" value="{{data['date']}}" readonly>
+                    <sub style="color:red; font-weight: 500;"> 
+                      <i>Can not change date while sytem is connected to server.</i>
+                    </sub>
+                    {% endif %}
+                  </div> 
+                  
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" style="font-weight: 600;">Time</label>
+                    
+                    {% if data["internetStat"] != True %}
+                    <input type="time" name="Time" class="form-control form-control-sm" value="{{data['time']}}" id="Time">
+                    {% else %}                    
+                    <input type="time" name="Time" class="form-control form-control-sm" id="Time" value="{{data['time']}}" readonly>
+                    <sub style="color:red; font-weight: 500;"> 
+                      <i>Can not change time while sytem is connected to server.</i>
+                    </sub>
+                    {% endif %}
+                  </div>
+                  
+                  <div class="col-md-4 my-1">
+                    {% if data["internetStat"] != True %}
+                    <button type="submit" style="margin-top: 22%;" class="btn btn-primary" onclick="setDateTime()">Save</button>
+                    {% else %} 
+                    <button type="submit" style="margin-top: 22%;" class="btn btn-secondary" onclick="setDateTime()" disabled>Save</button>
+                    {% endif %}
+                  </div>
+                  <hr>
+                    <div class="form-row align-items-center">
+                      <div class="col-md-12 " style="text-align: center;">
+                        <!-- <button type="button" class="btn btn-primary" style="font-weight: 600;">System Reset</button> -->
+                        <button type="button" class="btn btn-warning" style="font-weight: 600;" onclick="systemReboot()">System Reboot</button>
+                        <button type="button" class="btn btn-warning" style="font-weight: 600;" onclick="checkVersionFromServer()">check update</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            </div>        
+  {% endblock %}

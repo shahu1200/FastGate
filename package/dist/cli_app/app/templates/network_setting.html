@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+#wifi {
+  display: none;
+}
+</style>
+<script>
+  
+function myFunction()
+{
+  var lanwifi  = $('input[type=radio]').serializeArray();
+
+  var lan = document.getElementById("lan");
+  var wifi = document.getElementById("wifi");
+  var lan1 = document.getElementById("#option3");
+  var wifi1 = document.getElementById("#option4");
+  // console.log(lanwifi[0]['value']);
+  console.log(lanwifi)
+  if(lanwifi[0]['value'] == '1')
+  {
+    wifi.style.display = "none";
+    lan.style.display = "block";
+    document.getElementById("option3").className = "btn btn-info active";
+    document.getElementById("option4").className = "btn btn-light";
+  }
+  else{
+    wifi.style.display = "block";
+    lan.style.display = "none";
+    document.getElementById("option4").className = "btn btn-info active";
+    document.getElementById("option3").className = "btn btn-light";
+  }
+
+  // fetch("/api/networksettings_lanwifi",{
+  //   method: "POST",
+  //   body: JSON.stringify(formdict),
+  //   headers: {
+  //     'Content-Type': 'application/json'
+  // }
+  // }).then(function (response) {
+  //     if (response.status !== 200) {
+  //       console.log(`Looks like there was a problem. Status code: ${response.status}`);
+  //       return;
+  //     }
+  //     response.json().then(function (data) {
+  //       console.log(data);
+  //       alert("Successfully added User Vehicle schedule!");
+  //     });
+  //   })
+}
+</script>
+    <!--main end-->
+    <!--form start-->
+  <div class="global-container">
+    <div class="card login-form">
+      <div class="card-body">
+        <h3 class="card-title text-center">Network Setting</h3> 
+        <hr>
+        <div class="row" style="justify-content: center; margin-top:30px">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-info active" id="option3">
+                <input type="radio" name="lanwifi" id="option1" autocomplete="off" value="1" onclick="myFunction()"> LAN
+              </label>
+              
+              <label class="btn" id="option4">
+                <input type="radio" name="lanwifi" id="option2" autocomplete="off" value="2" onclick="myFunction()"> Wi-Fi
+              </label>
+              
+          </div>
+        </div><br>
+        <div class="card-text">
+          
+          <div id="lan">
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                    <label for="inputText4">IP Address</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="" name="ipaddress" value={{data["ipaddress"]}} readonly>
+              </div>
+              <div class="form-group col-md-4">
+                    <label for="inputText4">Gateway</label>
+                    <input type="text" class="form-control" id="inputPassword4" name="gateway" placeholder="" value={{data["gateway"]}} readonly>
+              </div>
+              <div class="form-group col-md-4">
+                    <label for="inputText4">Subnet Mask</label>
+                    <input type="text" class="form-control" id="inputEmail4" name="subnetmask" placeholder="" value={{data["subnetmask"]}} readonly>
+              </div>
+            </div> 
+
+                
+          </div>
+          <div id="wifi">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputText4">Wi-Fi Name</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="" name="wifiname" value={{data["wifiname"]}}>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputText4">Mac Address</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="" name="macaddress" value={{data["macaddress"]}} readonly>
+            </div> 
+          </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputText4">Wifi Ip Address</label>
+                <input type="text" class="form-control" id="inputPassword4" name="wifiipaddress" placeholder="" value={{data["wifiipaddress"]}} readonly>
+              </div>
+            </div> 
+          <center>
+          <button type="submit" class="btn btn-warning ">Update</button>
+          <button type="submit" class="btn btn-light ">Cancel</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

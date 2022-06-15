@@ -1,0 +1,323 @@
+{% extends "base.html" %}
+
+{% block content %} 
+
+  <!--header end-->
+
+    <!--form start-->
+<script>
+function processFile() {
+    var fileSize = 0;
+    //get file
+    var theFile = document.getElementById("fileUpload");
+    
+     var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
+     //check if file is CSV
+     if (regex.test(theFile.value.toLowerCase())) {
+     //check if browser support FileReader
+        if (typeof (FileReader) != "undefined") {
+       //get table element
+        var table = document.getElementById("myTable");
+        var headerLine = "";
+        //create html5 file reader object
+        var myReader = new FileReader();
+        var vehiclelist = [];
+        // call filereader. onload function
+        myReader.onload = function(e) {
+            var content = myReader.result;
+            //split csv file using "\n" for new line ( each row)
+            var lines = content.split("\r\n");
+            //loop all rows
+            //console.log(lines);
+            for (var count = 1; count < lines.length; count++) {
+                //create a tr element
+                var excelRows = lines[count].split(",");
+                var data_frame = {};
+                        //Add the data row.
+                //console.log(excelRows);
+                if (excelRows.length != 1)
+                {
+                  data_frame = {};
+                  data_frame["tagId"] = excelRows[0]; //1
+                  data_frame["ownerName"] = excelRows[1]; //2
+                  data_frame["vehicleNo"] = excelRows[3];//4
+                  data_frame["flatNo"] = excelRows[2]; //3
+                  data_frame["fromDate"] = excelRows[4]; //5
+                  data_frame["toDate"] = excelRows[5]; //6
+                  data_frame["fromTime"] = excelRows[6]; //7
+                  data_frame["toTime"] = excelRows[7];//8
+                  data_frame["weekDay"] = excelRows[8];//9
+                  data_frame["blkFromDate"] = excelRows[9];//10
+                  data_frame["blkToDate"] = excelRows[10];//11
+                  data_frame["blkFromTime"] = excelRows[11];//12
+                  data_frame["blkToTime"] = excelRows[12];//13
+                  data_frame["blkWeekDay"] = excelRows[13];//14
+                  data_frame["auth"] = excelRows[14];//15
+                  vehiclelist.push(data_frame);
+                }
+            }
+            var formdict = {};
+            formdict["userlist"] = vehiclelist;
+            console.log(formdict);
+            fetch("/api/vehicle_registration",{
+              method: "POST",
+              body: JSON.stringify(formdict),
+              headers: {
+                'Content-Type': 'application/json'
+            }
+            }).then(function (response) {
+            if (response.status !== 200) {
+              console.log(`Looks like there was a problem. Status code: ${response.status}`);
+              return;
+            }
+            response.json().then(function (data) {
+              console.log(data);
+              alert("Successfully added User Vehicle!");
+            });
+          })
+        }
+         //call file reader onload
+          myReader.readAsText(theFile.files[0]);
+        }
+        else 
+        {
+              alert("This browser does not support HTML5.");
+        }
+        
+    }
+    else {
+                alert("Please upload a valid CSV file.");
+    }
+    return false;
+}
+
+function UploadProcess() {
+        //Reference the FileUpload element.
+        var fileUpload = document.getElementById("fileUpload");
+ 
+        //Validate whether File is valid Excel file.
+        var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
+        alert("Wait for adding excel file!");
+        if (regex.test(fileUpload.value.toLowerCase())) 
+        {
+            console.log("file in!");
+            console.log(typeof(FileReader));
+            if (typeof (FileReader) != "undefined") 
+            {
+                var headerLine = "";
+                var reader = new FileReader();
+                console.log(reader);
+                reader.onload = function(e) 
+                {
+                  var content = reader.result;
+                    console.log("e.target.result");
+                    var lines = content.split("\r");
+                    var vehiclelist = [];
+                    for (var count = 0; count < lines.length; count++) {
+                      var excelRows = lines[count].split(",");
+                      var data_frame = {};
+                        //Add the data row.
+                        console.log(excelRows);
+                        data_frame = {};
+                        data_frame["tagId"] = excelRows[1];
+                        data_frame["ownerName"] = excelRows[2];
+                        data_frame["vehicleNo"] = excelRows[4];
+                        data_frame["flatNo"] = excelRows[3];
+                        data_frame["fromDate"] = excelRows[5];
+                        data_frame["toDate"] = excelRows[6];
+                        data_frame["toTime"] = excelRows[7];
+                        data_frame["weekDay"] = excelRows[8];
+                        data_frame["blkFromDate"] = excelRows[9];
+                        data_frame["blkToDate"] = excelRows[10];
+                        data_frame["blkToTime"] = excelRows[11];
+                        data_frame["blkWeekDay"] = excelRows[12];
+                        data_frame["auth"] = excelRows[13];
+                        vehiclelist.push(data_frame);
+                    }
+                    var formdict = {};
+                    formdict["userlist"] = vehiclelist;
+                    console.log(formdict);
+                    fetch("/api/vehicle_registration",{
+                      method: "POST",
+                      body: JSON.stringify(formdict),
+                      headers: {
+                        'Content-Type': 'application/json'
+                    }
+                    }).then(function (response) {
+                    if (response.status == 201) {
+                      console.log(`Looks like there was a problem. Status code: ${response.status}`);
+                      return;
+                    }
+                    else if (response.status == 202){
+                      console.log(`Looks like the database is full. Status code: ${response.status}`);
+                      alert("Vehicle database is full");
+                      return;
+                    }
+                    response.json().then(function (data) {
+                      console.log(data);
+                      alert("Successfully added User Vehicle!");
+                    });
+                  })
+                };     
+            } 
+            else 
+            {
+                alert("This browser does not support HTML5.");
+            }
+        } 
+        else {
+            alert("Please upload a valid Excel file.");
+        }
+    };
+
+    function GetTableFromCSV(content) {
+        //Read the Excel File data in binary
+        console.log(content);
+        var lines = content.split("\r");
+        var vehiclelist = [];
+        for (var count = 0; count < lines.length; count++) {
+          var excelRows = lines[count].split(",");
+          var data_frame = {};
+            //Add the data row.
+            console.log(excelRows);
+            data_frame = {};
+            data_frame["tagId"] = excelRows[1];
+            data_frame["ownerName"] = excelRows[2]; 
+            data_frame["vehicleNo"] = excelRows[4]; 
+            data_frame["flatNo"] = excelRows[3];
+            data_frame["fromDate"] = excelRows[5];
+            data_frame["toDate"] = excelRows[6];
+            data_frame["toTime"] = excelRows[7];
+            data_frame["weekDay"] = excelRows[8];
+            data_frame["blkFromDate"] = excelRows[9];
+            data_frame["blkToDate"] = excelRows[10];
+            data_frame["blkToTime"] = excelRows[11];
+            data_frame["blkWeekDay"] = excelRows[12];
+            data_frame["auth"] = excelRows[13];
+            vehiclelist.push(data_frame);
+        }
+        var formdict = {};
+        formdict["userlist"] = vehiclelist;
+        console.log(formdict);
+      fetch("/api/vehicle_registration",{
+        method: "POST",
+        body: JSON.stringify(formdict),
+        headers: {
+          'Content-Type': 'application/json'
+      }
+      }).then(function (response) {
+      if (response.status == 201) {
+        console.log(`Looks like there was a problem. Status code: ${response.status}`);
+        return;
+      }
+      else if (response.status == 202){
+        console.log(`Looks like the database is full. Status code: ${response.status}`);
+        alert("Vehicle database is full");
+        return;
+      }
+      response.json().then(function (data) {
+        console.log(data);
+        alert("Successfully added User Vehicle!");
+      });
+    })
+    };
+
+function myFunction() {
+var formdatas = ($('input').serializeArray());
+var formdict = {};
+var formdict1 = {};
+var userlist = [];
+// console.log(formdatas); 
+$.each(formdatas, function(i, n){
+  formdict[n['name']] = n['value'];
+});
+console.log(formdict) 
+if((formdict["tagId"]).length !== 24 ){
+  // console.log("tagId blank");
+  alert("please enter proper tag ID");
+  return;
+}
+userlist.push(formdict);
+formdict1["userlist"] = userlist; 
+// formdict1["userlist"] = formdict
+console.log(formdict1)
+fetch("/api/vehicle_registration",{
+    method: "POST",
+    body: JSON.stringify(formdict1),
+    headers: {
+      'Content-Type': 'application/json'
+  }
+}).then(function (response) {
+      if (response.status == 201) {
+        console.log(`Looks like there was a problem. Status code: ${response.status}`);
+        return;
+      }
+      else if (response.status == 202){
+        console.log(`Looks like the database is full. Status code: ${response.status}`);
+        alert("Vehicle database is full");
+        return;
+      }
+      response.json().then(function (data) {
+        // console.log(data);
+        alert("Successfully added User Vehicle!");
+      });
+    })
+}
+
+</script>
+
+    <div class="global-container">
+      <div class="card login-form">
+      <div class="card-body">
+        <h3 class="card-title text-center">Vehicle Registration</h3>
+        <div class="card-text">
+          <!--
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
+            
+            <!-- to error: add class "has-danger" -->
+            <div class="form-group">
+              <label for="exampleInputEmail1" style="font-weight: 600;" >Tag ID</label>
+              <!-- onblur="checkLength(this)" maxlength="24" -->
+              <input  type="text" name="tagId" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" >
+              
+              <a href="https://www.npci.org.in/what-we-do/netc-fastag/check-your-netc-fastag-status" target="_blank" style="float:right;font-size:12px;">NPCI Link</a>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" style="font-weight: 600;">Vehicle No</label>
+              
+              <input type="text" name="vehicleNo" class="form-control form-control-sm" id="exampleInputPassword1">
+              
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" style="font-weight: 600;">Owner Name</label>
+                
+              <input type="text" name="ownerName" class="form-control form-control-sm" id="exampleInputPassword1">
+                
+              </div> 
+              <div class="form-group">
+                <label for="exampleInputPassword1" style="font-weight: 600;">Flat No</label>
+                
+                <input type="text" name="flatNo" class="form-control form-control-sm" id="exampleInputPassword1">
+                
+              </div><br>
+            <button type="submit" class="btn btn-warning btn-block" style="font-weight: 600;" onclick="myFunction()">Save</button>
+            <button type="submit" class="btn btn-light btn-block">Cancel</button>
+            <br>
+            <input type="file" id="fileUpload" />
+            <input type="button" class="btn btn-warning btn-block" id="upload" value="Upload" onclick="processFile()" />
+            <br/>
+        </div>
+      </div>
+    </div>
+        
+    </div>
+    <script src="{{ url_for('static',filename='js/xlsx.full.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jszip.js') }}"></script>
+    <script>
+      function checkLength(el) {
+      if (el.value.length != 24) {
+        alert("Tag ID length must be exactly 24 characters");
+      }
+    }
+    </script>
+    {% endblock %}
