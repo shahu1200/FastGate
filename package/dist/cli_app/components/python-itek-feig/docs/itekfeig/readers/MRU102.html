@@ -1,0 +1,2368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>itekfeig.readers.MRU102 API documentation</title>
+<meta name="description" content="Feig MRU102 reader" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>itekfeig.readers.MRU102</code></h1>
+</header>
+<section id="section-intro">
+<p>Feig MRU102 reader</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;
+Feig MRU102 reader
+&#34;&#34;&#34;
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import logging
+import time
+from binascii import hexlify
+from copy import deepcopy
+
+from ..common.feig_base import FeigBase
+from ..common.feig_errors import FeigError
+from ..common.feig_reader_ids import FEIG_READER_IDS
+
+VALID_CONFIG_MEMORY_LIST = [
+    0,  # Passwords
+    1,  # Interface and Mode
+    2,  # Digital Inputs/Outputs
+    11,  # Read Mode - Data
+    12,  # Read Mode - Filter
+    13,  # Scan Mode
+    15,  # Antenna Multiplexing
+    16,  # Persistence Reset
+    20,  # RF parameter
+    22,
+    23,  # Selection MASK
+    33,
+    34,  # LAN Hostname
+    36,  # RF interface
+    37,  # Transponder
+    38,  # Anticollision
+    40,
+    41,  # LAN Settings 1,2, valid for ISC.MRU102-PoE
+    49,  # Notification, valid for ISC.MRU102-PoE
+    63,  # Customer
+]
+
+READER_INFO_MODE_LIST = [
+    0x00,  # RF-Controller Firmware
+    0x05,  # Bootloader version
+    0x10,  # Hardware Information
+    0x15,  # RF-Stack Information
+    0x40,  # CFG-Information for read
+    0x41,  # CFG-Information for write
+    0x50,  # LAN-Information: MAC
+    0x51,  # LAN-Information: IP-Address
+    0x52,  # LAN-Information: Netmask
+    0x53,  # LAN-Information: Gateway-Address
+    0x80,  # Device-ID (Information is required for Firmware upgrades)
+]
+
+ANTENNA_POWER = {
+    0x08: 50,
+    0x10: 100,
+    0x11: 200,
+    0x12: 300,
+    0x13: 400,
+    0x14: 500,
+}
+
+ANTENNA_POWER_REVERSE = {v: k for k, v in ANTENNA_POWER.items()}
+
+
+logger = logging.getLogger()
+logger.addHandler(logging.NullHandler())
+
+
+class MRU102(FeigBase):
+    # Reader Type, use this to match after connection
+    READER_NAME = &#34;MRU102&#34;
+    READER_TYPE = FEIG_READER_IDS[READER_NAME]
+
+    INTERFACE_SERIAL = 0
+    INTERFACE_ETHERNET = 1
+
+    MODE_HOST = 0x00
+    MODE_SCAN = 0x01
+    MODE_BRM = 0x80
+    MODE_NOTIFICATION = 0xC0
+
+    ANTENNA_OFF = 0x00
+    ANTENNA_No1 = 0x01
+    ANTENNA_No2 = 0x02
+    ANTENNA_No3 = 0x03
+    ANTENNA_Internal = 0x04
+
+    MAX_ANTENNA = 4
+
+    POWER_LOW = 50
+    POWER_MEDIUM = 300
+    POWER_FULL = 500
+
+    RSSI_MIN = 0
+    RSSI_MAX = 255
+
+    def __init__(self):
+        super().__init__()
+        self._reader_info = {}
+        self._device_id = None
+
+    ####################################################################################
+    ####    READER CONNECTION API
+    ####################################################################################
+
+    def connect(self, interface, settings):
+        &#34;&#34;&#34;Connect to the reader using one of its interface with given settings.
+        Onece the connection is established, a complete aconfiguration is read
+        from the reader.
+
+        Args:
+            interface: one of the supported interface
+            settings: of selected interface
+
+        Returns:
+            bool: True if connection is sccessfull
+        &#34;&#34;&#34;
+
+        # Configure interface
+        if interface == self.INTERFACE_SERIAL:
+            from serial import PARITY_NONE, PARITY_EVEN, PARITY_ODD
+            from ..interface.feig_serial import FeigSerial
+
+            if settings[&#34;PARITY&#34;] == &#34;NONE&#34;:
+                parity = PARITY_NONE
+            elif settings[&#34;PARITY&#34;] == &#34;EVEN&#34;:
+                parity = PARITY_EVEN
+            elif settings[&#34;PARITY&#34;] == &#34;ODD&#34;:
+                parity = PARITY_ODD
+            else:
+                raise ValueError(&#34;NotSupported:Parity&#34;)
+
+            FeigBase._interface = FeigSerial()
+            opened = FeigBase._interface.open(
+                settings[&#34;PORT&#34;], settings[&#34;BAUDRATE&#34;], parity
+            )
+            if opened is False:
+                FeigBase._last_error = FeigError.SERIAL
+                err_msg = &#34;Failed to connect to {} {}&#34;.format(
+                    settings[&#34;PORT&#34;], FeigBase._interface.error
+                )
+                logger.error(err_msg)
+                return False
+
+        elif interface == self.INTERFACE_ETHERNET:
+            from ..interface.feig_ethernet import FeigEthernet
+
+            FeigBase._interface = FeigEthernet()
+            opened = FeigBase._interface.open(settings[&#34;IP&#34;], settings[&#34;PORT&#34;])
+            if opened is False:
+                FeigBase._last_error = FeigError.ETHERNET
+                return False
+        else:
+            raise ValueError(&#34;NotSupported:Interface&#34;)
+
+        if FeigBase._interface.error != FeigError.OK:
+            FeigBase._last_error = FeigBase._interface.error
+            return False
+
+        # Forced: Antenna OFF, if tags are present in the feild
+        # connection to reader takes time or fail
+        self.rf_onoff(self.ANTENNA_OFF)
+
+        time.sleep(0.1)
+
+        # Get reader type
+        ret = self._get_reader_type()
+        if not ret:
+            logger.error(&#34;Failed to get reader ID&#34;)
+            return False
+
+        if ret != self.READER_TYPE:
+            FeigBase._last_error = FeigError.INVALID_READER
+            FeigBase._interface.close()
+            FeigBase._interface = None
+            err_msg = &#34;Expected ID={}, received ID={}&#34;.format(self.READER_TYPE, ret)
+            logger.error(err_msg)
+            return False
+
+        # Get ALL INFO from the reader
+        self.get_reader_info()
+
+        # Get ALL CONFIGURATION from reader memory
+        ret = self.read_all_config()
+        if ret is None:
+            return False
+
+        time.sleep(0.1)
+
+        # Configure operating modes
+        from ..common.feig_host import FeigHost
+
+        self.HostMode = FeigHost(FeigBase._interface, FeigBase._last_error)
+
+        from ..common.feig_buffer_read import FeigBufferRead
+
+        self.BufferReadMode = FeigBufferRead(FeigBase._interface, FeigBase._last_error)
+
+        if interface == self.INTERFACE_SERIAL:
+            from ..common.feig_scan import FeigScan
+
+            self.ScanMode = FeigScan(FeigBase._interface, FeigBase._last_error)
+        elif interface == self.INTERFACE_ETHERNET:
+            from ..common.feig_notification import FeigNotification
+
+            self.NotificationMode = FeigNotification(
+                FeigBase._interface, FeigBase._last_error
+            )
+
+        return True
+
+    def disconnect(self):
+        &#34;&#34;&#34;Disconnect from current reader&#34;&#34;&#34;
+        if FeigBase._interface:
+            FeigBase._interface.close()
+
+    ####################################################################################
+    ####    READER CONTROL API
+    ####################################################################################
+
+    def rf_onoff(self, antno, maintainhost=False):
+        &#34;&#34;&#34;Turn ON/OFF individual antenna&#34;&#34;&#34;
+        rf_output = 0
+        if maintainhost is True:
+            rf_output += 0x80
+        rf_output += antno
+
+        cmd = [0x6A, rf_output]
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x6A:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+        return False
+
+    def set_output(self, out_rec: dict):
+        &#34;&#34;&#34;Set/Configure Digital Output or Relay pins
+
+        Args:
+            out_rec: key,value as per following format
+                {
+                    &#39;type&#39;: str, &#39;digital&#39; or &#39;relay&#39;,
+                    &#39;pin&#39;: int,
+                    &#39;mode&#39;: &#39;on&#39; or &#39;off&#39; or &#39;flash&#39;,
+                    &#39;freq&#39;: int, 1,2,4,8 Hz
+                    &#39;time&#39;: int, 1 to 65535 delay corresponds to multiple of 100milli
+                }
+        &#34;&#34;&#34;
+        if out_rec[&#34;type&#34;] == &#34;digital&#34;:
+            out_type = 0x00
+        elif out_rec[&#34;type&#34;] == &#34;relay&#34;:
+            out_type = 0x80
+        else:
+            raise ValueError(&#34;Invalid Value&#34;)
+        out_type = 0x80 + out_rec[&#34;pin&#34;]
+
+        if out_rec[&#34;mode&#34;] == &#34;on&#34;:
+            out_state = 0x01
+        elif out_rec[&#34;mode&#34;] == &#34;off&#34;:
+            out_state = 0x02
+        elif out_rec[&#34;mode&#34;] == &#34;flash&#34;:
+            out_state = 0x03
+        else:
+            raise ValueError(&#34;Invalid Value&#34;)
+
+        if out_rec[&#34;freq&#34;] == 1:
+            out_state += 0x03 * 4
+        elif out_rec[&#34;freq&#34;] == 2:
+            out_state += 0x02 * 4
+        elif out_rec[&#34;freq&#34;] == 4:
+            out_state += 0x01 * 4
+        elif out_rec[&#34;freq&#34;] == 8:
+            out_state += 0x00 * 4
+        else:
+            raise ValueError(&#34;Invalid Value&#34;)
+
+        if out_rec[&#34;time&#34;] &lt; 1 or out_rec[&#34;time&#34;] &gt; 65535:
+            raise ValueError(&#34;Invalid Value&#34;)
+        out_time = out_rec[&#34;time&#34;]
+
+        cmd = [
+            0x72,
+            0x01,
+            0x01,
+            out_type,
+            out_state,
+            (out_time &gt;&gt; 8) &amp; 0xFF,
+            (out_time &gt;&gt; 0) &amp; 0xFF,
+        ]
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x72:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+    def get_input(self):
+        &#34;&#34;&#34;Get reader INPUT pin status&#34;&#34;&#34;
+        cmd = [0x02, 0x00, 0x07, 0xFF, 0x74, 0x66, 0x60]
+        data = FeigBase._interface.transfer(1.0, bytes(cmd))
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x74:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                in1 = data[2] &amp; 0x01
+                in2 = (data[2] &gt;&gt; 1) &amp; 0x01
+                return in1, in2
+
+    def change_mode(self, mode):
+        &#34;&#34;&#34;Change Reader mode
+
+        Args:
+            mode: one of the supporeted operating mode
+
+        Returns:
+            None: Call get_last_error() for more reason
+            bool: If True, new mode is set in the reader
+        &#34;&#34;&#34;
+        cfgData = self.read_config(1)
+        if cfgData is None:
+            return False
+
+        if cfgData[13] == mode:  # Current Mode is same
+            FeigBase._last_error = FeigError.MODE_SAME
+            return False
+
+        # update mode
+        cfgData[13] = mode
+
+        ret = self.write_config(1, cfgData)
+        if ret is None:
+            return False
+
+        FeigBase._current_mode = mode
+
+        return True
+
+    @staticmethod
+    def _diagnostic_parser(data):
+
+        def test_error(x) -&gt; str:
+            if x: return &#34;FAIL&#34;
+            return &#34;OK&#34;
+
+        diag = {}
+        data_set = data[0]
+        offset = 1
+        for _ in range(0, data_set):
+            mode = data[offset]
+            if mode == 0x04:
+                # EEPROM
+                eeprom = {}
+                int_error = data[offset + 1] * 256 + data[offset + 2]
+
+                eeprom[&#34;EE_DEV1&#34;] = test_error(int_error &amp; 0x0001)
+                eeprom[&#34;RF_DECODER&#34;] = test_error(int_error &amp; 0x0008)
+                eeprom[&#34;ParameterMismatch&#34;] = test_error(int_error &amp; 0x0010)
+                eeprom[&#34;TEMP_WARN&#34;] = test_error(int_error &amp; 0x0020)
+                eeprom[&#34;PeripheryError&#34;] = test_error(int_error &amp; 0x0400)
+
+                diag[&#34;Eeprom&#34;] = eeprom
+
+            offset = offset + 30 + 1
+
+        return diag
+
+    def diagnostic(self):
+        &#34;&#34;&#34;Perform reader diagnostic&#34;&#34;&#34;
+        cmd = [0x02, 0x00, 0x08, 0xFF, 0x6E, 0xFF, 0x30, 0xD3]
+        data = FeigBase._interface.transfer(1.0, bytes(cmd))
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x6E:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return self._diagnostic_parser(data[2:])
+
+    ####################################################################################
+    ####    READER INFO API
+    ####################################################################################
+    def _reader_info_parser(self, mode, data):
+        if mode == 0x00:
+            self._reader_info[&#34;RFControllerSoftwareRevision&#34;] = hexlify(
+                data[0:3]
+            ).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;HardwareType&#34;] = hexlify(data[3:4]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;ReaderType&#34;] = int(data[4])
+            self._reader_info[&#34;TransponderTypes&#34;] = hexlify(data[5:7]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;MaxRXBufferSize&#34;] = data[7] * 256 + data[8]
+            self._reader_info[&#34;MaxTXBufferSize&#34;] = data[9] * 256 + data[10]
+
+        elif mode == 0x05:
+            self._reader_info[&#34;RFCBootloaderSoftwareRevision&#34;] = hexlify(
+                data[0:2]
+            ).decode(&#34;ascii&#34;)
+
+        elif mode == 0x10:
+            internal_use = (
+                hexlify(data[0:2]).decode(&#34;ascii&#34;)
+                + &#34;-&#34;
+                + hexlify(data[2:4]).decode(&#34;ascii&#34;)
+                + &#34;-&#34;
+                + hexlify(data[4:6]).decode(&#34;ascii&#34;)
+            )
+            self._reader_info[&#34;InternalUse&#34;] = internal_use
+
+            freq = &#34;&#34;
+            if data[6] &amp; 0x40:
+                freq += &#34;UHF,&#34;
+            if data[6] &amp; 0x02:
+                freq += &#34;FCC,&#34;
+            if data[6] &amp; 0x01:
+                freq += &#34;EU&#34;
+            self._reader_info[&#34;Frequency&#34;] = freq
+
+            prt = &#34;&#34;
+            if data[7] &amp; 0x01:
+                prt += &#34;SERIAL,&#34;
+            if data[7] &amp; 0x04:
+                prt += &#34;LAN,&#34;
+            if data[7] &amp; 0x10:
+                prt += &#34;USB,&#34;
+            if data[7] &amp; 0x80:
+                prt += &#34;DISCOVERY&#34;
+            self._reader_info[&#34;SupportedPorts&#34;] = prt
+
+        elif mode == 0x15:
+            self._reader_info[&#34;RFStackSoftwareRevision&#34;] = hexlify(data[0:2]).decode(
+                &#34;ascii&#34;
+            )
+
+        elif mode == 0x40:
+            self._reader_info[&#34;ReadPages&#34;] = data[0] * 256 + data[1]
+            self._reader_info[&#34;ReadPermission&#34;] = hexlify(data[2:10]).decode(&#34;ascii&#34;)
+
+        elif mode == 0x41:
+            self._reader_info[&#34;WritePages&#34;] = data[0] * 256 + data[1]
+            self._reader_info[&#34;WritePermission&#34;] = hexlify(data[2:10]).decode(&#34;ascii&#34;)
+
+        elif mode == 0x50:
+            mac = (
+                hexlify(data[1:2]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[2:3]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[3:4]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[4:5]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[5:6]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[6:7]).decode(&#34;ascii&#34;)
+            )
+            self._reader_info[&#34;MACAddress&#34;] = mac
+
+            if data[7] &amp; 0x01:
+                self._reader_info[&#34;AutoNegotiation&#34;] = &#34;Off&#34;
+            else:
+                self._reader_info[&#34;AutoNegotiation&#34;] = &#34;On&#34;
+
+            if data[7] &amp; 0x02:
+                self._reader_info[&#34;DuplexMode&#34;] = &#34;Full Duplex&#34;
+            else:
+                self._reader_info[&#34;DuplexMode&#34;] = &#34;Half Duplex&#34;
+
+            if data[7] &amp; 0x04:
+                self._reader_info[&#34;Speed&#34;] = &#34;100 Mbit&#34;
+            else:
+                self._reader_info[&#34;Speed&#34;] = &#34;10 Mbit&#34;
+
+        elif mode == 0x51:
+            if (data[0] &amp; 0x02) == 0x02:  # IPv4 Supported
+                ip = (
+                    str(data[1])
+                    + &#34;.&#34;
+                    + str(data[2])
+                    + &#34;.&#34;
+                    + str(data[3])
+                    + &#34;.&#34;
+                    + str(data[4])
+                )
+                self._reader_info[&#34;IPv4Address&#34;] = ip
+            else:
+                self._reader_info[&#34;IPv4Address&#34;] = &#34;NA&#34;
+
+        elif mode == 0x52:
+            if (data[0] &amp; 0x02) == 0x02:  # IPv4 Supported
+                nm = (
+                    str(data[1])
+                    + &#34;.&#34;
+                    + str(data[2])
+                    + &#34;.&#34;
+                    + str(data[3])
+                    + &#34;.&#34;
+                    + str(data[4])
+                )
+                self._reader_info[&#34;IPv4Netmask&#34;] = nm
+            else:
+                self._reader_info[&#34;IPv4Netmask&#34;] = &#34;NA&#34;
+
+        elif mode == 0x53:
+            if (data[0] &amp; 0x02) == 0x02:  # IPv4 Supported
+                gw = (
+                    str(data[1])
+                    + &#34;.&#34;
+                    + str(data[2])
+                    + &#34;.&#34;
+                    + str(data[3])
+                    + &#34;.&#34;
+                    + str(data[4])
+                )
+                self._reader_info[&#34;IPv4Gateway&#34;] = gw
+            else:
+                self._reader_info[&#34;IPv4Gateway&#34;] = &#34;NA&#34;
+
+        elif mode == 0x80:
+            self._reader_info[&#34;DeviceID&#34;] = hexlify(data[0:4]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;CustomerID&#34;] = hexlify(data[4:8]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;FirmwareVersion&#34;] = hexlify(data[8:10]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;TransponderDriver&#34;] = hexlify(data[10:12]).decode(
+                &#34;ascii&#34;
+            )
+            self._reader_info[&#34;FirmwareFunctions&#34;] = hexlify(data[12:14]).decode(
+                &#34;ascii&#34;
+            )
+
+    def get_reader_info(self):
+        &#34;&#34;&#34;Get complete reader information
+        &#34;&#34;&#34;
+        if len(self._reader_info) == 0:
+
+            for mode in READER_INFO_MODE_LIST:
+                cmd = [0x66, mode]
+                data = FeigBase._interface.transfer(1.0, cmd)
+                if data is None:
+                    FeigBase._last_error = FeigError.COMM_TIMEOUT
+                    return
+
+                FeigBase._last_error = FeigError.INVALID_RESPONSE
+                if data[0] == 0x66:
+                    FeigBase._last_error = self._feig_status_parser(data[1])
+                    if FeigBase._last_error is FeigError.OK:
+                        self._reader_info_parser(mode, data[2:])
+
+        return deepcopy(self._reader_info)
+
+    def device_id(self) -&gt; str:
+        &#34;&#34;&#34;Returns reader device ID&#34;&#34;&#34;
+        return deepcopy(self._reader_info[&#34;DeviceID&#34;])
+
+    ####################################################################################
+    ####    READER CONFIGURATION API
+    ####################################################################################
+
+    def antenna_power(self, ant, pwr_in_milliwatts: int = -1):
+        &#34;&#34;&#34;Change Antenna Power
+        &#34;&#34;&#34;
+        if not (
+            ant is self.ANTENNA_No1
+            or ant is self.ANTENNA_No2
+            or ant is self.ANTENNA_No3
+            or ant is self.ANTENNA_Internal
+        ):
+            raise ValueError(&#34;Antenna= {0} is NOT supported&#34;.format(ant))
+
+        # depending upon antenna read config
+        if ant is self.ANTENNA_No1:
+            cfg_page = 36
+        else:
+            cfg_page = 20
+
+        # Get index of respective antenna
+        index = 2  # default Antenna1
+        if ant is self.ANTENNA_No2:
+            index = 6
+        elif ant is self.ANTENNA_No3:
+            index = 7
+        elif ant is self.ANTENNA_Internal:
+            index = 8
+
+        cfgData = self.read_config(cfg_page)
+        if cfgData is None:
+            return False
+
+        if pwr_in_milliwatts == -1:
+            return ANTENNA_POWER[cfgData[index]]
+
+        # check antenna power
+        # Adjust &#39;pwr_in_milliwatts&#39; to nearest supported POWER
+        if pwr_in_milliwatts &lt; 100:
+            pwr = ANTENNA_POWER_REVERSE[50]
+        elif 100 &lt;= pwr_in_milliwatts &lt; 200:
+            pwr = ANTENNA_POWER_REVERSE[100]
+        elif 200 &lt;= pwr_in_milliwatts &lt; 300:
+            pwr = ANTENNA_POWER_REVERSE[200]
+        elif 300 &lt;= pwr_in_milliwatts &lt; 400:
+            pwr = ANTENNA_POWER_REVERSE[300]
+        elif 400 &lt;= pwr_in_milliwatts &lt; 500:
+            pwr = ANTENNA_POWER_REVERSE[400]
+        else:  # pwr_in_milliwatts &gt;= 500:
+            pwr = ANTENNA_POWER_REVERSE[500]
+
+        cfgData[index] = pwr
+
+        ret = self.write_config(cfg_page, cfgData)
+        if ret is None:
+            return False
+
+        return True
+
+    def antenna_rssi(self, ant, rssi):
+        &#34;&#34;&#34;Change Antenna RSSI
+        &#34;&#34;&#34;
+        if not (
+            ant is self.ANTENNA_No1
+            or ant is self.ANTENNA_No2
+            or ant is self.ANTENNA_No3
+            or ant is self.ANTENNA_Internal
+        ):
+            raise ValueError(&#34;Antenna= {0} is NOT supported&#34;.format(ant))
+
+        if (rssi &lt; self.RSSI_MIN) or (rssi &gt; self.RSSI_MAX):
+            raise ValueError(&#34;RSSI= {0} is NOT supported&#34;.format(rssi))
+
+        cfgData = self.read_config(20)
+        if cfgData is None:
+            return False
+
+        # update rssi
+        if ant is self.ANTENNA_No1:
+            cfgData[0] = rssi
+
+        elif ant is self.ANTENNA_No2:
+            cfgData[1] = rssi
+
+        elif ant is self.ANTENNA_No3:
+            cfgData[2] = rssi
+
+        elif ant is self.ANTENNA_Internal:
+            cfgData[3] = rssi
+
+        ret = self.write_config(20, cfgData)
+        if ret is None:
+            return False
+
+        return True
+
+    def system_timer(self, timer_value=None):
+        if timer_value is None:
+            # get
+            cmd = [0x86]
+        else:
+            # set
+            if not isinstance(timer_value, tuple):
+                raise ValueError(&#34;Invalid Argument&#34;)
+
+            hour = timer_value[0]
+            minutes = timer_value[1]
+            milli = timer_value[2]
+            if (hour &gt; 23) or (minutes &gt; 59) or (milli &gt; 59999):
+                raise ValueError(&#34;Invalid range&#34;)
+
+            cmd = [0x85, hour, minutes, (milli &gt;&gt; 8) &amp; 0xFF, (milli &gt;&gt; 0) &amp; 0xFF]
+
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x85:  # Set
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+        elif data[0] == 0x86:  # Get
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return data[2], data[3], (data[4] * 256 + data[5])
+
+    def system_date_time(self, date_value=None, timer_value=None):
+        if date_value is None and timer_value is None:
+            # get
+            cmd = [0x88]
+        else:
+            # set
+            if not isinstance(date_value, tuple):
+                raise ValueError(&#34;Invalid Argument {}&#34;.format(date_value))
+            if not isinstance(timer_value, tuple):
+                raise ValueError(&#34;Invalid Argument {}&#34;.format(timer_value))
+
+            century = date_value[0]
+            year = date_value[1]
+            month = date_value[2]
+            day = date_value[3]
+            timezone = date_value[4]
+            if (
+                (century &gt; 99)
+                or (year &gt; 99)
+                or ((month &lt; 1) or (month &gt; 12))
+                or ((day &lt; 1) or (day &gt; 31))
+                or (timezone &gt; 23)
+            ):
+                raise ValueError(&#34;Invalid range&#34;)
+
+            hour = timer_value[0]
+            minutes = timer_value[1]
+            milli = timer_value[2]
+            if (hour &gt; 23) or (minutes &gt; 59) or (milli &gt; 59999):
+                raise ValueError(&#34;Invalid range&#34;)
+
+            cmd = [
+                0x87,
+                century,
+                year,
+                month,
+                day,
+                timezone,
+                hour,
+                minutes,
+                (milli &gt;&gt; 8) &amp; 0xFF,
+                (milli &gt;&gt; 0) &amp; 0xFF,
+            ]
+
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x87:  # Set
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+        elif data[0] == 0x88:  # Get
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return (
+                    (data[2], data[3], data[4], data[5], data[6]),
+                    (data[7], data[8], (data[9] * 256 + data[10])),
+                )
+
+    def read_mode_data(self, flags=None):
+        raise NotImplementedError
+
+    def read_mode_filter(self, transpondervalidtime=None, trid=None, inevflt=None):
+        raise NotImplementedError
+
+    def antenna_multiplexing(self, muxEnable=None, selectedAntennas=None):
+        raise NotImplementedError</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="itekfeig.readers.MRU102.MRU102"><code class="flex name class">
+<span>class <span class="ident">MRU102</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>Base class for all readers</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class MRU102(FeigBase):
+    # Reader Type, use this to match after connection
+    READER_NAME = &#34;MRU102&#34;
+    READER_TYPE = FEIG_READER_IDS[READER_NAME]
+
+    INTERFACE_SERIAL = 0
+    INTERFACE_ETHERNET = 1
+
+    MODE_HOST = 0x00
+    MODE_SCAN = 0x01
+    MODE_BRM = 0x80
+    MODE_NOTIFICATION = 0xC0
+
+    ANTENNA_OFF = 0x00
+    ANTENNA_No1 = 0x01
+    ANTENNA_No2 = 0x02
+    ANTENNA_No3 = 0x03
+    ANTENNA_Internal = 0x04
+
+    MAX_ANTENNA = 4
+
+    POWER_LOW = 50
+    POWER_MEDIUM = 300
+    POWER_FULL = 500
+
+    RSSI_MIN = 0
+    RSSI_MAX = 255
+
+    def __init__(self):
+        super().__init__()
+        self._reader_info = {}
+        self._device_id = None
+
+    ####################################################################################
+    ####    READER CONNECTION API
+    ####################################################################################
+
+    def connect(self, interface, settings):
+        &#34;&#34;&#34;Connect to the reader using one of its interface with given settings.
+        Onece the connection is established, a complete aconfiguration is read
+        from the reader.
+
+        Args:
+            interface: one of the supported interface
+            settings: of selected interface
+
+        Returns:
+            bool: True if connection is sccessfull
+        &#34;&#34;&#34;
+
+        # Configure interface
+        if interface == self.INTERFACE_SERIAL:
+            from serial import PARITY_NONE, PARITY_EVEN, PARITY_ODD
+            from ..interface.feig_serial import FeigSerial
+
+            if settings[&#34;PARITY&#34;] == &#34;NONE&#34;:
+                parity = PARITY_NONE
+            elif settings[&#34;PARITY&#34;] == &#34;EVEN&#34;:
+                parity = PARITY_EVEN
+            elif settings[&#34;PARITY&#34;] == &#34;ODD&#34;:
+                parity = PARITY_ODD
+            else:
+                raise ValueError(&#34;NotSupported:Parity&#34;)
+
+            FeigBase._interface = FeigSerial()
+            opened = FeigBase._interface.open(
+                settings[&#34;PORT&#34;], settings[&#34;BAUDRATE&#34;], parity
+            )
+            if opened is False:
+                FeigBase._last_error = FeigError.SERIAL
+                err_msg = &#34;Failed to connect to {} {}&#34;.format(
+                    settings[&#34;PORT&#34;], FeigBase._interface.error
+                )
+                logger.error(err_msg)
+                return False
+
+        elif interface == self.INTERFACE_ETHERNET:
+            from ..interface.feig_ethernet import FeigEthernet
+
+            FeigBase._interface = FeigEthernet()
+            opened = FeigBase._interface.open(settings[&#34;IP&#34;], settings[&#34;PORT&#34;])
+            if opened is False:
+                FeigBase._last_error = FeigError.ETHERNET
+                return False
+        else:
+            raise ValueError(&#34;NotSupported:Interface&#34;)
+
+        if FeigBase._interface.error != FeigError.OK:
+            FeigBase._last_error = FeigBase._interface.error
+            return False
+
+        # Forced: Antenna OFF, if tags are present in the feild
+        # connection to reader takes time or fail
+        self.rf_onoff(self.ANTENNA_OFF)
+
+        time.sleep(0.1)
+
+        # Get reader type
+        ret = self._get_reader_type()
+        if not ret:
+            logger.error(&#34;Failed to get reader ID&#34;)
+            return False
+
+        if ret != self.READER_TYPE:
+            FeigBase._last_error = FeigError.INVALID_READER
+            FeigBase._interface.close()
+            FeigBase._interface = None
+            err_msg = &#34;Expected ID={}, received ID={}&#34;.format(self.READER_TYPE, ret)
+            logger.error(err_msg)
+            return False
+
+        # Get ALL INFO from the reader
+        self.get_reader_info()
+
+        # Get ALL CONFIGURATION from reader memory
+        ret = self.read_all_config()
+        if ret is None:
+            return False
+
+        time.sleep(0.1)
+
+        # Configure operating modes
+        from ..common.feig_host import FeigHost
+
+        self.HostMode = FeigHost(FeigBase._interface, FeigBase._last_error)
+
+        from ..common.feig_buffer_read import FeigBufferRead
+
+        self.BufferReadMode = FeigBufferRead(FeigBase._interface, FeigBase._last_error)
+
+        if interface == self.INTERFACE_SERIAL:
+            from ..common.feig_scan import FeigScan
+
+            self.ScanMode = FeigScan(FeigBase._interface, FeigBase._last_error)
+        elif interface == self.INTERFACE_ETHERNET:
+            from ..common.feig_notification import FeigNotification
+
+            self.NotificationMode = FeigNotification(
+                FeigBase._interface, FeigBase._last_error
+            )
+
+        return True
+
+    def disconnect(self):
+        &#34;&#34;&#34;Disconnect from current reader&#34;&#34;&#34;
+        if FeigBase._interface:
+            FeigBase._interface.close()
+
+    ####################################################################################
+    ####    READER CONTROL API
+    ####################################################################################
+
+    def rf_onoff(self, antno, maintainhost=False):
+        &#34;&#34;&#34;Turn ON/OFF individual antenna&#34;&#34;&#34;
+        rf_output = 0
+        if maintainhost is True:
+            rf_output += 0x80
+        rf_output += antno
+
+        cmd = [0x6A, rf_output]
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x6A:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+        return False
+
+    def set_output(self, out_rec: dict):
+        &#34;&#34;&#34;Set/Configure Digital Output or Relay pins
+
+        Args:
+            out_rec: key,value as per following format
+                {
+                    &#39;type&#39;: str, &#39;digital&#39; or &#39;relay&#39;,
+                    &#39;pin&#39;: int,
+                    &#39;mode&#39;: &#39;on&#39; or &#39;off&#39; or &#39;flash&#39;,
+                    &#39;freq&#39;: int, 1,2,4,8 Hz
+                    &#39;time&#39;: int, 1 to 65535 delay corresponds to multiple of 100milli
+                }
+        &#34;&#34;&#34;
+        if out_rec[&#34;type&#34;] == &#34;digital&#34;:
+            out_type = 0x00
+        elif out_rec[&#34;type&#34;] == &#34;relay&#34;:
+            out_type = 0x80
+        else:
+            raise ValueError(&#34;Invalid Value&#34;)
+        out_type = 0x80 + out_rec[&#34;pin&#34;]
+
+        if out_rec[&#34;mode&#34;] == &#34;on&#34;:
+            out_state = 0x01
+        elif out_rec[&#34;mode&#34;] == &#34;off&#34;:
+            out_state = 0x02
+        elif out_rec[&#34;mode&#34;] == &#34;flash&#34;:
+            out_state = 0x03
+        else:
+            raise ValueError(&#34;Invalid Value&#34;)
+
+        if out_rec[&#34;freq&#34;] == 1:
+            out_state += 0x03 * 4
+        elif out_rec[&#34;freq&#34;] == 2:
+            out_state += 0x02 * 4
+        elif out_rec[&#34;freq&#34;] == 4:
+            out_state += 0x01 * 4
+        elif out_rec[&#34;freq&#34;] == 8:
+            out_state += 0x00 * 4
+        else:
+            raise ValueError(&#34;Invalid Value&#34;)
+
+        if out_rec[&#34;time&#34;] &lt; 1 or out_rec[&#34;time&#34;] &gt; 65535:
+            raise ValueError(&#34;Invalid Value&#34;)
+        out_time = out_rec[&#34;time&#34;]
+
+        cmd = [
+            0x72,
+            0x01,
+            0x01,
+            out_type,
+            out_state,
+            (out_time &gt;&gt; 8) &amp; 0xFF,
+            (out_time &gt;&gt; 0) &amp; 0xFF,
+        ]
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x72:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+    def get_input(self):
+        &#34;&#34;&#34;Get reader INPUT pin status&#34;&#34;&#34;
+        cmd = [0x02, 0x00, 0x07, 0xFF, 0x74, 0x66, 0x60]
+        data = FeigBase._interface.transfer(1.0, bytes(cmd))
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x74:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                in1 = data[2] &amp; 0x01
+                in2 = (data[2] &gt;&gt; 1) &amp; 0x01
+                return in1, in2
+
+    def change_mode(self, mode):
+        &#34;&#34;&#34;Change Reader mode
+
+        Args:
+            mode: one of the supporeted operating mode
+
+        Returns:
+            None: Call get_last_error() for more reason
+            bool: If True, new mode is set in the reader
+        &#34;&#34;&#34;
+        cfgData = self.read_config(1)
+        if cfgData is None:
+            return False
+
+        if cfgData[13] == mode:  # Current Mode is same
+            FeigBase._last_error = FeigError.MODE_SAME
+            return False
+
+        # update mode
+        cfgData[13] = mode
+
+        ret = self.write_config(1, cfgData)
+        if ret is None:
+            return False
+
+        FeigBase._current_mode = mode
+
+        return True
+
+    @staticmethod
+    def _diagnostic_parser(data):
+
+        def test_error(x) -&gt; str:
+            if x: return &#34;FAIL&#34;
+            return &#34;OK&#34;
+
+        diag = {}
+        data_set = data[0]
+        offset = 1
+        for _ in range(0, data_set):
+            mode = data[offset]
+            if mode == 0x04:
+                # EEPROM
+                eeprom = {}
+                int_error = data[offset + 1] * 256 + data[offset + 2]
+
+                eeprom[&#34;EE_DEV1&#34;] = test_error(int_error &amp; 0x0001)
+                eeprom[&#34;RF_DECODER&#34;] = test_error(int_error &amp; 0x0008)
+                eeprom[&#34;ParameterMismatch&#34;] = test_error(int_error &amp; 0x0010)
+                eeprom[&#34;TEMP_WARN&#34;] = test_error(int_error &amp; 0x0020)
+                eeprom[&#34;PeripheryError&#34;] = test_error(int_error &amp; 0x0400)
+
+                diag[&#34;Eeprom&#34;] = eeprom
+
+            offset = offset + 30 + 1
+
+        return diag
+
+    def diagnostic(self):
+        &#34;&#34;&#34;Perform reader diagnostic&#34;&#34;&#34;
+        cmd = [0x02, 0x00, 0x08, 0xFF, 0x6E, 0xFF, 0x30, 0xD3]
+        data = FeigBase._interface.transfer(1.0, bytes(cmd))
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x6E:
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return self._diagnostic_parser(data[2:])
+
+    ####################################################################################
+    ####    READER INFO API
+    ####################################################################################
+    def _reader_info_parser(self, mode, data):
+        if mode == 0x00:
+            self._reader_info[&#34;RFControllerSoftwareRevision&#34;] = hexlify(
+                data[0:3]
+            ).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;HardwareType&#34;] = hexlify(data[3:4]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;ReaderType&#34;] = int(data[4])
+            self._reader_info[&#34;TransponderTypes&#34;] = hexlify(data[5:7]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;MaxRXBufferSize&#34;] = data[7] * 256 + data[8]
+            self._reader_info[&#34;MaxTXBufferSize&#34;] = data[9] * 256 + data[10]
+
+        elif mode == 0x05:
+            self._reader_info[&#34;RFCBootloaderSoftwareRevision&#34;] = hexlify(
+                data[0:2]
+            ).decode(&#34;ascii&#34;)
+
+        elif mode == 0x10:
+            internal_use = (
+                hexlify(data[0:2]).decode(&#34;ascii&#34;)
+                + &#34;-&#34;
+                + hexlify(data[2:4]).decode(&#34;ascii&#34;)
+                + &#34;-&#34;
+                + hexlify(data[4:6]).decode(&#34;ascii&#34;)
+            )
+            self._reader_info[&#34;InternalUse&#34;] = internal_use
+
+            freq = &#34;&#34;
+            if data[6] &amp; 0x40:
+                freq += &#34;UHF,&#34;
+            if data[6] &amp; 0x02:
+                freq += &#34;FCC,&#34;
+            if data[6] &amp; 0x01:
+                freq += &#34;EU&#34;
+            self._reader_info[&#34;Frequency&#34;] = freq
+
+            prt = &#34;&#34;
+            if data[7] &amp; 0x01:
+                prt += &#34;SERIAL,&#34;
+            if data[7] &amp; 0x04:
+                prt += &#34;LAN,&#34;
+            if data[7] &amp; 0x10:
+                prt += &#34;USB,&#34;
+            if data[7] &amp; 0x80:
+                prt += &#34;DISCOVERY&#34;
+            self._reader_info[&#34;SupportedPorts&#34;] = prt
+
+        elif mode == 0x15:
+            self._reader_info[&#34;RFStackSoftwareRevision&#34;] = hexlify(data[0:2]).decode(
+                &#34;ascii&#34;
+            )
+
+        elif mode == 0x40:
+            self._reader_info[&#34;ReadPages&#34;] = data[0] * 256 + data[1]
+            self._reader_info[&#34;ReadPermission&#34;] = hexlify(data[2:10]).decode(&#34;ascii&#34;)
+
+        elif mode == 0x41:
+            self._reader_info[&#34;WritePages&#34;] = data[0] * 256 + data[1]
+            self._reader_info[&#34;WritePermission&#34;] = hexlify(data[2:10]).decode(&#34;ascii&#34;)
+
+        elif mode == 0x50:
+            mac = (
+                hexlify(data[1:2]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[2:3]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[3:4]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[4:5]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[5:6]).decode(&#34;ascii&#34;)
+                + &#34;:&#34;
+                + hexlify(data[6:7]).decode(&#34;ascii&#34;)
+            )
+            self._reader_info[&#34;MACAddress&#34;] = mac
+
+            if data[7] &amp; 0x01:
+                self._reader_info[&#34;AutoNegotiation&#34;] = &#34;Off&#34;
+            else:
+                self._reader_info[&#34;AutoNegotiation&#34;] = &#34;On&#34;
+
+            if data[7] &amp; 0x02:
+                self._reader_info[&#34;DuplexMode&#34;] = &#34;Full Duplex&#34;
+            else:
+                self._reader_info[&#34;DuplexMode&#34;] = &#34;Half Duplex&#34;
+
+            if data[7] &amp; 0x04:
+                self._reader_info[&#34;Speed&#34;] = &#34;100 Mbit&#34;
+            else:
+                self._reader_info[&#34;Speed&#34;] = &#34;10 Mbit&#34;
+
+        elif mode == 0x51:
+            if (data[0] &amp; 0x02) == 0x02:  # IPv4 Supported
+                ip = (
+                    str(data[1])
+                    + &#34;.&#34;
+                    + str(data[2])
+                    + &#34;.&#34;
+                    + str(data[3])
+                    + &#34;.&#34;
+                    + str(data[4])
+                )
+                self._reader_info[&#34;IPv4Address&#34;] = ip
+            else:
+                self._reader_info[&#34;IPv4Address&#34;] = &#34;NA&#34;
+
+        elif mode == 0x52:
+            if (data[0] &amp; 0x02) == 0x02:  # IPv4 Supported
+                nm = (
+                    str(data[1])
+                    + &#34;.&#34;
+                    + str(data[2])
+                    + &#34;.&#34;
+                    + str(data[3])
+                    + &#34;.&#34;
+                    + str(data[4])
+                )
+                self._reader_info[&#34;IPv4Netmask&#34;] = nm
+            else:
+                self._reader_info[&#34;IPv4Netmask&#34;] = &#34;NA&#34;
+
+        elif mode == 0x53:
+            if (data[0] &amp; 0x02) == 0x02:  # IPv4 Supported
+                gw = (
+                    str(data[1])
+                    + &#34;.&#34;
+                    + str(data[2])
+                    + &#34;.&#34;
+                    + str(data[3])
+                    + &#34;.&#34;
+                    + str(data[4])
+                )
+                self._reader_info[&#34;IPv4Gateway&#34;] = gw
+            else:
+                self._reader_info[&#34;IPv4Gateway&#34;] = &#34;NA&#34;
+
+        elif mode == 0x80:
+            self._reader_info[&#34;DeviceID&#34;] = hexlify(data[0:4]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;CustomerID&#34;] = hexlify(data[4:8]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;FirmwareVersion&#34;] = hexlify(data[8:10]).decode(&#34;ascii&#34;)
+            self._reader_info[&#34;TransponderDriver&#34;] = hexlify(data[10:12]).decode(
+                &#34;ascii&#34;
+            )
+            self._reader_info[&#34;FirmwareFunctions&#34;] = hexlify(data[12:14]).decode(
+                &#34;ascii&#34;
+            )
+
+    def get_reader_info(self):
+        &#34;&#34;&#34;Get complete reader information
+        &#34;&#34;&#34;
+        if len(self._reader_info) == 0:
+
+            for mode in READER_INFO_MODE_LIST:
+                cmd = [0x66, mode]
+                data = FeigBase._interface.transfer(1.0, cmd)
+                if data is None:
+                    FeigBase._last_error = FeigError.COMM_TIMEOUT
+                    return
+
+                FeigBase._last_error = FeigError.INVALID_RESPONSE
+                if data[0] == 0x66:
+                    FeigBase._last_error = self._feig_status_parser(data[1])
+                    if FeigBase._last_error is FeigError.OK:
+                        self._reader_info_parser(mode, data[2:])
+
+        return deepcopy(self._reader_info)
+
+    def device_id(self) -&gt; str:
+        &#34;&#34;&#34;Returns reader device ID&#34;&#34;&#34;
+        return deepcopy(self._reader_info[&#34;DeviceID&#34;])
+
+    ####################################################################################
+    ####    READER CONFIGURATION API
+    ####################################################################################
+
+    def antenna_power(self, ant, pwr_in_milliwatts: int = -1):
+        &#34;&#34;&#34;Change Antenna Power
+        &#34;&#34;&#34;
+        if not (
+            ant is self.ANTENNA_No1
+            or ant is self.ANTENNA_No2
+            or ant is self.ANTENNA_No3
+            or ant is self.ANTENNA_Internal
+        ):
+            raise ValueError(&#34;Antenna= {0} is NOT supported&#34;.format(ant))
+
+        # depending upon antenna read config
+        if ant is self.ANTENNA_No1:
+            cfg_page = 36
+        else:
+            cfg_page = 20
+
+        # Get index of respective antenna
+        index = 2  # default Antenna1
+        if ant is self.ANTENNA_No2:
+            index = 6
+        elif ant is self.ANTENNA_No3:
+            index = 7
+        elif ant is self.ANTENNA_Internal:
+            index = 8
+
+        cfgData = self.read_config(cfg_page)
+        if cfgData is None:
+            return False
+
+        if pwr_in_milliwatts == -1:
+            return ANTENNA_POWER[cfgData[index]]
+
+        # check antenna power
+        # Adjust &#39;pwr_in_milliwatts&#39; to nearest supported POWER
+        if pwr_in_milliwatts &lt; 100:
+            pwr = ANTENNA_POWER_REVERSE[50]
+        elif 100 &lt;= pwr_in_milliwatts &lt; 200:
+            pwr = ANTENNA_POWER_REVERSE[100]
+        elif 200 &lt;= pwr_in_milliwatts &lt; 300:
+            pwr = ANTENNA_POWER_REVERSE[200]
+        elif 300 &lt;= pwr_in_milliwatts &lt; 400:
+            pwr = ANTENNA_POWER_REVERSE[300]
+        elif 400 &lt;= pwr_in_milliwatts &lt; 500:
+            pwr = ANTENNA_POWER_REVERSE[400]
+        else:  # pwr_in_milliwatts &gt;= 500:
+            pwr = ANTENNA_POWER_REVERSE[500]
+
+        cfgData[index] = pwr
+
+        ret = self.write_config(cfg_page, cfgData)
+        if ret is None:
+            return False
+
+        return True
+
+    def antenna_rssi(self, ant, rssi):
+        &#34;&#34;&#34;Change Antenna RSSI
+        &#34;&#34;&#34;
+        if not (
+            ant is self.ANTENNA_No1
+            or ant is self.ANTENNA_No2
+            or ant is self.ANTENNA_No3
+            or ant is self.ANTENNA_Internal
+        ):
+            raise ValueError(&#34;Antenna= {0} is NOT supported&#34;.format(ant))
+
+        if (rssi &lt; self.RSSI_MIN) or (rssi &gt; self.RSSI_MAX):
+            raise ValueError(&#34;RSSI= {0} is NOT supported&#34;.format(rssi))
+
+        cfgData = self.read_config(20)
+        if cfgData is None:
+            return False
+
+        # update rssi
+        if ant is self.ANTENNA_No1:
+            cfgData[0] = rssi
+
+        elif ant is self.ANTENNA_No2:
+            cfgData[1] = rssi
+
+        elif ant is self.ANTENNA_No3:
+            cfgData[2] = rssi
+
+        elif ant is self.ANTENNA_Internal:
+            cfgData[3] = rssi
+
+        ret = self.write_config(20, cfgData)
+        if ret is None:
+            return False
+
+        return True
+
+    def system_timer(self, timer_value=None):
+        if timer_value is None:
+            # get
+            cmd = [0x86]
+        else:
+            # set
+            if not isinstance(timer_value, tuple):
+                raise ValueError(&#34;Invalid Argument&#34;)
+
+            hour = timer_value[0]
+            minutes = timer_value[1]
+            milli = timer_value[2]
+            if (hour &gt; 23) or (minutes &gt; 59) or (milli &gt; 59999):
+                raise ValueError(&#34;Invalid range&#34;)
+
+            cmd = [0x85, hour, minutes, (milli &gt;&gt; 8) &amp; 0xFF, (milli &gt;&gt; 0) &amp; 0xFF]
+
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x85:  # Set
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+        elif data[0] == 0x86:  # Get
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return data[2], data[3], (data[4] * 256 + data[5])
+
+    def system_date_time(self, date_value=None, timer_value=None):
+        if date_value is None and timer_value is None:
+            # get
+            cmd = [0x88]
+        else:
+            # set
+            if not isinstance(date_value, tuple):
+                raise ValueError(&#34;Invalid Argument {}&#34;.format(date_value))
+            if not isinstance(timer_value, tuple):
+                raise ValueError(&#34;Invalid Argument {}&#34;.format(timer_value))
+
+            century = date_value[0]
+            year = date_value[1]
+            month = date_value[2]
+            day = date_value[3]
+            timezone = date_value[4]
+            if (
+                (century &gt; 99)
+                or (year &gt; 99)
+                or ((month &lt; 1) or (month &gt; 12))
+                or ((day &lt; 1) or (day &gt; 31))
+                or (timezone &gt; 23)
+            ):
+                raise ValueError(&#34;Invalid range&#34;)
+
+            hour = timer_value[0]
+            minutes = timer_value[1]
+            milli = timer_value[2]
+            if (hour &gt; 23) or (minutes &gt; 59) or (milli &gt; 59999):
+                raise ValueError(&#34;Invalid range&#34;)
+
+            cmd = [
+                0x87,
+                century,
+                year,
+                month,
+                day,
+                timezone,
+                hour,
+                minutes,
+                (milli &gt;&gt; 8) &amp; 0xFF,
+                (milli &gt;&gt; 0) &amp; 0xFF,
+            ]
+
+        data = FeigBase._interface.transfer(1.0, cmd)
+        if data is None:
+            FeigBase._last_error = FeigError.COMM_TIMEOUT
+            return
+
+        FeigBase._last_error = FeigError.INVALID_RESPONSE
+        if data[0] == 0x87:  # Set
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return True
+
+        elif data[0] == 0x88:  # Get
+            FeigBase._last_error = self._feig_status_parser(data[1])
+            if FeigBase._last_error is FeigError.OK:
+                return (
+                    (data[2], data[3], data[4], data[5], data[6]),
+                    (data[7], data[8], (data[9] * 256 + data[10])),
+                )
+
+    def read_mode_data(self, flags=None):
+        raise NotImplementedError
+
+    def read_mode_filter(self, transpondervalidtime=None, trid=None, inevflt=None):
+        raise NotImplementedError
+
+    def antenna_multiplexing(self, muxEnable=None, selectedAntennas=None):
+        raise NotImplementedError</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="itekfeig.common.feig_base.FeigBase" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase">FeigBase</a></li>
+</ul>
+<h3>Class variables</h3>
+<dl>
+<dt id="itekfeig.readers.MRU102.MRU102.ANTENNA_Internal"><code class="name">var <span class="ident">ANTENNA_Internal</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.ANTENNA_No1"><code class="name">var <span class="ident">ANTENNA_No1</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.ANTENNA_No2"><code class="name">var <span class="ident">ANTENNA_No2</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.ANTENNA_No3"><code class="name">var <span class="ident">ANTENNA_No3</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.ANTENNA_OFF"><code class="name">var <span class="ident">ANTENNA_OFF</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.INTERFACE_ETHERNET"><code class="name">var <span class="ident">INTERFACE_ETHERNET</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.INTERFACE_SERIAL"><code class="name">var <span class="ident">INTERFACE_SERIAL</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.MAX_ANTENNA"><code class="name">var <span class="ident">MAX_ANTENNA</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.MODE_BRM"><code class="name">var <span class="ident">MODE_BRM</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.MODE_HOST"><code class="name">var <span class="ident">MODE_HOST</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.MODE_NOTIFICATION"><code class="name">var <span class="ident">MODE_NOTIFICATION</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.MODE_SCAN"><code class="name">var <span class="ident">MODE_SCAN</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.POWER_FULL"><code class="name">var <span class="ident">POWER_FULL</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.POWER_LOW"><code class="name">var <span class="ident">POWER_LOW</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.POWER_MEDIUM"><code class="name">var <span class="ident">POWER_MEDIUM</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.READER_NAME"><code class="name">var <span class="ident">READER_NAME</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.READER_TYPE"><code class="name">var <span class="ident">READER_TYPE</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.RSSI_MAX"><code class="name">var <span class="ident">RSSI_MAX</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.RSSI_MIN"><code class="name">var <span class="ident">RSSI_MIN</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+</dl>
+<h3>Methods</h3>
+<dl>
+<dt id="itekfeig.readers.MRU102.MRU102.antenna_multiplexing"><code class="name flex">
+<span>def <span class="ident">antenna_multiplexing</span></span>(<span>self, muxEnable=None, selectedAntennas=None)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def antenna_multiplexing(self, muxEnable=None, selectedAntennas=None):
+    raise NotImplementedError</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.antenna_power"><code class="name flex">
+<span>def <span class="ident">antenna_power</span></span>(<span>self, ant, pwr_in_milliwatts: int = -1)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Change Antenna Power</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def antenna_power(self, ant, pwr_in_milliwatts: int = -1):
+    &#34;&#34;&#34;Change Antenna Power
+    &#34;&#34;&#34;
+    if not (
+        ant is self.ANTENNA_No1
+        or ant is self.ANTENNA_No2
+        or ant is self.ANTENNA_No3
+        or ant is self.ANTENNA_Internal
+    ):
+        raise ValueError(&#34;Antenna= {0} is NOT supported&#34;.format(ant))
+
+    # depending upon antenna read config
+    if ant is self.ANTENNA_No1:
+        cfg_page = 36
+    else:
+        cfg_page = 20
+
+    # Get index of respective antenna
+    index = 2  # default Antenna1
+    if ant is self.ANTENNA_No2:
+        index = 6
+    elif ant is self.ANTENNA_No3:
+        index = 7
+    elif ant is self.ANTENNA_Internal:
+        index = 8
+
+    cfgData = self.read_config(cfg_page)
+    if cfgData is None:
+        return False
+
+    if pwr_in_milliwatts == -1:
+        return ANTENNA_POWER[cfgData[index]]
+
+    # check antenna power
+    # Adjust &#39;pwr_in_milliwatts&#39; to nearest supported POWER
+    if pwr_in_milliwatts &lt; 100:
+        pwr = ANTENNA_POWER_REVERSE[50]
+    elif 100 &lt;= pwr_in_milliwatts &lt; 200:
+        pwr = ANTENNA_POWER_REVERSE[100]
+    elif 200 &lt;= pwr_in_milliwatts &lt; 300:
+        pwr = ANTENNA_POWER_REVERSE[200]
+    elif 300 &lt;= pwr_in_milliwatts &lt; 400:
+        pwr = ANTENNA_POWER_REVERSE[300]
+    elif 400 &lt;= pwr_in_milliwatts &lt; 500:
+        pwr = ANTENNA_POWER_REVERSE[400]
+    else:  # pwr_in_milliwatts &gt;= 500:
+        pwr = ANTENNA_POWER_REVERSE[500]
+
+    cfgData[index] = pwr
+
+    ret = self.write_config(cfg_page, cfgData)
+    if ret is None:
+        return False
+
+    return True</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.antenna_rssi"><code class="name flex">
+<span>def <span class="ident">antenna_rssi</span></span>(<span>self, ant, rssi)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Change Antenna RSSI</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def antenna_rssi(self, ant, rssi):
+    &#34;&#34;&#34;Change Antenna RSSI
+    &#34;&#34;&#34;
+    if not (
+        ant is self.ANTENNA_No1
+        or ant is self.ANTENNA_No2
+        or ant is self.ANTENNA_No3
+        or ant is self.ANTENNA_Internal
+    ):
+        raise ValueError(&#34;Antenna= {0} is NOT supported&#34;.format(ant))
+
+    if (rssi &lt; self.RSSI_MIN) or (rssi &gt; self.RSSI_MAX):
+        raise ValueError(&#34;RSSI= {0} is NOT supported&#34;.format(rssi))
+
+    cfgData = self.read_config(20)
+    if cfgData is None:
+        return False
+
+    # update rssi
+    if ant is self.ANTENNA_No1:
+        cfgData[0] = rssi
+
+    elif ant is self.ANTENNA_No2:
+        cfgData[1] = rssi
+
+    elif ant is self.ANTENNA_No3:
+        cfgData[2] = rssi
+
+    elif ant is self.ANTENNA_Internal:
+        cfgData[3] = rssi
+
+    ret = self.write_config(20, cfgData)
+    if ret is None:
+        return False
+
+    return True</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.change_mode"><code class="name flex">
+<span>def <span class="ident">change_mode</span></span>(<span>self, mode)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Change Reader mode</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>mode</code></strong></dt>
+<dd>one of the supporeted operating mode</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>None</code></dt>
+<dd>Call get_last_error() for more reason</dd>
+<dt><code>bool</code></dt>
+<dd>If True, new mode is set in the reader</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def change_mode(self, mode):
+    &#34;&#34;&#34;Change Reader mode
+
+    Args:
+        mode: one of the supporeted operating mode
+
+    Returns:
+        None: Call get_last_error() for more reason
+        bool: If True, new mode is set in the reader
+    &#34;&#34;&#34;
+    cfgData = self.read_config(1)
+    if cfgData is None:
+        return False
+
+    if cfgData[13] == mode:  # Current Mode is same
+        FeigBase._last_error = FeigError.MODE_SAME
+        return False
+
+    # update mode
+    cfgData[13] = mode
+
+    ret = self.write_config(1, cfgData)
+    if ret is None:
+        return False
+
+    FeigBase._current_mode = mode
+
+    return True</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.connect"><code class="name flex">
+<span>def <span class="ident">connect</span></span>(<span>self, interface, settings)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Connect to the reader using one of its interface with given settings.
+Onece the connection is established, a complete aconfiguration is read
+from the reader.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>interface</code></strong></dt>
+<dd>one of the supported interface</dd>
+<dt><strong><code>settings</code></strong></dt>
+<dd>of selected interface</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>bool</code></dt>
+<dd>True if connection is sccessfull</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def connect(self, interface, settings):
+    &#34;&#34;&#34;Connect to the reader using one of its interface with given settings.
+    Onece the connection is established, a complete aconfiguration is read
+    from the reader.
+
+    Args:
+        interface: one of the supported interface
+        settings: of selected interface
+
+    Returns:
+        bool: True if connection is sccessfull
+    &#34;&#34;&#34;
+
+    # Configure interface
+    if interface == self.INTERFACE_SERIAL:
+        from serial import PARITY_NONE, PARITY_EVEN, PARITY_ODD
+        from ..interface.feig_serial import FeigSerial
+
+        if settings[&#34;PARITY&#34;] == &#34;NONE&#34;:
+            parity = PARITY_NONE
+        elif settings[&#34;PARITY&#34;] == &#34;EVEN&#34;:
+            parity = PARITY_EVEN
+        elif settings[&#34;PARITY&#34;] == &#34;ODD&#34;:
+            parity = PARITY_ODD
+        else:
+            raise ValueError(&#34;NotSupported:Parity&#34;)
+
+        FeigBase._interface = FeigSerial()
+        opened = FeigBase._interface.open(
+            settings[&#34;PORT&#34;], settings[&#34;BAUDRATE&#34;], parity
+        )
+        if opened is False:
+            FeigBase._last_error = FeigError.SERIAL
+            err_msg = &#34;Failed to connect to {} {}&#34;.format(
+                settings[&#34;PORT&#34;], FeigBase._interface.error
+            )
+            logger.error(err_msg)
+            return False
+
+    elif interface == self.INTERFACE_ETHERNET:
+        from ..interface.feig_ethernet import FeigEthernet
+
+        FeigBase._interface = FeigEthernet()
+        opened = FeigBase._interface.open(settings[&#34;IP&#34;], settings[&#34;PORT&#34;])
+        if opened is False:
+            FeigBase._last_error = FeigError.ETHERNET
+            return False
+    else:
+        raise ValueError(&#34;NotSupported:Interface&#34;)
+
+    if FeigBase._interface.error != FeigError.OK:
+        FeigBase._last_error = FeigBase._interface.error
+        return False
+
+    # Forced: Antenna OFF, if tags are present in the feild
+    # connection to reader takes time or fail
+    self.rf_onoff(self.ANTENNA_OFF)
+
+    time.sleep(0.1)
+
+    # Get reader type
+    ret = self._get_reader_type()
+    if not ret:
+        logger.error(&#34;Failed to get reader ID&#34;)
+        return False
+
+    if ret != self.READER_TYPE:
+        FeigBase._last_error = FeigError.INVALID_READER
+        FeigBase._interface.close()
+        FeigBase._interface = None
+        err_msg = &#34;Expected ID={}, received ID={}&#34;.format(self.READER_TYPE, ret)
+        logger.error(err_msg)
+        return False
+
+    # Get ALL INFO from the reader
+    self.get_reader_info()
+
+    # Get ALL CONFIGURATION from reader memory
+    ret = self.read_all_config()
+    if ret is None:
+        return False
+
+    time.sleep(0.1)
+
+    # Configure operating modes
+    from ..common.feig_host import FeigHost
+
+    self.HostMode = FeigHost(FeigBase._interface, FeigBase._last_error)
+
+    from ..common.feig_buffer_read import FeigBufferRead
+
+    self.BufferReadMode = FeigBufferRead(FeigBase._interface, FeigBase._last_error)
+
+    if interface == self.INTERFACE_SERIAL:
+        from ..common.feig_scan import FeigScan
+
+        self.ScanMode = FeigScan(FeigBase._interface, FeigBase._last_error)
+    elif interface == self.INTERFACE_ETHERNET:
+        from ..common.feig_notification import FeigNotification
+
+        self.NotificationMode = FeigNotification(
+            FeigBase._interface, FeigBase._last_error
+        )
+
+    return True</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.device_id"><code class="name flex">
+<span>def <span class="ident">device_id</span></span>(<span>self) ‑> str</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Returns reader device ID</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def device_id(self) -&gt; str:
+    &#34;&#34;&#34;Returns reader device ID&#34;&#34;&#34;
+    return deepcopy(self._reader_info[&#34;DeviceID&#34;])</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.diagnostic"><code class="name flex">
+<span>def <span class="ident">diagnostic</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Perform reader diagnostic</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def diagnostic(self):
+    &#34;&#34;&#34;Perform reader diagnostic&#34;&#34;&#34;
+    cmd = [0x02, 0x00, 0x08, 0xFF, 0x6E, 0xFF, 0x30, 0xD3]
+    data = FeigBase._interface.transfer(1.0, bytes(cmd))
+    if data is None:
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        return
+
+    FeigBase._last_error = FeigError.INVALID_RESPONSE
+    if data[0] == 0x6E:
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            return self._diagnostic_parser(data[2:])</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.disconnect"><code class="name flex">
+<span>def <span class="ident">disconnect</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Disconnect from current reader</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def disconnect(self):
+    &#34;&#34;&#34;Disconnect from current reader&#34;&#34;&#34;
+    if FeigBase._interface:
+        FeigBase._interface.close()</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.get_input"><code class="name flex">
+<span>def <span class="ident">get_input</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get reader INPUT pin status</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_input(self):
+    &#34;&#34;&#34;Get reader INPUT pin status&#34;&#34;&#34;
+    cmd = [0x02, 0x00, 0x07, 0xFF, 0x74, 0x66, 0x60]
+    data = FeigBase._interface.transfer(1.0, bytes(cmd))
+    if data is None:
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        return
+
+    FeigBase._last_error = FeigError.INVALID_RESPONSE
+    if data[0] == 0x74:
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            in1 = data[2] &amp; 0x01
+            in2 = (data[2] &gt;&gt; 1) &amp; 0x01
+            return in1, in2</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.get_reader_info"><code class="name flex">
+<span>def <span class="ident">get_reader_info</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Get complete reader information</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_reader_info(self):
+    &#34;&#34;&#34;Get complete reader information
+    &#34;&#34;&#34;
+    if len(self._reader_info) == 0:
+
+        for mode in READER_INFO_MODE_LIST:
+            cmd = [0x66, mode]
+            data = FeigBase._interface.transfer(1.0, cmd)
+            if data is None:
+                FeigBase._last_error = FeigError.COMM_TIMEOUT
+                return
+
+            FeigBase._last_error = FeigError.INVALID_RESPONSE
+            if data[0] == 0x66:
+                FeigBase._last_error = self._feig_status_parser(data[1])
+                if FeigBase._last_error is FeigError.OK:
+                    self._reader_info_parser(mode, data[2:])
+
+    return deepcopy(self._reader_info)</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.read_mode_data"><code class="name flex">
+<span>def <span class="ident">read_mode_data</span></span>(<span>self, flags=None)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_mode_data(self, flags=None):
+    raise NotImplementedError</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.read_mode_filter"><code class="name flex">
+<span>def <span class="ident">read_mode_filter</span></span>(<span>self, transpondervalidtime=None, trid=None, inevflt=None)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_mode_filter(self, transpondervalidtime=None, trid=None, inevflt=None):
+    raise NotImplementedError</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.rf_onoff"><code class="name flex">
+<span>def <span class="ident">rf_onoff</span></span>(<span>self, antno, maintainhost=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Turn ON/OFF individual antenna</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def rf_onoff(self, antno, maintainhost=False):
+    &#34;&#34;&#34;Turn ON/OFF individual antenna&#34;&#34;&#34;
+    rf_output = 0
+    if maintainhost is True:
+        rf_output += 0x80
+    rf_output += antno
+
+    cmd = [0x6A, rf_output]
+    data = FeigBase._interface.transfer(1.0, cmd)
+    if data is None:
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        return
+
+    FeigBase._last_error = FeigError.INVALID_RESPONSE
+    if data[0] == 0x6A:
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            return True
+
+    return False</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.set_output"><code class="name flex">
+<span>def <span class="ident">set_output</span></span>(<span>self, out_rec: dict)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Set/Configure Digital Output or Relay pins</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>out_rec</code></strong></dt>
+<dd>key,value as per following format
+{
+'type': str, 'digital' or 'relay',
+'pin': int,
+'mode': 'on' or 'off' or 'flash',
+'freq': int, 1,2,4,8 Hz
+'time': int, 1 to 65535 delay corresponds to multiple of 100milli
+}</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def set_output(self, out_rec: dict):
+    &#34;&#34;&#34;Set/Configure Digital Output or Relay pins
+
+    Args:
+        out_rec: key,value as per following format
+            {
+                &#39;type&#39;: str, &#39;digital&#39; or &#39;relay&#39;,
+                &#39;pin&#39;: int,
+                &#39;mode&#39;: &#39;on&#39; or &#39;off&#39; or &#39;flash&#39;,
+                &#39;freq&#39;: int, 1,2,4,8 Hz
+                &#39;time&#39;: int, 1 to 65535 delay corresponds to multiple of 100milli
+            }
+    &#34;&#34;&#34;
+    if out_rec[&#34;type&#34;] == &#34;digital&#34;:
+        out_type = 0x00
+    elif out_rec[&#34;type&#34;] == &#34;relay&#34;:
+        out_type = 0x80
+    else:
+        raise ValueError(&#34;Invalid Value&#34;)
+    out_type = 0x80 + out_rec[&#34;pin&#34;]
+
+    if out_rec[&#34;mode&#34;] == &#34;on&#34;:
+        out_state = 0x01
+    elif out_rec[&#34;mode&#34;] == &#34;off&#34;:
+        out_state = 0x02
+    elif out_rec[&#34;mode&#34;] == &#34;flash&#34;:
+        out_state = 0x03
+    else:
+        raise ValueError(&#34;Invalid Value&#34;)
+
+    if out_rec[&#34;freq&#34;] == 1:
+        out_state += 0x03 * 4
+    elif out_rec[&#34;freq&#34;] == 2:
+        out_state += 0x02 * 4
+    elif out_rec[&#34;freq&#34;] == 4:
+        out_state += 0x01 * 4
+    elif out_rec[&#34;freq&#34;] == 8:
+        out_state += 0x00 * 4
+    else:
+        raise ValueError(&#34;Invalid Value&#34;)
+
+    if out_rec[&#34;time&#34;] &lt; 1 or out_rec[&#34;time&#34;] &gt; 65535:
+        raise ValueError(&#34;Invalid Value&#34;)
+    out_time = out_rec[&#34;time&#34;]
+
+    cmd = [
+        0x72,
+        0x01,
+        0x01,
+        out_type,
+        out_state,
+        (out_time &gt;&gt; 8) &amp; 0xFF,
+        (out_time &gt;&gt; 0) &amp; 0xFF,
+    ]
+    data = FeigBase._interface.transfer(1.0, cmd)
+    if data is None:
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        return
+
+    FeigBase._last_error = FeigError.INVALID_RESPONSE
+    if data[0] == 0x72:
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            return True</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.system_date_time"><code class="name flex">
+<span>def <span class="ident">system_date_time</span></span>(<span>self, date_value=None, timer_value=None)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def system_date_time(self, date_value=None, timer_value=None):
+    if date_value is None and timer_value is None:
+        # get
+        cmd = [0x88]
+    else:
+        # set
+        if not isinstance(date_value, tuple):
+            raise ValueError(&#34;Invalid Argument {}&#34;.format(date_value))
+        if not isinstance(timer_value, tuple):
+            raise ValueError(&#34;Invalid Argument {}&#34;.format(timer_value))
+
+        century = date_value[0]
+        year = date_value[1]
+        month = date_value[2]
+        day = date_value[3]
+        timezone = date_value[4]
+        if (
+            (century &gt; 99)
+            or (year &gt; 99)
+            or ((month &lt; 1) or (month &gt; 12))
+            or ((day &lt; 1) or (day &gt; 31))
+            or (timezone &gt; 23)
+        ):
+            raise ValueError(&#34;Invalid range&#34;)
+
+        hour = timer_value[0]
+        minutes = timer_value[1]
+        milli = timer_value[2]
+        if (hour &gt; 23) or (minutes &gt; 59) or (milli &gt; 59999):
+            raise ValueError(&#34;Invalid range&#34;)
+
+        cmd = [
+            0x87,
+            century,
+            year,
+            month,
+            day,
+            timezone,
+            hour,
+            minutes,
+            (milli &gt;&gt; 8) &amp; 0xFF,
+            (milli &gt;&gt; 0) &amp; 0xFF,
+        ]
+
+    data = FeigBase._interface.transfer(1.0, cmd)
+    if data is None:
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        return
+
+    FeigBase._last_error = FeigError.INVALID_RESPONSE
+    if data[0] == 0x87:  # Set
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            return True
+
+    elif data[0] == 0x88:  # Get
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            return (
+                (data[2], data[3], data[4], data[5], data[6]),
+                (data[7], data[8], (data[9] * 256 + data[10])),
+            )</code></pre>
+</details>
+</dd>
+<dt id="itekfeig.readers.MRU102.MRU102.system_timer"><code class="name flex">
+<span>def <span class="ident">system_timer</span></span>(<span>self, timer_value=None)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def system_timer(self, timer_value=None):
+    if timer_value is None:
+        # get
+        cmd = [0x86]
+    else:
+        # set
+        if not isinstance(timer_value, tuple):
+            raise ValueError(&#34;Invalid Argument&#34;)
+
+        hour = timer_value[0]
+        minutes = timer_value[1]
+        milli = timer_value[2]
+        if (hour &gt; 23) or (minutes &gt; 59) or (milli &gt; 59999):
+            raise ValueError(&#34;Invalid range&#34;)
+
+        cmd = [0x85, hour, minutes, (milli &gt;&gt; 8) &amp; 0xFF, (milli &gt;&gt; 0) &amp; 0xFF]
+
+    data = FeigBase._interface.transfer(1.0, cmd)
+    if data is None:
+        FeigBase._last_error = FeigError.COMM_TIMEOUT
+        return
+
+    FeigBase._last_error = FeigError.INVALID_RESPONSE
+    if data[0] == 0x85:  # Set
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            return True
+
+    elif data[0] == 0x86:  # Get
+        FeigBase._last_error = self._feig_status_parser(data[1])
+        if FeigBase._last_error is FeigError.OK:
+            return data[2], data[3], (data[4] * 256 + data[5])</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="itekfeig.common.feig_base.FeigBase" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase">FeigBase</a></b></code>:
+<ul class="hlist">
+<li><code><a title="itekfeig.common.feig_base.FeigBase.add_filter" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.add_filter">add_filter</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.get_last_error" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.get_last_error">get_last_error</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.get_last_error_str" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.get_last_error_str">get_last_error_str</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.get_software_version" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.get_software_version">get_software_version</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.login" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.login">login</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.read_all_config" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.read_all_config">read_all_config</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.read_config" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.read_config">read_config</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.remove_filter" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.remove_filter">remove_filter</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.reset_config" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.reset_config">reset_config</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.rf_controller_reset" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.rf_controller_reset">rf_controller_reset</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.rf_reset" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.rf_reset">rf_reset</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.system_reset" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.system_reset">system_reset</a></code></li>
+<li><code><a title="itekfeig.common.feig_base.FeigBase.write_config" href="../common/feig_base.html#itekfeig.common.feig_base.FeigBase.write_config">write_config</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="itekfeig.readers" href="index.html">itekfeig.readers</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="itekfeig.readers.MRU102.MRU102" href="#itekfeig.readers.MRU102.MRU102">MRU102</a></code></h4>
+<ul class="">
+<li><code><a title="itekfeig.readers.MRU102.MRU102.ANTENNA_Internal" href="#itekfeig.readers.MRU102.MRU102.ANTENNA_Internal">ANTENNA_Internal</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.ANTENNA_No1" href="#itekfeig.readers.MRU102.MRU102.ANTENNA_No1">ANTENNA_No1</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.ANTENNA_No2" href="#itekfeig.readers.MRU102.MRU102.ANTENNA_No2">ANTENNA_No2</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.ANTENNA_No3" href="#itekfeig.readers.MRU102.MRU102.ANTENNA_No3">ANTENNA_No3</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.ANTENNA_OFF" href="#itekfeig.readers.MRU102.MRU102.ANTENNA_OFF">ANTENNA_OFF</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.INTERFACE_ETHERNET" href="#itekfeig.readers.MRU102.MRU102.INTERFACE_ETHERNET">INTERFACE_ETHERNET</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.INTERFACE_SERIAL" href="#itekfeig.readers.MRU102.MRU102.INTERFACE_SERIAL">INTERFACE_SERIAL</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.MAX_ANTENNA" href="#itekfeig.readers.MRU102.MRU102.MAX_ANTENNA">MAX_ANTENNA</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.MODE_BRM" href="#itekfeig.readers.MRU102.MRU102.MODE_BRM">MODE_BRM</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.MODE_HOST" href="#itekfeig.readers.MRU102.MRU102.MODE_HOST">MODE_HOST</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.MODE_NOTIFICATION" href="#itekfeig.readers.MRU102.MRU102.MODE_NOTIFICATION">MODE_NOTIFICATION</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.MODE_SCAN" href="#itekfeig.readers.MRU102.MRU102.MODE_SCAN">MODE_SCAN</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.POWER_FULL" href="#itekfeig.readers.MRU102.MRU102.POWER_FULL">POWER_FULL</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.POWER_LOW" href="#itekfeig.readers.MRU102.MRU102.POWER_LOW">POWER_LOW</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.POWER_MEDIUM" href="#itekfeig.readers.MRU102.MRU102.POWER_MEDIUM">POWER_MEDIUM</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.READER_NAME" href="#itekfeig.readers.MRU102.MRU102.READER_NAME">READER_NAME</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.READER_TYPE" href="#itekfeig.readers.MRU102.MRU102.READER_TYPE">READER_TYPE</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.RSSI_MAX" href="#itekfeig.readers.MRU102.MRU102.RSSI_MAX">RSSI_MAX</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.RSSI_MIN" href="#itekfeig.readers.MRU102.MRU102.RSSI_MIN">RSSI_MIN</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.antenna_multiplexing" href="#itekfeig.readers.MRU102.MRU102.antenna_multiplexing">antenna_multiplexing</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.antenna_power" href="#itekfeig.readers.MRU102.MRU102.antenna_power">antenna_power</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.antenna_rssi" href="#itekfeig.readers.MRU102.MRU102.antenna_rssi">antenna_rssi</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.change_mode" href="#itekfeig.readers.MRU102.MRU102.change_mode">change_mode</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.connect" href="#itekfeig.readers.MRU102.MRU102.connect">connect</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.device_id" href="#itekfeig.readers.MRU102.MRU102.device_id">device_id</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.diagnostic" href="#itekfeig.readers.MRU102.MRU102.diagnostic">diagnostic</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.disconnect" href="#itekfeig.readers.MRU102.MRU102.disconnect">disconnect</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.get_input" href="#itekfeig.readers.MRU102.MRU102.get_input">get_input</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.get_reader_info" href="#itekfeig.readers.MRU102.MRU102.get_reader_info">get_reader_info</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.read_mode_data" href="#itekfeig.readers.MRU102.MRU102.read_mode_data">read_mode_data</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.read_mode_filter" href="#itekfeig.readers.MRU102.MRU102.read_mode_filter">read_mode_filter</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.rf_onoff" href="#itekfeig.readers.MRU102.MRU102.rf_onoff">rf_onoff</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.set_output" href="#itekfeig.readers.MRU102.MRU102.set_output">set_output</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.system_date_time" href="#itekfeig.readers.MRU102.MRU102.system_date_time">system_date_time</a></code></li>
+<li><code><a title="itekfeig.readers.MRU102.MRU102.system_timer" href="#itekfeig.readers.MRU102.MRU102.system_timer">system_timer</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
