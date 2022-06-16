@@ -1,0 +1,13 @@
+.idea
+build/
+dist/
+__pycache__/
+app/__pycache__/
+app/api/__pycache__/
+app/gpio/__pycache__/
+app/rfid/__pycache__/
+database/__pycache__/
+scripts/
+logs/
+
+.vscode/*
