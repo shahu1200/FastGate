@@ -1,7 +1,0 @@
-toml>=0.10.1
-redis>=3.5.3
-pyserial>=3.4
-
-# below line installs package from local directory
---find-links packages
-itek-feig>=0.0.1.dev10 # library for feig reader
