@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap-reboot.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap-grid.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/select2.min.css') }}">
+    
+    <title>Dashboard</title>
+    <link rel="icon" href = "{{ url_for('static',filename='images/itek-logo-3dots.ico') }}" type = "image/x-icon">
+    <style>
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background-color: #f5f5f5; */
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;   
+}
+
+
+.login-form{ 
+	width:500px;
+	margin:20px;
+}
+.systemlog-form{ 
+	width:1000px;
+	margin:20px;
+}
+
+.vehiclelog-form{ 
+	width:1200px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+body {
+    overflow: scroll-y;
+    overflow-x: hidden;
+}
+ul > li {
+  padding-right: 25px;
+  
+}
+table th {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    /* z-index: 1;  */
+    background: rgb(248, 248, 248); 
+}
+
+/* #header-fixed {
+    position: fixed;
+    top: 0px; 
+    display:none;
+    background-color:white;
+} */
+
+    </style>
+  </head>
+  <script>
+    function dateformats(date){
+      if (date == ''){
+        return "0000-00-00";
+      }else{
+        var arrydate = date.split("-");
+        return arrydate[0] + "-" + arrydate[1] + "-" + (arrydate[2]);
+      }
+    };
+
+    function dateTimeFunction(){
+      fetch("/api/device_details",{
+    method: "GET",
+    headers: {
+      'Content-Type': 'application/json'
+      }
+      }).then(function(response){
+        if (response.status !== 201){
+          response.json().then(function(data){
+            // console.log(data)
+            alert("Device Date: "+data["date"]+'\n'+
+                  "Device Time: "+data["time"]+'\n'+
+                  "Device ipv4: "+data['ipv4']+'\n'+
+                  "Device mac: "+data['mac']
+                )
+          }
+
+          )
+        }
+        else{
+          alert("can not get system date time")
+        }
+      }
+      )           
+    };
+
+    function cpuFunction(){
+      fetch("/api/system_cpu_temp",{
+    method: "GET",
+    headers: {
+      'Content-Type': 'application/json'
+      }
+      }).then(function(response){
+        if (response.status !== 201){
+          response.json().then(function(data){
+            // console.log(data)
+            alert("CPU temperature "+data)
+          }
+
+          )
+        }
+        else{
+          alert("can not get system CPU temperature")
+        }
+      }
+      )           
+    };
+
+    function ramFunction(){
+      fetch("/api/get_ram_info",{
+    method: "GET",
+    headers: {
+      'Content-Type': 'application/json'
+      }
+      }).then(function(response){
+        if (response.status !== 201){
+          response.json().then(function(data){
+            console.log(data)
+            alert("Device Date: "+data["date"]+'\n'+
+                  "Device Time: "+data["time"]+'\n'+
+                  "Device ipv4: "+data["ipv4config"]+'\n'+
+                  // "Device ipv4: "+data["ipv4Pi"]+'\n'+
+                  "Device mac: "+data['mac']+'\n'+
+                  // '\n'+
+                  "----------------------------------------------"+'\n'+
+                  "CPU temperature: "+data['temp']+'\n'+
+                  "CPU usage: "+data['cpu']+'%\n'+
+                  // "CPU usage by process: "+data['processCpu']+'%\n'+
+                  "RAM usage: "+data['ram']+'%\n'+
+                  "----------------------------------------------"+'\n'+
+                  "RFID reader: "+data["rfidname"]+'\n'+
+                  "RFID reader ID: "+data["rfidID"]+'\n'+
+                  "----------------------------------------------"+'\n'+
+                  "Application version: "+data["version"]
+                )                  
+          }
+          )
+        }
+        else{
+          alert("can not get system information")
+        }
+      }
+      )           
+    };
+
+    function rfidFunction(){
+      fetch("/api/rfid_details",{
+    method: "GET",
+    headers: {
+      'Content-Type': 'application/json'
+      }
+      }).then(function(response){
+        if (response.status !== 201){
+          response.json().then(function(data){
+            // console.log(data)
+            alert("success")
+          }
+          )
+        }
+        else{
+          alert("can not get system information")
+        }
+      }
+      )           
+    };
+  
+  </script>
+  
+  <body>
+    
+    <!--header start-->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+      <a class="navbar-brand" href="/dashboard"> <img src="{{ url_for('static',filename='images/Infotek Logo.png') }}" alt="logo" width="100px"></a>
+      <button class="navbar-toggler" style="margin-left: 110px;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- <button style="background:#9dcf3f;color:white; border-radius: 10%;" name="button" value="OK" type="button" onclick="dateTimeFunction()">System Date Time</button>  -->
+      <!-- <button style="background:#9dcf3f;color:white;border-radius: 10%;margin-left: 10px;" name="button" value="OK" type="button" onclick="cpuFunction()">System CPU Temperature</button>  -->
+      <!-- <a class="navbar-brand" onclick="dateTimeFunction()" > <img src="{{ url_for('static',filename='images/configuration.png') }}" alt="clock" height="25px"> </a> -->
+      <!-- <a class="navbar-brand" onclick="cpuFunction()" > <img src="{{ url_for('static',filename='images/celsius.png') }}" alt="temp" height="25px"> </a> -->
+      <!-- <a class="navbar-brand"  title="Click to see Device information" onclick="ramFunction()" > <img src="{{ url_for('static',filename='images/info1234.png') }}" alt="temp" height="27px" > </a> -->
+      
+      <!-- <a class="navbar-brand" onclick="rfidFunction()" > <img src="{{ url_for('static',filename='images/rfid.png') }}" alt="temp" height="27px"> </a> -->
+      
+      <!-- <a>{{datetm}}</a> -->
+      <!-- <a class="navbar-brand" onclick="myFunction()" > <img src="{{ url_for('static',filename='images/clock.png') }}" alt="clock" height="24px"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>        
+      </button> -->
+      
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <hr>
+        <ul class="navbar-nav" style="justify-content: center!important ;">
+          {% if data["authority"] == 1 or data["authority"] == 2 %}
+          <li class="nav-item dropdown">
+            <a class="nav-link" title="Settings" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              <img src="{{ url_for('static',filename='images/setting.png') }}" alt="user" height="24px">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/network_settings">Network</a>
+              <a class="dropdown-item" href="/cloud_setting">Cloud</a>
+              <a class="dropdown-item" href="/device_setting">Device</a>
+              <!-- <a class="dropdown-item" href="/system_info">System Info</a> -->
+            </div>
+          </li>
+          {% endif %}
+          <li class="nav-item dropdown">
+            <a class="nav-link" title="Vehicle Management" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              <img src="{{ url_for('static',filename='images/car.png') }}" alt="user" height="24px">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/user_vehiclelist">User Vehicles</a>
+              {% if data["authority"] == 1 or data["authority"] == 2 %}
+                <a class="dropdown-item" href="/add_vehicleuser">Vehicle Registration</a>
+                <a class="dropdown-item" href="/vehicle_access_block">Vehicle Access/Block</a>
+              {% endif %}
+              <a class="dropdown-item" href="/vehicle_log">Vehicle Log</a>
+            </div>
+          </li>
+          {% if data["authority"] == 1 or data["authority"] == 2 %}
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link" title="System Logs" href="#" type="button" id="navbarDropdown" data-toggle="dropdown" role="button" aria-expanded="false">
+                <img src="{{ url_for('static',filename='images/systemLogs.png') }}" alt="user" height="24px">
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/system_logs">System Logs</a>
+              </div>
+            </li>
+          {% endif %}
+
+          <li class="nav-item dropdown">
+            <a class="navbar-brand"  title="Click to see Device information" onclick="ramFunction()" > 
+            <img src="{{ url_for('static',filename='images/information.png') }}" alt="temp" height="24px" > 
+            </a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link" title="Login Users" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              <img src="{{ url_for('static',filename='images/user.png') }}" alt="user" height="24px">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="margin-left: -84%;">
+              <a class="dropdown-item" href="/profile">Profile</a>
+              {% if data["authority"] == 1 or data["authority"] == 2 %}
+                <a class="dropdown-item" href="/signup">Create New User</a>
+              {% endif %}
+              <a class="dropdown-item" href="/logout">Logout</a>
+            </div>             
+          </li>
+          
+        </ul> 
+        
+      </div>
+    </nav>  <br> <br> <br>
+    
+    {% block content %}
+    
+    {% endblock %}
+    <!-- <footer > -->
+      <!-- <p id="dtm" onload="device_date_time()">
+        datetime:
+      </p> -->
+    <!-- </footer> -->
+        <!--dashboard end-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- <script type="text/javascript" charset="utf-8">
+    let a;
+      let time;
+      let date;
+      let datetime;
+      setInterval(() => {
+        a = new Date();
+
+        date = a.getFullYear()+'-'+(a.getMonth()+1)+'-'+a.getDate();
+        time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+        datetime = date + ' ' + time;
+
+        document.getElementById('dtm').innerHTML = datetime;
+      }, 1000);
+    </script> -->
+    <!-- <script> 
+    var today = new Date(); 
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate(); 
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(); 
+    var dateTime = date+' '+time; 
+    document.getElementById("dtm").innerHTML = dateTime;
+    </script> -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="{{ url_for('static',filename='js/jquery.slim.min.js') }}" ></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.bundle.js') }}" ></script>
+    <script src="{{ url_for('static',filename='js/popper.min.js') }}"> </script>
+    <script src="{{ url_for('static',filename='js/select2.min.js') }}"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!--header end-->
+
+    <!--dashboard start-->
+        <div class="container" >
+            <div class="row" style="margin-right:112px; margin-top: 30px;">
+                <div class="col-md-3">
+                    <div class="shadow p-2 mb-5 bg-white rounded" style="height: 380px; width: 350px; border-radius: 5px;background: linear-gradient(90deg, rgba(114,244,157,1) 0%, rgba(103,231,111,1) 35%, rgba(129,255,156,1) 100%);">
+                        <h5 class="text-center pb-3">Total Registered Users</h5> 
+                        <h1 class="text-center" style="font-size: 70px;">{{ data["vehicleuserlistcount"] }}</h1>
+                        <br>
+                        <div class="pb-2">
+                            <hr color="brown" width="50%">
+                        </div>    
+                    </div>
+                    
+                </div>
+
+                {% for key, antPars in data["lastvehiclelog"].items() %}
+                <div class="col-md-3" style="margin-left:auto;">
+                    <div class="shadow p-3 mb-5 bg-white rounded" style="height: 380px; width: 350px; border-radius: 5px;background: linear-gradient(90deg, rgba(114,244,238,1) 0%, rgba(103,226,231,1) 35%, rgba(129,255,237,1) 100%);">
+                        <h5 class="text-center pb-2">{{ key }} Vehicle Count <span style="color: rgb(255, 0, 0);"> ({{data["date"]}}) </span></h5> 
+
+                        <h1 class="text-center" style="font-size: 70px;">{{antPars[1]}}</h1>
+                        <br>                        
+                        <div class="pb-2">
+                            <hr color="brown" width="50%">
+                            <h5 class="text-center pb-1">Last Vehicle:</h5>
+                            
+                            <h6>Tag No : {{antPars[0][1]}}</h6>
+                            <h6>Date & Time : {{antPars[0][2]}}</h6>
+                            {% if antPars[0][4] == "Authorized" %}
+                                <h6>Transaction Type : Authorized Entry</h6>
+                            {% elif antPars[0][4] == "Blocked" %}
+                                <h6>Transaction Type : Blocked Vehicle</h6>
+                            {% elif antPars[0][4] == "Unauthorized" %}
+                                <h6 style="color: crimson;">Transaction Type : Unauthorized Vehicle</h6>
+                            {% endif %}
+
+                        </div>
+                    </div> 
+                </div>
+                {% endfor %}
+
+            </div>
+            {% if data["authority"] == 1 or data["authority"] == 2 %}
+                <form method="POST" action="/add_vehicleuser">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-warning btn-block" style="font-weight: 600; margin:auto;">Add vehicle</button>
+                    </div>
+                </div>
+                </form>
+            {% endif %}
+        </div>
+
+        {% endblock %}

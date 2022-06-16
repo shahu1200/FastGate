@@ -1,0 +1,81 @@
+{% extends "login_base.html" %}
+
+{% block content %}
+<script>
+function reset_pswd()
+{
+  var formdict = {};
+  var username = $("input[name=uname]").val();
+  formdict["username"] = username
+  console.log(username); 
+  fetch("/api/reset_pswd",{
+    method:"POST",
+    body: JSON.stringify(formdict),
+    headers: {
+        'Content-Type': 'application/json'}
+  }).then (function(response){
+    if (response.status !== 200){
+      console.log(`error while updating user. Status code: ${response.status}`);
+      alert(response.json()["data"]);
+      return;
+    }
+    response.json().then(function (data){
+      console.log(data);
+        alert(data["data"]);
+
+    }
+    )    
+  }
+  
+  )
+
+}
+
+</script>
+
+    <div class="global-container">
+      <div class="card login-form">
+      <div class="card-body">
+        <h3 class="card-title text-center">Log in</h3>
+        <div class="card-text">
+          <!--
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
+          <form method="POST" action="/login">            
+            <!-- to error: add class "has-danger" -->
+            <div class="form-group">
+              <label for="exampleInputEmail1">Username</label>
+              <input type="text" name="uname" class="form-control form-control-sm" id="" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" name="password" class="form-control form-control-sm" id="exampleInputPassword1">
+              <a href="#" style="float:right;font-size:12px;" onclick="reset_pswd()">reset password?</a>
+              {% if data["returnstatus"] == 0 %}
+                <sub style="color:red; font-weight: 500;"> 
+                  <i>login credentials are invalid.</i>
+                </sub>
+              {% endif %}
+            </div> <br>
+            <button type="submit" class="btn btn-warning btn-block" href="/signup">Sign in</button>
+            
+        </form>
+        
+        <form method="POST" action="/loginCancel">   
+          <button type="submit" class="btn btn-light btn-block" href="/loginCancel">Cancel</button>
+        </form>
+        </div>
+      </div>
+      
+    </div>
+  
+    </div>
+    <center>
+    <div >
+      {% if data["pswChange"] == 1 %}
+      <div class="alert alert-success" role="alert" >
+        Password has been changed Successfully, please login with new password.
+      </div>
+      {% endif %}
+    </div>
+  </center>
+    {% endblock %}
